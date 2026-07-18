@@ -1,0 +1,70 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(1, 1, 1, 1),
+&"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "",
+"suffix": ""
+},
+&"default_portrait": "neutral",
+&"description": "",
+&"display_name": "Bai",
+&"mirror": false,
+&"nicknames": [""],
+&"offset": Vector2(0, 0),
+&"portraits": {
+"neutral": {
+"export_overrides": {
+"image": "res://assets/portraits/bai/neutral.png"
+},
+"scene": ""
+},
+"smile": {
+"export_overrides": {
+"image": "res://assets/portraits/bai/smile.png"
+},
+"scene": ""
+},
+"smile_first_time": {
+"export_overrides": {
+"image": "res://assets/portraits/bai/smile_first_time.png"
+},
+"scene": ""
+},
+"deadpan": {
+"export_overrides": {
+"image": "res://assets/portraits/bai/deadpan.png"
+},
+"scene": ""
+},
+"serious": {
+"export_overrides": {
+"image": "res://assets/portraits/bai/serious.png"
+},
+"scene": ""
+},
+"sad": {
+"export_overrides": {
+"image": "res://assets/portraits/bai/sad.png"
+},
+"scene": ""
+},
+"startled": {
+"export_overrides": {
+"image": "res://assets/portraits/bai/startled.png"
+},
+"scene": ""
+},
+"crying": {
+"export_overrides": {
+"image": "res://assets/portraits/bai/crying.png"
+},
+"scene": ""
+}
+},
+&"scale": 1.0
+}

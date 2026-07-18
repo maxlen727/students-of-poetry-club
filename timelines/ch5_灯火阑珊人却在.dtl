@@ -1,0 +1,1343 @@
+# =========================================================
+# 诗文社的学生 - 第五章：灯火阑珊人却在（结局章）
+# 角色标识符同前：linchuan / bai / yuanzhou / linfeng / chenan
+# 结局出场新增：linchuan / bai，尾声新增角色"临川"以"临川"称谓念白
+# =========================================================
+
+[background path="res://assets/backgrounds/linchuan_bedroom_deepnight.png"]
+
+那天晚上回到家里，我躺在床上，盯着天花板。
+
+脑子里全是她说的话。怕消失。更怕我看着她消失。
+
+然后我想到了另一件事——她说她靠人们读诗存在。人们不读，她就淡。
+
+所以答案很简单。让人读诗。
+
+但"简单"和"能做到"是两回事。
+
+linchuan (phone): （掏出手机，打开班级群）
+
+linchuan (thinking): 直接在群里发"大家来读诗"？会被当神经病。
+
+linchuan (thinking): 挨个私聊让人读？没人会理我。
+
+linchuan (thinking): 搞一个读诗活动？谁参加啊。诗文社连社长都没有。
+
+linchuan (thinking): ......
+
+linchuan (turn_over): （翻了个身）
+
+linchuan (thinking): 换个思路。不能让人"来读诗"。得让诗"去找人"。
+
+linchuan (thinking): 怎么让诗去找人？
+
+linchuan (thinking): ......
+
+linchuan (thinking): 白说过一句话——"诗不是用来全懂的。是用来感受的。就像听歌不一定要看歌词，旋律好听就够了。"
+
+linchuan (thinking): 旋律。好听。
+
+linchuan (thinking): 诗不一定要"读"。可以"听"。可以"看"。可以——
+
+linchuan (sit_up): （坐起来）
+
+linchuan (thinking): 可以混进他们已经在看的东西里。
+
+# ---------------------------------------------------------
+# 场景：次日 · 教室
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/classroom_nextday.png"]
+
+第二天课间。我打开手机，做了一个东西。
+
+用白念过的诗，配上班级群里日常的搞笑图，做了几张表情包。
+
+手机画面：三张自制表情包——
+图一：一只猫瘫在地上，配文"行到水穷处，坐看云起时"
+图二：一个人对着空冰箱发呆，配文"莫愁前路无知己"
+图三：体育课跑八百米的抓拍，配文"人生自古谁无死"
+
+linchuan (thinking): ......最后一张是不是太过分了。
+
+linchuan (thinking): 算了。发。
+
+我把三张图发到了班级群里。
+
+群聊回复陆续弹出：远舟回复了一个"？"；林风回复"哈哈哈哈第三张绝了"；辰安回复"人生自古谁无死是什么鬼"；远舟又回复"这是诗文社社长给你上的课吗"。
+
+linchuan (typing): （打字）这是古诗。老师没教过你？
+
+群聊继续：远舟回复"教过但没这么用过的"；林风回复"求第二张原图"；辰安回复"再来几张"。
+
+linchuan (thinking): ......有人理了。
+
+linchuan (thinking): 虽然是因为图好笑不是因为诗。但他们看到了。他们念出来了。"人生自古谁无死"——他们读了。
+
+linchuan (thinking): 有用吗？这种程度的"读"——有用吗？
+
+linchuan (thinking): 我不知道。但总比什么都没有强。
+
+# ---------------------------------------------------------
+# 场景：放学后 · 活动室
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/poetry_club_room_afterschool2.png"]
+
+linchuan: 小白，我今天发了点东西在班级群。
+
+bai: 嗯？
+
+linchuan: 用诗做了几张表情包。
+
+bai: ......表情包？
+
+linchuan: 就是图配上诗。搞笑那种。
+
+bai (thinking): （想了一下）......哪首诗？
+
+linchuan: "行到水穷处""莫愁前路无知己""人生自古谁无死"。
+
+bai: 最后一首——
+
+linchuan: 配的跑八百米的图。
+
+bai: ......
+
+linchuan: 你是不是想笑？
+
+bai: 没有。
+
+linchuan: 你嘴角动了。
+
+bai: ......缺镁。
+
+linchuan: 你这毛病还没治好呢？
+
+bai: 嗯。
+
+linchuan (laugh_small): （笑了一下）
+
+bai: 有人看吗？
+
+linchuan: 有。还找我原图。
+
+bai: ......那他们念了吗？
+
+linchuan: 念了。"人生自古谁无死"——至少念了一遍。
+
+bai: 嗯。
+
+linchuan: 有用吗？
+
+bai (pause): （安静了一下）
+
+bai: 有用。
+
+linchuan: 真的？你别安慰我。
+
+bai: 不骗你。有用的。不需要很多人。也不需要很认真地读。只要——
+
+bai (thinking): （想了一下措辞）
+
+bai: 只要他们在某个瞬间，被一句诗打动了。哪怕只是一秒钟。那一秒钟——就是我的。
+
+linchuan: ......
+
+bai: 你做的表情包。有人笑了。笑的那一下——
+
+linchuan: 那一秒就是你的？
+
+bai: 嗯。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 那我要让很多人笑。或者——不是笑。是任何一种"被打动"。一秒就行。
+
+linchuan: 我继续做。
+
+bai: 嗯。
+
+# ---------------------------------------------------------
+# 场景：一周后 · 教室
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/classroom_1weeklater.png"]
+
+接下来一周，我做了很多事。
+
+表情包继续发。每天一张。班里的人从"什么鬼"变成了"今天的呢"。辰安甚至开始催更。
+
+但表情包不够。我需要更大的东西。
+
+[join yuanzhou (neutral) center]
+
+yuanzhou (approach): （课间凑过来）临川，你最近是不是转性了？天天发古诗表情包。
+
+linchuan: 你觉得烦？
+
+yuanzhou: 不烦。挺好玩的。就是有点奇怪。你以前不是最讨厌背诗吗？
+
+linchuan: 人会长大的。
+
+yuanzhou: 你长大才一周？
+
+linchuan: ......滚。
+
+yuanzhou: 哎说真的，下个月文化祭你们诗文社搞什么？
+
+linchuan: ......文化祭？
+
+yuanzhou: 对啊。每个社团都要出个展位。你们诗文社总不能摆几本旧书在那吧。
+
+linchuan: ......
+
+linchuan (thinking): 文化祭。
+
+linchuan (thinking): 全校都会来。
+
+linchuan (thinking): 全校。
+
+linchuan: 远舟。
+
+yuanzhou: 干嘛？
+
+linchuan: 你觉得"用诗解答烦恼"这个主意怎么样？
+
+yuanzhou: 什么意思？
+
+linchuan: 就是——你有什么烦心事，用一句诗来回应你。
+
+yuanzhou: ......你是算命的？
+
+linchuan: 不是算命。是——你说了你的烦恼，我给你一句诗。这句诗可能没什么用。但你会知道，你现在的感受，一千年前也有人经历过。
+
+yuanzhou: ......
+
+yuanzhou: 你说的这个，好像有点意思。
+
+linchuan: 真的？
+
+yuanzhou: 真的。起码比摆旧书强。
+
+linchuan: 行。就这么搞。
+
+[leave yuanzhou]
+
+# ---------------------------------------------------------
+# 场景：放学后 · 活动室
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/poetry_club_room_afterschool2.png"]
+
+linchuan: 小白。文化祭。下个月。
+
+bai: 嗯。
+
+linchuan: 诗文社要出展位。我想搞一个"诗词解忧杂货铺"。
+
+bai: ......什么？
+
+linchuan: 就是你有什么烦恼，我们用一句诗来回应。
+
+bai: 谁来回应？
+
+linchuan: 我。你帮我选诗。
+
+bai: ......我选诗？
+
+linchuan: 对。来一个人，说一个烦恼。你翻笔记本选一首。我把诗翻译成人话，写在便签上给他。
+
+bai: ......
+
+linchuan: 怎么了？
+
+bai: 他们看不见我。
+
+linchuan: 我知道。所以你在旁边选诗，我在前面说话。他们以为是我在选。
+
+bai: ......
+
+linchuan: 有问题吗？
+
+bai: 没有问题。只是——
+
+linchuan: 只是什么？
+
+bai: 文化祭人很多。声音很吵。我怕——
+
+linchuan: 怕什么？
+
+bai: 怕我在那种环境里待不住。
+
+linchuan: ......
+
+linchuan: 你会消失吗？
+
+bai: 不是消失。是——会变得很淡。人多但不读诗的地方，对我来说很——
+
+bai (thinking): （想了一下）
+
+bai: 很饿。
+
+linchuan: 饿？
+
+bai: 嗯。就像你们没饭吃的那种感觉。人越多但不读诗，我越饿。
+
+linchuan: ......
+
+linchuan: 那文化祭当天你撑得住吗？
+
+bai: 不知道。
+
+linchuan: ......
+
+linchuan: 那我换个方案。你不用一直在展位。你在活动室待着。我在展位接活，碰到答不上来的，回活动室问你。
+
+bai: ......来回跑？
+
+linchuan: 不远。展位就设在老楼一楼。
+
+bai: 嗯......
+
+linchuan: 但你得帮我准备。文化祭之前，我们得提前整理好——什么烦恼对应什么诗。做一本"药方手册"。
+
+bai: 药方？
+
+linchuan: 诗是药方。你是药库。我是药剂师。
+
+bai (thinking): （想了一下）......这个比喻不太对。
+
+linchuan: 哪不对？
+
+bai: 药方是对症的。诗不是。同一首诗，对不同的人意思不一样。
+
+linchuan: 那怎么选？
+
+bai: ......看人。
+
+linchuan: 看人？
+
+bai: 嗯。看他说话的方式、表情、语气。然后选一首。
+
+linchuan: 你能做到吗？
+
+bai: 能。但只能看到你看到的人。
+
+linchuan: 什么意思？
+
+bai: 你把来问的人的样子告诉我。我来选。
+
+linchuan: ......行。那我当你的眼睛。
+
+bai: 嗯。
+
+linchuan: 还有——文化祭当天，不管多累，你得撑住。
+
+bai: ......我会试。
+
+linchuan: 不是试。是答应我。
+
+bai: ......
+
+bai: 好。
+
+linchuan: 这回又不是"再说"了。
+
+bai: 嗯。
+
+# ---------------------------------------------------------
+# 场景：文化祭前两周 · 活动室
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/poetry_club_room_2wk_before_fest.png"]
+
+接下来两周，我和白开始了密集的准备。
+
+我们坐在活动室里，一条一条地列——
+
+linchuan: 第一种：考试焦虑。
+
+bai: "莫愁前路无知己，天下谁人不识君。"
+
+linchuan: 这个太大了。考试焦虑用这个有点——
+
+bai: 你觉得小一点的？
+
+linchuan: 有没有那种"考砸了也没事"的？
+
+bai (flip): （翻笔记本）......"竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。"
+
+linchuan: 什么意思？
+
+bai: 拄着竹杖穿着草鞋，比骑马还轻快。下雨了怕什么？披着蓑衣照样走。
+
+linchuan: 这个好。翻译成人话就是——"别怕，走着。"
+
+bai: 嗯。
+
+linchuan: 记下来。
+
+linchuan: 第二种：跟父母吵架。
+
+bai: "谁言寸草心，报得三春晖。"
+
+linchuan: 这个大家都知道。会不会太普通了？
+
+bai: 普通是因为好。好是因为——人人都遇到过。
+
+linchuan: ......行。记下来。
+
+linchuan: 第三种：被孤立。
+
+bai (long_flip): （翻了很久）
+
+linchuan: 找不到？
+
+bai: 不是找不到。是——
+
+linchuan: 是什么？
+
+bai: "冠盖满京华，斯人独憔悴。"
+
+linchuan: 什么意思？
+
+bai: 满城都是达官贵人。只有他一个人，消瘦憔悴。
+
+linchuan: ......
+
+bai: 被孤立不是你的错。是周围的人太吵了。
+
+linchuan: ......记下来。
+
+linchuan: 第四种：想家。
+
+bai (quick_flip): （很快翻到一页）"举头望明月，低头思故乡。"
+
+linchuan: 这个全国人民都会背。
+
+bai: 因为全国人民都想家。
+
+linchuan: ......你说这话的时候声音变了一下。
+
+bai: ......翻下一页吧。
+
+linchuan (thinking): 她说"想家"的时候——她有家吗？她的家是那本蓝皮书。她想的是哪个家？
+
+linchuan (thinking): ......算了。不问了。
+
+linchuan: 第五种：喜欢一个人但不敢说。
+
+bai (freeze): （手停在半空中。顿了一下。然后翻到一页。）
+
+bai: "山有木兮木有枝，心悦君兮君不知。"
+
+linchuan: 什么意思？
+
+bai: 山上有树，树上有枝。我喜欢你，你不知道。
+
+linchuan: ......
+
+bai: ......
+
+linchuan: 这首——
+
+bai: 记下来。
+
+linchuan: ......嗯。记下来了。
+
+linchuan (thinking): 她翻到这首诗的时候停了一下。不是因为找不到。是因为——
+
+linchuan (thinking): 算了。不想了。
+
+# ---------------------------------------------------------
+# 场景：文化祭前一天 · 活动室
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/poetry_club_room_1day_before_fest.png"]
+
+文化祭前一天。准备工作差不多了。我手写了一沓便签，每张上面一首诗加一句白话翻译。桌上还堆着一摞空白的便签，留给明天临时用的。
+
+白坐在旁边看我写。偶尔纠正我的字。
+
+bai: 你这个"蓑"字写错了。草字头下面是个"衰"不是"哀"。
+
+linchuan: ......这不是一样的吗？
+
+bai: 不一样。"衰"是衰退的衰。"哀"是悲哀的哀。差一个字意思全变了。
+
+linchuan: 行行行。改成这样？
+
+bai: 嗯。
+
+linchuan: 你这人当老师一定很凶。
+
+bai: 不会。我不当老师。
+
+linchuan: 为什么？
+
+bai: ......没有学生。
+
+linchuan (thinking): ......对。别人看不见她。她当不了老师。
+
+linchuan (thinking): 我有时候忘了这件事。忘了她有很多事做不了。不是不会，是不能。
+
+linchuan: ......白。
+
+bai: 嗯？
+
+linchuan: 明天——
+
+bai: 嗯？
+
+linchuan: 明天你会在吧？
+
+bai: ......
+
+linchuan: 在活动室。我跑回来问诗的时候。你会在。
+
+bai: 嗯。会在。
+
+linchuan: 答应我。
+
+bai: 好。
+
+linchuan: 不是"好"。是"答应你"。
+
+bai: ......答应你。
+
+linchuan: ......行。
+
+linchuan (thinking): 她说了"答应你"。不是"好"，不是"再说"。是"答应你"。
+
+linchuan (thinking): 这应该是她能给出的最重的承诺了。
+
+# ---------------------------------------------------------
+# 场景：文化祭当天 · 老教学楼一楼
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/festival_scene.png"]
+
+文化祭当天。老教学楼一楼被改造成了展位区。隔壁是咖啡社，对面是手工社，走廊里到处是人。
+
+我在诗文社的展位后面坐下。桌上摆着手写的招牌——"诗词解忧杂货铺：你烦什么，诗替你说"。
+
+旁边放着一沓便签、一支马克笔，还有那本"药方手册"。
+
+linchuan (thinking): ......来吧。
+
+展位开张。第一个小时，没人来。大家路过看一眼招牌就走了。有人说"诗文社？有这社团吗？"有人拍照发了朋友圈但没进来。
+
+linchuan (thinking): 正常。谁会跟一个陌生人说自己的烦恼。
+
+第二个小时。远舟来了。
+
+[join yuanzhou (neutral) center]
+
+yuanzhou: 哟，开张没？
+
+linchuan: 你来问烦恼还是来看热闹的？
+
+yuanzhou: 我来捧场。问一个行不？
+
+linchuan: 问。
+
+yuanzhou: 我最近跟林风闹了点矛盾。他总说我嘴欠，我说他就是开不起玩笑。已经三天没说话了。
+
+linchuan: ......你嘴确实欠。
+
+yuanzhou: 你到底解不解答？
+
+linchuan: 等一下。
+
+linchuan: 等我一下！
+
+[leave yuanzhou]
+[background path="res://assets/backgrounds/poetry_club_room_4f_evening.png"]
+
+我跑上四楼。推开活动室的门。
+
+[join bai (neutral) center]
+
+bai (look_up): （坐在窗边，抬头看我）
+
+linchuan: 有人问了。跟朋友吵架。
+
+bai: 什么样的吵？
+
+linchuan: 他觉得朋友开不起玩笑。朋友觉得他嘴欠。三天没说话。
+
+bai: ......先不说话的？
+
+linchuan: 他说朋友先不理他的。
+
+bai (flip): （翻笔记本）
+
+bai: "我寄愁心与明月，随君直到夜郎西。"
+
+linchuan: 什么意思？
+
+bai: 我把担心托付给月亮，让它跟着你一路到远方。
+
+linchuan: 这跟吵架有什么关系？
+
+bai: 他不说话，不是因为不在意。是因为不知道怎么开口。那就先不说话。把心意交给月亮，让对方自己感受到。
+
+linchuan: ......你确定这能帮到远舟？
+
+bai: 不确定。但这首——适合"不敢先开口"的人。
+
+linchuan: 行。
+
+[leave bai]
+[background path="res://assets/backgrounds/festival_scene.png"]
+
+我跑回一楼。远舟还在等。
+
+[join yuanzhou (neutral) center]
+
+linchuan: 来了。"我寄愁心与明月，随君直到夜郎西。"
+
+yuanzhou: ......什么意思？
+
+linchuan (write_note): （把诗写在便签上，递过去）他不理你，不是不在意。是不知道怎么开口。你先把这张便签放到他桌上。不用说话。让他自己看。
+
+yuanzhou: 就这？
+
+linchuan: 就这。
+
+yuanzhou: ......行吧。谢了。
+
+[leave yuanzhou]
+
+远舟拿着便签走了。半信半疑的样子。
+
+linchuan (thinking): 不知道有没有用。但至少他带走了一首诗。
+
+下午一点。人开始多了。
+
+远舟回来的时候，带着林风。两个人走在一起，虽然还有点别扭，但至少走在一起了。
+
+[join yuanzhou (neutral) left]
+[join linfeng (neutral) right]
+
+yuanzhou (whisper): （在展位前小声说）便签我放他桌上了。他看了之后——
+
+linfeng (interrupt): （打断）行了行了，别说了。
+
+yuanzhou: 他来找我了。
+
+linchuan: ......
+
+linfeng: 你那个便签写的是什么意思？我没全看懂。
+
+linchuan (point): （指了指便签上的诗）他的心意，让月亮带给你。你们都不用先开口。月亮替你们说了。
+
+linfeng: ......
+
+linfeng: 行。那——我也有个烦恼能问吗？
+
+linchuan: 问。
+
+linfeng: 我最近考试压力特别大。每天学到两点，但觉得什么都不会。
+
+linchuan: 等一下。
+
+[leave yuanzhou]
+[leave linfeng]
+[background path="res://assets/backgrounds/poetry_club_room_4f_evening.png"]
+
+又跑上四楼。
+
+[join bai (neutral) center]
+
+bai (already_ready): （看到我跑进来，已经翻好了笔记本）
+
+bai: 我听到了。
+
+linchuan: 你听到什么？
+
+bai: 楼下有人说话。声音传上来了。
+
+linchuan: ......你能听到？
+
+bai: 嗯。今天状态还行。
+
+bai (push_notebook): （推过来笔记本）
+
+笔记本上写着：竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。
+
+linchuan: 这个我们准备过。
+
+bai: 嗯。但翻译的时候加一句——他学到两点不是问题，问题是他在害怕。怕学了也考不好。告诉他，怕不怕都行，但雨不会因为你怕就停。
+
+linchuan: ......
+
+linchuan: 你今天话有点多。
+
+bai: 嗯。
+
+linchuan: 高兴？
+
+bai: ......嗯。
+
+linchuan (thinking): 她说了"嗯"。但这次不是淡淡的"嗯"。是声音稍微亮一点的"嗯"。
+
+linchuan (thinking): 因为楼下有人在读诗。有人在念她选的诗。这些声音传到了四楼，她能听到。
+
+linchuan (thinking): 她在——吃东西。
+
+linchuan (thinking): ......那我今天让她吃饱。
+
+[leave bai]
+[background path="res://assets/backgrounds/festival_scene.png"]
+
+我跑回一楼。
+
+[join linfeng (neutral) center]
+
+linchuan: 来了。"竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。"
+
+linfeng: 这什么意思？
+
+linchuan (write_note): （写便签，递过去）你学到两点不是问题。问题是你怕。怕学了也考不好。但雨不会因为你怕就停。别怕。走着。
+
+linfeng: ......
+
+linfeng: 谢了。
+
+[leave linfeng]
+
+林风拿着便签走了。这次没有"就这"。
+
+下午两点。排队的人开始多了。
+
+来的人五花八门——有人问考试，有人问跟父母的矛盾，有人问"我到底该选理科还是文科"。
+
+我跑了无数趟四楼。每一趟推门进去，白都已经翻好了笔记本。
+
+有时候她不等我说完就翻到了。有时候她会问一句——"他说话的时候看哪里了？""她是笑着说的还是不笑的？"
+
+我回答。她选诗。我翻译。写便签。递出去。
+
+一张。两张。十张。二十张。
+
+# ---------------------------------------------------------
+# 场景：下午四点
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/festival_scene.png"]
+
+下午四点。
+
+一个女生走到展位前。她没有马上说烦恼，而是站在那里看了一会儿招牌。
+
+[join others (neutral) center]
+
+linchuan: 有什么烦恼吗？
+
+others: ......我喜欢一个人。但我不敢说。
+
+linchuan: 为什么不敢？
+
+others: 怕说了之后连朋友都做不了。
+
+linchuan: ......等一下。
+
+[background path="res://assets/backgrounds/poetry_club_room_4f_evening.png"]
+
+我跑上四楼。
+
+[join bai (neutral) center]
+
+bai (already_flipped): （已经翻到了那一页）
+
+笔记本上写着：山有木兮木有枝，心悦君兮君不知。
+
+bai: 这首。
+
+linchuan: ......
+
+bai: ......
+
+linchuan: 白。
+
+bai: 嗯？
+
+linchuan: 这首诗——你准备的时候停了一下。
+
+bai: ......嗯。
+
+linchuan: 为什么？
+
+bai (pause): （安静了一下）
+
+bai: 因为这首诗——不只是写给那个女生的。
+
+linchuan: ......
+
+bai: ......
+
+linchuan: ......写给谁的？
+
+bai (push_notebook_away): （没有回答。把笔记本推向我。）
+
+bai: 快回去。人家等着。
+
+linchuan: ......
+
+linchuan (thinking): 她没回答。
+
+linchuan (thinking): 但我知道了。
+
+linchuan (thinking): 我跑了。
+
+[leave bai]
+[background path="res://assets/backgrounds/festival_scene.png"]
+
+我跑回一楼。气喘吁吁。
+
+[join others (neutral) center]
+
+linchuan: 来了。"山有木兮木有枝，心悦君兮君不知。"
+
+others: 什么意思？
+
+linchuan (write_note): （写便签，递过去）山上有树，树上有枝。你喜欢他，他不知道。
+
+linchuan: 这首诗的意思是——你现在的状态，两千年前就有人经历过了。你不是一个人。
+
+others (touched): （看着便签，眼眶红了一下）......谢谢。
+
+[leave others]
+
+她拿着便签走了。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 山有木兮木有枝。心悦君兮君不知。
+
+linchuan (thinking): 白说这首诗"不只是写给那个女生的"。
+
+linchuan (thinking): 写给谁的？
+
+linchuan (thinking): ......
+
+linchuan (thinking): 我假装不知道。
+
+# ---------------------------------------------------------
+# 场景：下午五点 · 文化祭尾声
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/festival_5pm.png"]
+
+下午五点。文化祭接近尾声。展位前的人少了。
+
+桌上的一沓便签已经发完了。我写到手酸。嗓子也哑了。
+
+远舟帮我把最后几波人应付走了之后，跑来找我。
+
+[join yuanzhou (neutral) center]
+
+yuanzhou: 哥们，你今天跑了得有几十趟四楼吧。
+
+linchuan: ......大概。
+
+yuanzhou: 你上面到底藏了什么？诸葛亮？
+
+linchuan: ......差不多。
+
+yuanzhou: 说真的，今天你这个展位还挺火的。好多人都拿着便签拍照发了朋友圈。
+
+linchuan: 真的？
+
+yuanzhou: 嗯。林风那条配文是"原来一千年前也有人跟我一样菜"。被转了好多次。
+
+linchuan: ......他那个不叫"菜"，叫"竹杖芒鞋轻胜马"。
+
+yuanzhou: 行了行了，你也别拽了。歇会儿吧。我帮你收拾。
+
+linchuan: 谢了。
+
+yuanzhou: 哎——
+
+linchuan: 嗯？
+
+yuanzhou: 你上面那个"诸葛亮"——
+
+linchuan: 什么？
+
+yuanzhou (wave_off): 算了。没什么。你去忙吧。
+
+[leave yuanzhou]
+
+远舟走了。我坐在展位后面，看着空了的便签盒。
+
+linchuan (thinking): ......该收摊了。
+
+linchuan (thinking): 最后还有一件事。
+
+# ---------------------------------------------------------
+# 场景：傍晚 · 老教学楼四楼 · 活动室
+# ---------------------------------------------------------
+
+[sound path="res://assets/sfx/door_open.ogg"]
+[background path="res://assets/backgrounds/poetry_club_room_4f_evening.png"]
+
+我推开活动室的门。
+
+白坐在窗边。
+
+[join bai (clear) center]
+
+夕阳照进来。很浓的橙红色。照在她身上——
+
+她的轮廓比早上清晰了。不是完全清晰。但比这两周的任何时候都清楚。
+
+阳光打在她身上，地面上有影子。淡淡的，但有。
+
+linchuan: ......
+
+bai (look_up): （抬头看我）回来了。
+
+linchuan: 嗯。
+
+bai: 今天——
+
+linchuan: 很多人来了。
+
+bai: 嗯。我听到了。
+
+linchuan: 你都听到了？
+
+bai: 不是每句。但大部分。声音从楼梯传上来，断断续续的。有人念了你给的便签上的诗。
+
+linchuan: 念的时候你什么感觉？
+
+bai (thinking): （想了一下）
+
+bai: 像吃饱了。
+
+linchuan (laugh_small): （笑了一下）
+
+bai: 不是笑的时候。是——
+
+linchuan: 我知道。你说过了。被读诗的那一秒就是你的。今天有很多秒。
+
+bai: 嗯。
+
+linchuan: ......
+
+bai: ......
+
+linchuan: 白。
+
+bai: 嗯？
+
+linchuan: 我也有个烦恼。
+
+bai: ......什么？
+
+linchuan: 诗词解忧杂货铺。最后一个客人。
+
+bai: 你没有烦恼。
+
+linchuan: 有。
+
+bai: 什么？
+
+linchuan: 我怕一个东西消失。
+
+bai: ......
+
+bai (very_long_flip): （安静了一下。翻开笔记本。翻了很久。很久。比任何一次都久。）
+
+bai (final_page): （最后停在一页。推过来。）
+
+笔记本上写着：众里寻他千百度。蓦然回首，那人却在，灯火阑珊处。
+
+linchuan: ......
+
+bai: 这首不用翻译。
+
+linchuan: ......嗯。
+
+bai: ......
+
+linchuan: 白。
+
+bai: 嗯？
+
+linchuan: 你这首——跟上次那首一样。不只是写给我的。
+
+bai: ......
+
+linchuan: 这首也是写给你自己的。
+
+bai: ......嗯。
+
+linchuan: 你在找什么？
+
+bai (long_pause): （安静了很久。窗外的夕阳一点一点沉下去。）
+
+bai: 我在找——
+
+bai: 一个不让我消失的办法。
+
+linchuan: ......
+
+bai: 找了很久。翻了整本笔记本。
+
+bai: 没有。
+
+linchuan: ......
+
+bai: 没有一首诗是"让人不消失"的诗。
+
+linchuan: ......
+
+bai: 但这首——
+
+bai (touch_words): （手指轻轻碰了一下笔记本上的字）
+
+bai: 这首说的是——你找了很久很久，找不到。回头一看。那个人还在。
+
+bai: ......
+
+bai: 我找不到让自己留下的办法。但回头一看——
+
+bai (look_up_at_him): （抬头看我）
+
+bai: 你还在。
+
+linchuan: ......
+
+linchuan: ......我在。
+
+bai: 嗯。
+
+linchuan: 我会一直在。
+
+bai: ......你没办法保证。
+
+linchuan: 你也没办法保证你不消失。但我们都在赌。我赌你不会消失。你赌我不会走。
+
+bai: ......
+
+linchuan: 公平。
+
+bai (light_smile): （笑了一下。很轻。但是真的。）
+
+bai: ......公平。
+
+linchuan: ......
+
+bai: ......
+
+linchuan: 小白。
+
+bai: 嗯？
+
+linchuan: 文化祭还有最后一小时。我想做一件事。
+
+bai: 什么？
+
+linchuan: 我想在台上念一首诗。
+
+bai: ......台上？
+
+linchuan: 文化祭有个开放麦。我想上去。
+
+bai: 你？上台念诗？
+
+linchuan: 怎么，不行吗？
+
+bai: 你半年前说背诗"又不能当饭吃"。
+
+linchuan: 人会长大的。
+
+bai: 才半年？
+
+linchuan: 够了。
+
+bai: ......
+
+linchuan: 等我。
+
+bai: ......好。
+
+# ---------------------------------------------------------
+# 场景：文化祭 · 开放麦舞台
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/playground_stage_evening.png"]
+
+开放麦。操场上的简易舞台。台下稀稀拉拉坐了些人，有些在聊天，有些在看手机。
+
+我站在台侧。手心在出汗。
+
+linchuan (thinking): 我没上过台。初中课本剧我演的是树。没有台词的那种。
+
+linchuan (thinking): 但现在——
+
+linchuan (thinking): 我站在这里不是为了表演。是为了——
+
+linchuan (thinking): 让她听到。
+
+linchuan (thinking): 也是让他们听到。
+
+主持人念了我的名字。我走上台。
+
+灯光打在脸上。台下几十张脸看着我。有人在低头刷手机。
+
+我看向老教学楼四楼的方向。活动室的窗户亮着。
+
+linchuan (thinking): 她在看。
+
+linchuan (thinking): ......
+
+linchuan (mic): （拿起话筒）
+
+linchuan: 那个——大家好。我是诗文社的临川。
+
+linchuan: 诗文社就我一个人。
+
+linchuan: 今天文化祭，我们搞了个"诗词解忧杂货铺"。来了很多人，问了很多烦恼。我给每人写了一句诗。
+
+linchuan: 但最后——
+
+linchuan: 我想念一首诗。不是给别人解答的。是给我自己的。
+
+台下安静了一点。有人放下了手机。
+
+linchuan: 半年前我觉得诗没用。背了不能当饭吃，不能加分，不能找工作。
+
+linchuan: 后来有个人跟我说——诗没有用。但它让你知道你不是一个人。
+
+linchuan: 你现在的感受，一千年前也有人感受过。他把它写下来了。
+
+linchuan: ......
+
+linchuan: 我觉得这话不只是说诗的。
+
+linchuan: ......
+
+linchuan: 算了。不说了。念诗。
+
+我深吸了一口气。
+
+看着四楼那扇亮着灯的窗户。
+
+linchuan: "众里寻他千百度。"
+
+linchuan: "蓦然回首——"
+
+我停了一下。
+
+台下很安静。
+
+linchuan: "那人却在，灯火阑珊处。"
+
+念完之后，没有人鼓掌。大概有两秒的沉默。
+
+然后有人开始拍手。稀稀拉拉的，接着越来越多人。
+
+我没有鞠躬。我转头看向四楼。
+
+活动室的窗户开着。夕阳从窗户照进去，橙红色的光。
+
+我看不到她。太远了。
+
+linchuan (thinking): 但我知道她在。
+
+linchuan (thinking): 她一定在。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 我相信她。
+
+# ---------------------------------------------------------
+# 场景：夜晚 · 活动室
+# ---------------------------------------------------------
+
+[sound path="res://assets/sfx/door_open.ogg"]
+[background path="res://assets/backgrounds/poetry_club_room_night.png"]
+
+文化祭结束了。我跑上四楼。推开门。
+
+白坐在窗边。
+
+[join bai (clear) center]
+
+她的轮廓——清晰了。
+
+不是完全清晰。但比我这几个月见过的任何时候都清楚。月光从窗户照进来，地面上有她的影子。实实在在的影子。
+
+linchuan: ......白？
+
+bai (turn_head): （转过头）
+
+她的脸。我能看清了。眉毛、眼睛、嘴唇。不是以前那种"大概长这样"的模糊，是真真切切的。
+
+bai: 你回来了。
+
+linchuan: ......
+
+bai: 怎么不说话？
+
+linchuan: 我——
+
+linchuan: 白。
+
+bai: 嗯？
+
+linchuan: 你今天——吃饱了吗？
+
+bai (startled_smile): （愣了一下，然后笑了）
+
+bai: ......吃了。吃了好多。
+
+linchuan: 够撑多久？
+
+bai: 不知道。可能几天。可能——
+
+linchuan: 那就继续。每天让人读。表情包、班会课、广播站、教室后面贴诗。让远舟每天早上念一首。
+
+bai: 远舟会念吗？
+
+linchuan: 他欠我人情。今天帮他跟林风和好了。
+
+bai: ......
+
+linchuan: 还有。文化祭不是只有一次。明年还有。后年还有。
+
+bai: ......嗯。
+
+linchuan: 而且——等你哪天能出这间活动室了。我带你出去。书店、图书馆、公园。到处都有人念诗。
+
+bai: ......我现在出不了这栋楼。
+
+linchuan: 今天能碰书了。明天说不定能碰门。慢慢来。
+
+bai: ......
+
+linchuan: 你说的。诗不给答案。给的是另一种看法。
+
+bai: 嗯。
+
+linchuan: 那我也给你一种看法——你不是"可能随时消失的东西"。你是白。
+
+bai: ......
+
+linchuan: 你是念诗会笑、吃番茄炒蛋专挑大块、站门口听吉他不敢进去、迷路了说"走过了"的白。
+
+bai: 我没有迷路。那是走过——
+
+linchuan: 好好好。走过。
+
+bai: 嗯。
+
+linchuan: ......
+
+bai: ......
+
+linchuan: 明天见。
+
+bai: 明天见。
+
+linchuan: 不是"再说"？
+
+bai: 不是"再说"。
+
+linchuan: ......好。明天见。
+
+[background path="res://assets/backgrounds/poetry_club_room_night.png" fade="3.0"]
+
+一个月后。
+
+# ---------------------------------------------------------
+# 场景：尾声 · 诗文社活动室，冬日午后
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/poetry_club_room_winter_afternoon.png"]
+
+[join bai (smile) center]
+
+linchuan: 明天广播站念什么？
+
+bai (think_answer): （想了一下）"海上生明月，天涯共此时。"
+
+linchuan: 上次文化祭有人用过这首。
+
+bai: 嗯。但好诗不怕重复。
+
+linchuan: 行。
+
+bai: ......
+
+linchuan: ......
+
+bai: 临川。
+
+linchuan: 嗯？
+
+bai: 谢谢。
+
+linchuan: 谢什么？
+
+bai: 谢谢你推了那扇门。
+
+linchuan: ......
+
+linchuan: 你谢早了。
+
+bai: 嗯？
+
+linchuan: 我明天还会推。后天也会。大后天也会。
+
+linchuan: 推到你烦为止。
+
+bai: ......
+
+bai (real_laugh): （笑了。轻轻的。阳光打在她脸上。）
+
+bai: 不会烦的。
+
+linchuan: 你怎么知道？
+
+bai: 因为——
+
+bai: "蓦然回首，那人却在，灯火阑珊处。"
+
+linchuan: ......
+
+linchuan (thinking): 她在说——
+
+linchuan (thinking): 不管什么时候回头，她都在。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 我也是。
+
+linchuan (thinking): 不管什么时候回头，我都在。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 不说了。有些事不用说。
+
+linchuan (thinking): 窗外的光很好。她在。我也在。
+
+linchuan (thinking): 这就够了。
+
+[background path="res://assets/backgrounds/poetry_club_room_winter_afternoon.png" fade="2.5"]
+
+诗不会消失。
+
+只要有人在某个瞬间被打动——
+
+她就在。
+
+我也在。
+
+[end_timeline]

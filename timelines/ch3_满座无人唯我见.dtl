@@ -1,0 +1,751 @@
+# =========================================================
+# 诗文社的学生 - 第三章：满座无人唯我见（关键转折：白的身份揭晓）
+# 新增角色标识符：yuanzhou（远舟）、linfeng（林风）、chenan（辰安）
+# =========================================================
+
+# ---------------------------------------------------------
+# 场景：某天课间 · 教室
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/classroom_break.png"]
+
+课间。我趴在桌上补觉。远舟——初中就认识的哥们儿——坐到我旁边，拍了下我肩膀。
+
+[join yuanzhou (neutral) center]
+
+yuanzhou: 临川，放学打瓦来不来？最近放学老不见你人。
+
+linchuan: 有社团活动。
+
+yuanzhou: 你不是在诗文社吗？那社团就你一个人吧？我看名单上就你一个。
+
+linchuan: ......还有一个。
+
+yuanzhou: 谁啊？我没见过。
+
+linchuan: 你不认识。一个女生。
+
+yuanzhou (surprised): 女生？诗文社有个女生？
+
+linchuan: 对。
+
+yuanzhou (laughing): 你天天放学跟一个女生单独待在活动室？想不到你金屋藏娇啊！
+
+linchuan: 不是你想的那样。就是念诗。
+
+yuanzhou (confused): 念诗？
+
+linchuan: 她念我听。
+
+yuanzhou: ......你俩有病吧？
+
+linchuan: 滚。
+
+yuanzhou: 不是我说，你最近是不是有点不对劲？上次体育课你嘴里念叨什么"采菊东篱下"来着。
+
+linchuan: ......那是无意中背的。
+
+yuanzhou: 你以前连《静夜思》都背不全。突然开始念诗，不是有病是什么。
+
+linchuan: 你才有病。
+
+yuanzhou: 行行行。那什么时候带我去见识见识？看看是哪个女生能让你这种人说出"采菊东篱下"。
+
+linchuan: ......再说吧。
+
+yuanzhou: 什么叫"再说"？你跟谁学的这句？
+
+linchuan (thinking): ......跟谁学的。
+
+linchuan (thinking): 我好像确实是从白那里染上这个习惯的。
+
+linchuan (thinking): 远舟说的也没错。我最近确实变了。换作半年前，谁跟我说诗，我扭头就走。现在——我现在每天放学往活动室跑，比上课还准时。
+
+linchuan (thinking): 这一切都是因为——
+
+linchuan (thinking): 因为白。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 但是——
+
+linchuan (thinking): 名单上没有她的名字。我从来没见过她在别的教室上课。我没见她跟任何人说过话。我没见过她吃食堂的面条——除了那次我陪她。
+
+linchuan (thinking): 这些事我以前都没注意。因为跟她待在一起的时候太自然了，自然到我从来没想过要验证什么。
+
+linchuan (thinking): 现在远舟一问——
+
+linchuan (thinking): 我发现自己什么都答不上来。
+
+yuanzhou: 喂？发什么呆呢？
+
+linchuan: 没什么。
+
+yuanzhou: 那说好了啊，哪天带我去诗文社看看。
+
+linchuan: ......行。
+
+linchuan (thinking): 我答应了。
+
+linchuan (thinking): 一半是不想让远舟再追问，一半是——
+
+linchuan (thinking): 我也想让别人看到她。
+
+# ---------------------------------------------------------
+# 场景：某天放学 · 诗文社活动室
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/poetry_club_room_afterschool.png"]
+
+linchuan: 小白。
+
+bai: 嗯？
+
+linchuan: 我有个朋友想来活动室看看。
+
+bai: ......谁？
+
+linchuan: 远舟。初中认识的。我跟他说了这社团有个女生，他不信。
+
+bai (pause): ......你跟他提过我？
+
+linchuan: 就随口说了。他说想来看看。
+
+bai (silent_pause): （安静了几秒）
+
+linchuan: 不方便？
+
+bai: 不是不方便。
+
+linchuan: 那怎么了？
+
+bai: ......他什么时候来？
+
+linchuan: 明天放学？
+
+bai (touch_notebook): （低下头，手指摸了一下笔记本的边角）......好。
+
+linchuan: 你别紧张。他就是个嘴碎的人，没什么恶意。
+
+bai: 我不紧张。
+
+linchuan: 你刚才摸笔记本了。你平时不摸。
+
+bai: ......习惯。
+
+linchuan (thinking): 她又在拿"习惯"搪塞我。但这次我没追问。
+
+linchuan (thinking): 她说"好"的时候，语气不像平时那么平。有一点不算大的起伏。很小，但我听出来了。
+
+linchuan (thinking): ......紧张就紧张呗。见个朋友而已，没什么大不了的。
+
+linchuan (thinking): 没什么大不了的。
+
+# ---------------------------------------------------------
+# 场景：第二天 · 放学 · 诗文社活动室门口
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/poetry_club_room_door_day2.png"]
+
+放学铃响了。远舟背着书包在走廊上等我，旁边还有两个同班的——林风和辰安，不知道怎么也被拉来了。
+
+[join linfeng (neutral) left]
+[join chenan (neutral) right]
+
+linchuan: 怎么带了这么多人？
+
+yuanzhou: 他们也想看看嘛。
+
+linfeng: 听说你天天泡在诗文社，我还不信呢。
+
+chenan: 诗文社在哪栋楼来着？老教学楼？这也太偏了。
+
+linchuan: ......行吧。都来。但提前说好，里面就一个女生，你们别大呼小叫的。
+
+yuanzhou: 知道了知道了。走吧。
+
+[sound path="res://assets/sfx/footsteps_stairs.ogg"]
+
+四个人沿着老教学楼的楼梯往上走。老楼走廊上没有灯，辰安在后面抱怨楼梯太陡。
+
+linchuan (thinking): 不知道为什么，走到活动室门口的时候，我有点紧张。
+
+linchuan (thinking): 不是怕他们见到白。是怕——
+
+linchuan (thinking): 怕什么？说不清。
+
+linchuan: 到了。就这间。
+
+yuanzhou: 看着挺旧的。
+
+linfeng: 这门上连个牌子都没有。
+
+linchuan: 诗文社没钱做牌子。
+
+chenan: 你们社团有经费吗？
+
+linchuan: 别废话了。进去吧。
+
+[sound path="res://assets/sfx/door_open.ogg"]
+[background path="res://assets/backgrounds/poetry_club_room_afternoon_sun.png"]
+
+推开门。阳光从窗户照进来，灰尘在光柱里浮动。书架、旧桌椅、窗台上的绿植——一切都跟平时一样。
+
+白坐在窗边。
+
+[join bai (neutral) center]
+
+她穿着校服，长发用皮筋扎着，面前的桌上放着笔记本。阳光打在她侧脸上。
+
+她看着门口。不是看所有人。是看我。
+
+linchuan: ——就是这。进来吧。
+
+我让开身，让远舟他们进来。
+
+yuanzhou (peek): （探头张望）......这屋里就你一个人吧？
+
+linchuan: 什么？
+
+yuanzhou: 就你一个人啊。哪有什么女生？
+
+linchuan: ......
+
+linchuan (thinking): 他说什么。
+
+linchuan: 不可能。她就在那——
+
+我转头看向窗边。
+
+白坐在那里。她看着我。眼神跟平时不一样——不是那种淡淡的对视。是那种......很深、很安静、带着某种说不出来的东西的注视。
+
+linchuan: 她就在那。窗边。白。
+
+linfeng: 窗边？窗边就一把椅子和一张桌子。还有——哎这有本笔记本。谁的？
+
+linchuan: ......
+
+林风走到窗边，拿起桌上的笔记本翻了两下。
+
+linfeng: 空的。什么都没写。
+
+linchuan: 不可能。上面写满了诗。每天都念的——
+
+我冲过去抢过笔记本。翻开。
+
+空白的。每一页都是空白的。
+
+linchuan: ......
+
+linchuan: 不对。不对。这上面明明——
+
+bai (quiet_intense): （坐在椅子上，看着我。她没有站起来。她的声音很轻，轻到只有我能听见。）临川。
+
+linchuan (look_up): （猛地抬头看她）
+
+bai: ......他们看不见我。
+
+linchuan: ——
+
+yuanzhou: 喂，临川？你蹲那儿干嘛？
+
+远舟的声音从很远的地方传来。不对，他就站在我身后。但听起来很远。
+
+linchuan: ......你说什么？
+
+yuanzhou: 我说你蹲在那儿翻空本子干嘛。你是不是身体不舒服？
+
+chenan: 他该不会是被诗文社逼疯了吧？
+
+linfeng: 别闹了。走吧走吧，什么女生，根本没有——
+
+linchuan: 你们等一下。
+
+我站起来。我看着白。她坐在那里，阳光穿过窗户——
+
+穿过窗户。穿过她的肩膀。
+
+我之前一直觉得"有时候有影子有时候没影子"是我记错了。
+
+不是记错了。
+
+阳光穿过她的肩膀，在桌面上投下的光影——没有任何断裂。光直接穿过了她。
+
+linchuan: ......
+
+yuanzhou: 临川？你怎么不说话？
+
+linchuan: ......你们先出去。
+
+yuanzhou: 啊？
+
+linchuan: 出去。等我一分钟。
+
+linfeng: 怎么了这是？
+
+yuanzhou: 别问了。走吧走吧。
+
+[leave yuanzhou]
+[leave linfeng]
+[leave chenan]
+
+脚步声远去。门关上了。活动室重新安静下来。
+
+linchuan: ......
+
+bai: ......
+
+linchuan: ......他们看不见你。
+
+bai: 嗯。
+
+linchuan: 从一开始就看不见。
+
+bai: 嗯。
+
+linchuan: 那本笔记本——
+
+bai: 对你们来说，是空白的。
+
+linchuan: 那上面写的诗呢？你每天念的——
+
+bai: 只有你能听到。
+
+linchuan: ......
+
+linchuan: 为什么。
+
+bai (pause): （安静了一下）我不知道为什么。只知道——从一开始，就只有你能看见我。
+
+linchuan: ......
+
+linchuan: 从一开始？
+
+bai: 嗯。
+
+linchuan: 那第一天呢？我推门进来，看到你在书架边上——
+
+bai: 你看到我了。
+
+linchuan: 那天你念诗我听到的时候——
+
+bai: 你听到了。
+
+linchuan: ......每一个字我都听到了。
+
+bai: 嗯。
+
+linchuan: ......
+
+linchuan: 所以这半年——
+
+linchuan: 所有的诗、所有的对话、所有的——
+
+bai: 都是真的。
+
+linchuan: ......
+
+bai: 只是只有你一个人经历过的"真的"。
+
+linchuan: ——
+
+我感觉到什么东西在胸腔里塌了。不是疼。是空。像踩空了楼梯，但一直没落地。
+
+linchuan: 你是——
+
+linchuan: 你是真实的人吗？
+
+bai (shake_head_slow): （看着我很久。然后轻轻摇了摇头。）
+
+linchuan: ......
+
+linchuan: 那你是什么？
+
+bai (nervous_touch): （低下头，手指摸了一下笔记本的边角——那个她紧张时才有的小动作）......我说了，你大概会觉得我疯了。
+
+linchuan: 白。你说。
+
+bai: 我是那本书里的东西。
+
+linchuan: 那本蓝皮书？
+
+bai: 嗯。人们读诗的时候产生的......一种东西。积累了很久很久。变成了我。
+
+linchuan: ......
+
+bai (sad): 我没有家人。没有过去。没有——
+
+linchuan: 够了。
+
+bai: ......
+
+linchuan: 我说够了。
+
+我转身走向门口。
+
+bai: 临川——
+
+linchuan: ......
+
+我停在门口。没有回头。
+
+linchuan: 我需要——
+
+linchuan: 我不知道我需要什么。但我现在没法站在这里。
+
+bai: 好。
+
+她的声音很平。跟平时一样平。但这次那个"好"字尾巴往下掉了一点。
+
+[sound path="res://assets/sfx/door_open.ogg"]
+
+我推开门走了出去。门在身后关上。
+
+走廊上空无一人。远舟他们已经下楼了。
+
+我靠着墙站了一会儿。
+
+然后蹲了下来。
+
+linchuan: ......
+
+linchuan (thinking): 不是人。
+
+linchuan (thinking): 不是人。
+
+linchuan (thinking): 她不是人。
+
+linchuan (thinking): 那这半年——那些诗、那些便当、那些站在走廊上听吉他的傍晚——
+
+linchuan (thinking): 算什么？
+
+linchuan (thinking): ......
+
+linchuan (thinking): 它不算什么。它是真的。她自己说的。只是只有我一个人经历过的。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 操。
+
+我在走廊里蹲了很久。久到夕阳从窗户移到了地板上。
+
+然后我站起来，下了楼。
+
+我没有回活动室。
+
+# ---------------------------------------------------------
+# 场景：临川卧室，夜晚
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/linchuan_bedroom_night2.png"]
+
+那天晚上，我躺在床上，盯着天花板。
+
+linchuan (thinking): 不是人。
+
+linchuan (thinking): 她是诗的灵。从书里来的。没有人能看见她。只有我。
+
+linchuan (thinking): 为什么是我？
+
+linchuan (thinking): 她说她不知道。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 我不该带远舟去的。如果我不带他去，我永远都不会知道。
+
+linchuan (thinking): 我会继续以为她是个不太会社交的、有点古怪的、喜欢念诗的女同学。我们会继续每天待在活动室里，她念诗我听，偶尔斗嘴，偶尔安静。
+
+linchuan (thinking): ——一直这样下去。不好吗？
+
+linchuan (thinking): ......
+
+linchuan (thinking): 可是我已经知道了。
+
+linchuan (thinking): 知道了就回不去了。
+
+linchuan (thinking): 明天——
+
+linchuan (thinking): 明天我还去吗？
+
+linchuan (thinking): 去了之后该说什么？装作不知道？还是——
+
+linchuan (thinking): ......
+
+linchuan (bury_face): （翻了个身，把脸埋进枕头里）
+
+linchuan: ......操。
+
+# ---------------------------------------------------------
+# 场景：第二天 · 学校
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/school_day2.png"]
+
+第二天，我没去活动室。第三天也没去。
+
+第四天，远舟在走廊上拦住我。
+
+[join yuanzhou (neutral) center]
+
+yuanzhou: 临川，你最近怎么了？放学跑得比谁都快。
+
+linchuan: 没什么。
+
+yuanzhou: 上次那个活动室......你后来没事吧？
+
+linchuan: 没事。
+
+yuanzhou: 你之前说的那个女生......
+
+linchuan: 我说错了。没有女生。就我一个人。
+
+yuanzhou (surprised): 啊？
+
+linchuan: 记错了。
+
+yuanzhou: 你......记错了？把一个活人说成记错了？
+
+linchuan: 嗯。
+
+yuanzhou: ......你是不是有什么事瞒着我？
+
+linchuan: 没有。
+
+yuanzhou: 临川。
+
+linchuan: 真没有。你别操心了。
+
+我走了。远舟在后面喊了两声，我没回头。
+
+linchuan (thinking): 我不能跟任何人说。说了他们会觉得我疯了。
+
+linchuan (thinking): 一个人念了半年诗的"女生"，其实根本不存在。谁信？
+
+linchuan (thinking): ......
+
+linchuan (thinking): 但她存在过。
+
+linchuan (thinking): 她存在的证据——全部都在我一个人脑子里。
+
+linchuan (thinking): 那些诗。那些话。那些便当。那些傍晚。
+
+linchuan (thinking): 只有我记得。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 这个事实比什么都让人难受。
+
+# ---------------------------------------------------------
+# 场景：第七天 · 临川卧室，夜晚
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/linchuan_bedroom_night_day7.png"]
+
+第七天。一个礼拜了。
+
+每天放学我都绕开老教学楼。每天晚上我都翻来覆去睡不着。
+
+脑子里反复转的，全是那些诗。
+
+linchuan (thinking): "行到水穷处，坐看云起时。"
+
+linchuan (thinking): "莫愁前路无知己，天下谁人不识君。"
+
+linchuan (thinking): "海内存知己，天涯若比邻。"
+
+linchuan (thinking): ......
+
+linchuan (thinking): 她说最后一首是念给自己的。
+
+linchuan (thinking): "海内存知己"——如果她有朋友，离得多远都像在隔壁。
+
+linchuan (thinking): 可她的朋友只有我。
+
+linchuan (thinking): 而我已经一个礼拜没去了。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 她一个人在那间活动室里。
+
+linchuan (thinking): 没人念诗。没人听。没人带便当。
+
+linchuan (thinking): 一个人。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 操。
+
+linchuan (sit_up): （从床上坐起来）
+
+linchuan (thinking): 我是不是个东西？
+
+# ---------------------------------------------------------
+# 场景：第八天 · 放学 · 老教学楼走廊
+# ---------------------------------------------------------
+
+[background path="res://assets/backgrounds/old_building_corridor_day8.png"]
+
+第八天。放学铃响了。我没有绕路。我直接往老教学楼走。
+
+楼梯还是那么陡。灯还是一半不亮。
+
+走到四楼走廊尽头，活动室的门关着。
+
+我站在门口。手放在门把手上，没有推。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 说什么？
+
+linchuan (thinking): "对不起我一个礼拜没来"？太轻了。
+
+linchuan (thinking): "我接受你是诗灵了"？太假了。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 算了。见了面再说。先推门。
+
+[sound path="res://assets/sfx/door_open.ogg"]
+[background path="res://assets/backgrounds/poetry_club_room_evening2.png"]
+
+门开了。
+
+活动室里很暗。夕阳已经快要落山了，只剩下最后一抹橙红色的光从窗户挤进来。
+
+白坐在窗边。
+
+[join bai (sad) center]
+
+她没有看书。笔记本合着，放在桌上。她的手放在笔记本上面，没有动。
+
+她看着我。
+
+linchuan: ......
+
+bai: ......
+
+linchuan: ......我来了。
+
+bai: 嗯。
+
+linchuan: 一个礼拜没来。
+
+bai: 嗯。
+
+linchuan: ......
+
+linchuan: 对不起。
+
+bai (shake_head): （摇头）不用道歉。
+
+linchuan: 我应该——
+
+bai: 你不需要道歉。你接受不了是正常的。
+
+linchuan: 我不是接受不了。
+
+bai: ......
+
+linchuan: 我是——
+
+linchuan: 我不知道我是为什么
+
+linchuan: 我不是接受不了你不是人。我是——
+
+linchuan: ......
+
+linchuan: 我是气我自己。
+
+bai: 气什么？
+
+linchuan: 气我带他们来。气我一个礼拜没来。气我知道真相之后第一反应是跑而不是——
+
+bai: 而不是什么？
+
+linchuan: ......而不是留下来。
+
+bai: ......
+
+linchuan: 我走的那天，你说"好"。你为什么说"好"？你不该让我走的。你应该拦我。
+
+bai: 你要走。我不拦。
+
+linchuan: 你就不能——
+
+bai: 你那时候需要走。我看得出来。你站在门口的时候手在抖。
+
+linchuan: ......我没抖。
+
+bai: 抖了。
+
+linchuan: ......
+
+bai (soft): （轻声）你回来了。
+
+linchuan: ......
+
+linchuan: 嗯。我回来了。
+
+bai: 嗯。
+
+她没有问我这一个礼拜干了什么。没有问我现在怎么想。没有问我接不接受。
+
+她只是说了"嗯"。
+
+跟第一天一样。
+
+linchuan (thinking): 她就是这样。从来不多问。从来不追问。从来不说"你必须怎样"。
+
+linchuan (thinking): 她只说"嗯"。
+
+linchuan (thinking): 然后等你回来。
+
+linchuan (thinking): ......
+
+linchuan (sit_down): （走过去，在对面坐下）
+
+linchuan: 小白。
+
+bai: 嗯？
+
+linchuan: 今天读什么？
+
+bai (flip_slow): （愣了一下。很小的一个停顿。然后她低头翻开笔记本。）
+
+bai (flip_slow): （翻了翻，停在一页）
+
+bai: "相逢何必曾相识。"
+
+linchuan: ......什么意思？
+
+bai: 相遇的人，不一定要认识过。
+
+linchuan: ......
+
+linchuan: 行。
+
+bai: 嗯。
+
+linchuan: 明天我带便当。
+
+bai: ......你妈妈又做多了？
+
+linchuan: 对。又做多了。
+
+bai: 哦。
+
+linchuan (thinking): 她翻笔记本的时候手没有抖。但她停顿了一下。
+
+linchuan (thinking): 很小的一个停顿。如果我不认识她，根本不会注意到。
+
+linchuan (thinking): 但我认识她。
+
+linchuan (thinking): 那一下停顿的意思是——她以为我不会回来了。
+
+linchuan (thinking): ......
+
+linchuan (thinking): 我不会再走了。
+
+[background path="res://assets/backgrounds/poetry_club_room_evening2.png" fade="2.0"]
+
+[end_timeline]

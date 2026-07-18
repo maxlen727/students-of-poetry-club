@@ -1,0 +1,182 @@
+[gd_scene format=3 uid="uid://de6106nykht3a"]
+
+[ext_resource type="Script" uid="uid://upgh1qq83ytm" path="res://scripts/title_screen.gd" id="1_title"]
+
+[node name="TitleScreen" type="Control" unique_id=1565303017]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_title")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1739123690]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="ColorBackground" type="ColorRect" parent="." unique_id=900968006]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.09, 0.09, 0.12, 1)
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=238319130]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RootVBox" type="VBoxContainer" parent="CenterContainer" unique_id=2023468896]
+layout_mode = 2
+alignment = 1
+
+[node name="TitleLabel" type="Label" parent="CenterContainer/RootVBox" unique_id=1631923218]
+layout_mode = 2
+theme_override_font_sizes/font_size = 48
+text = "诗文社的学生"
+horizontal_alignment = 1
+
+[node name="SubtitleLabel" type="Label" parent="CenterContainer/RootVBox" unique_id=838855800]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.8, 0.85, 0.8)
+theme_override_font_sizes/font_size = 18
+text = "众里寻他千百度"
+horizontal_alignment = 1
+
+[node name="Spacer1" type="Control" parent="CenterContainer/RootVBox" unique_id=2099372103]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+
+[node name="MainMenuBox" type="VBoxContainer" parent="CenterContainer/RootVBox" unique_id=753378245]
+unique_name_in_owner = true
+layout_mode = 2
+alignment = 1
+
+[node name="StartButton" type="Button" parent="CenterContainer/RootVBox/MainMenuBox" unique_id=866625405]
+custom_minimum_size = Vector2(240, 48)
+layout_mode = 2
+text = "开始 / 继续游戏"
+
+[node name="ChapterSelectButton" type="Button" parent="CenterContainer/RootVBox/MainMenuBox" unique_id=809931395]
+custom_minimum_size = Vector2(240, 48)
+layout_mode = 2
+text = "章节选择"
+
+[node name="SettingsButton" type="Button" parent="CenterContainer/RootVBox/MainMenuBox" unique_id=1031232037]
+custom_minimum_size = Vector2(240, 48)
+layout_mode = 2
+text = "设置"
+
+[node name="QuitButton" type="Button" parent="CenterContainer/RootVBox/MainMenuBox" unique_id=295777326]
+custom_minimum_size = Vector2(240, 48)
+layout_mode = 2
+text = "退出游戏"
+
+[node name="ChapterSelectPanel" type="Panel" parent="." unique_id=818129325]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="ChapterSelectPanel" unique_id=1634030766]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="ChapterSelectPanel/CenterContainer" unique_id=1466351982]
+layout_mode = 2
+alignment = 1
+
+[node name="Title" type="Label" parent="ChapterSelectPanel/CenterContainer/VBox" unique_id=376474049]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "章节选择"
+horizontal_alignment = 1
+
+[node name="Spacer" type="Control" parent="ChapterSelectPanel/CenterContainer/VBox" unique_id=1060176663]
+custom_minimum_size = Vector2(0, 16)
+layout_mode = 2
+
+[node name="ChapterListContainer" type="VBoxContainer" parent="ChapterSelectPanel/CenterContainer/VBox" unique_id=1419891371]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Spacer2" type="Control" parent="ChapterSelectPanel/CenterContainer/VBox" unique_id=552252137]
+custom_minimum_size = Vector2(0, 16)
+layout_mode = 2
+
+[node name="BackButton" type="Button" parent="ChapterSelectPanel/CenterContainer/VBox" unique_id=2144504838]
+custom_minimum_size = Vector2(240, 40)
+layout_mode = 2
+text = "返回"
+
+[node name="SettingsPanel" type="Panel" parent="." unique_id=1109696755]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="SettingsPanel" unique_id=1910542058]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="SettingsPanel/CenterContainer" unique_id=715996489]
+layout_mode = 2
+alignment = 1
+
+[node name="Title" type="Label" parent="SettingsPanel/CenterContainer/VBox" unique_id=244947076]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "设置"
+horizontal_alignment = 1
+
+[node name="Spacer" type="Control" parent="SettingsPanel/CenterContainer/VBox" unique_id=912586687]
+custom_minimum_size = Vector2(0, 16)
+layout_mode = 2
+
+[node name="ResetSaveButton" type="Button" parent="SettingsPanel/CenterContainer/VBox" unique_id=1295631722]
+custom_minimum_size = Vector2(240, 44)
+layout_mode = 2
+text = "清空存档 / 重新开始"
+
+[node name="Spacer2" type="Control" parent="SettingsPanel/CenterContainer/VBox" unique_id=656020059]
+custom_minimum_size = Vector2(0, 16)
+layout_mode = 2
+
+[node name="BackButton" type="Button" parent="SettingsPanel/CenterContainer/VBox" unique_id=464031703]
+custom_minimum_size = Vector2(240, 40)
+layout_mode = 2
+text = "返回"
+
+[connection signal="pressed" from="CenterContainer/RootVBox/MainMenuBox/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="CenterContainer/RootVBox/MainMenuBox/ChapterSelectButton" to="." method="_on_chapter_select_button_pressed"]
+[connection signal="pressed" from="CenterContainer/RootVBox/MainMenuBox/SettingsButton" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="CenterContainer/RootVBox/MainMenuBox/QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="ChapterSelectPanel/CenterContainer/VBox/BackButton" to="." method="_on_chapter_select_back_pressed"]
+[connection signal="pressed" from="SettingsPanel/CenterContainer/VBox/ResetSaveButton" to="." method="_on_reset_save_button_pressed"]
+[connection signal="pressed" from="SettingsPanel/CenterContainer/VBox/BackButton" to="." method="_on_settings_back_pressed"]

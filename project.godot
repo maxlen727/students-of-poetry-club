@@ -11,17 +11,44 @@ config_version=5
 [application]
 
 config/name="Students of Poetry Club"
+run/main_scene="res://scenes/title_screen.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
 Dialogic="*uid://ds2q0uclmolvu"
+GameState="*res://scripts/game_state.gd"
 
 [dialogic]
 
-directories/dch_directory={}
-directories/dtl_directory={}
+directories/dch_directory={
+"archchan": "res://character/archchan.dch",
+"bai": "res://character/bai.dch",
+"characters/archchan": "res://characters/archchan.dch",
+"characters/bai": "res://characters/bai.dch",
+"characters/chenan": "res://characters/chenan.dch",
+"characters/linchuan": "res://characters/linchuan.dch",
+"characters/linfeng": "res://characters/linfeng.dch",
+"characters/others": "res://characters/others.dch",
+"characters/teacher": "res://characters/teacher.dch",
+"characters/yuanzhou": "res://characters/yuanzhou.dch",
+"chenan": "res://character/chenan.dch",
+"linchuan": "res://character/linchuan.dch",
+"linfeng": "res://character/linfeng.dch",
+"others": "res://character/others.dch",
+"teacher": "res://character/teacher.dch",
+"yuanzhou": "res://character/yuanzhou.dch"
+}
+directories/dtl_directory={
+"ch1_推门始觉有人来": "res://timelines/ch1_推门始觉有人来.dtl",
+"ch2_日长不觉诗渐暖": "res://timelines/ch2_日长不觉诗渐暖.dtl",
+"ch3_满座无人唯我见": "res://timelines/ch3_满座无人唯我见.dtl",
+"ch4_欲握清风指尖空": "res://timelines/ch4_欲握清风指尖空.dtl",
+"ch5_灯火阑珊人却在": "res://timelines/ch5_灯火阑珊人却在.dtl",
+"chapter_1": "res://timeline/chapter_1.dtl",
+"main": "res://timeline/main.dtl"
+}
 layout/style_directory={}
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01

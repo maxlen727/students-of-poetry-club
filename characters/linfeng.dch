@@ -1,0 +1,34 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(1, 1, 1, 1),
+&"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "",
+"suffix": ""
+},
+&"default_portrait": "neutral",
+&"description": "",
+&"display_name": "Linfeng",
+&"mirror": false,
+&"nicknames": [""],
+&"offset": Vector2(0, 0),
+&"portraits": {
+"neutral": {
+"export_overrides": {
+"image": "res://assets/portraits/linfeng/neutral.png"
+},
+"scene": ""
+},
+"energetic": {
+"export_overrides": {
+"image": "res://assets/portraits/linfeng/energetic.png"
+},
+"scene": ""
+}
+},
+&"scale": 1.0
+}
