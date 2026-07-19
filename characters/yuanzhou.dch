@@ -12,15 +12,16 @@
 },
 &"default_portrait": "neutral",
 &"description": "",
-&"display_name": "Yuanzhou",
+&"display_name": "远舟",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"neutral": {
+"confused": {
 "export_overrides": {
-"image": "res://assets/portraits/yuanzhou/neutral.png"
+"image": "res://assets/portraits/yuanzhou/confused.png"
 },
+"offset": Vector2(0, 0),
 "scene": ""
 },
 "laughing": {
@@ -29,10 +30,11 @@
 },
 "scene": ""
 },
-"confused": {
+"neutral": {
 "export_overrides": {
-"image": "res://assets/portraits/yuanzhou/confused.png"
+"image": "res://assets/portraits/yuanzhou/neutral.png"
 },
+"offset": Vector2(0, 0),
 "scene": ""
 }
 },

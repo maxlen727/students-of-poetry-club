@@ -12,21 +12,22 @@
 },
 &"default_portrait": "neutral",
 &"description": "",
-&"display_name": "Linfeng",
+&"display_name": "林风",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"neutral": {
-"export_overrides": {
-"image": "res://assets/portraits/linfeng/neutral.png"
-},
-"scene": ""
-},
 "energetic": {
 "export_overrides": {
 "image": "res://assets/portraits/linfeng/energetic.png"
 },
+"scene": ""
+},
+"neutral": {
+"export_overrides": {
+"image": "res://assets/portraits/linfeng/neutral.png"
+},
+"offset": Vector2(0, 0),
 "scene": ""
 }
 },

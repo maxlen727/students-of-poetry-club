@@ -23,8 +23,6 @@ GameState="*res://scripts/game_state.gd"
 [dialogic]
 
 directories/dch_directory={
-"archchan": "res://character/archchan.dch",
-"bai": "res://character/bai.dch",
 "characters/archchan": "res://characters/archchan.dch",
 "characters/bai": "res://characters/bai.dch",
 "characters/chenan": "res://characters/chenan.dch",
@@ -32,13 +30,7 @@ directories/dch_directory={
 "characters/linfeng": "res://characters/linfeng.dch",
 "characters/others": "res://characters/others.dch",
 "characters/teacher": "res://characters/teacher.dch",
-"characters/yuanzhou": "res://characters/yuanzhou.dch",
-"chenan": "res://character/chenan.dch",
-"linchuan": "res://character/linchuan.dch",
-"linfeng": "res://character/linfeng.dch",
-"others": "res://character/others.dch",
-"teacher": "res://character/teacher.dch",
-"yuanzhou": "res://character/yuanzhou.dch"
+"characters/yuanzhou": "res://characters/yuanzhou.dch"
 }
 directories/dtl_directory={
 "ch1_推门始觉有人来": "res://timelines/ch1_推门始觉有人来.dtl",
@@ -46,8 +38,7 @@ directories/dtl_directory={
 "ch3_满座无人唯我见": "res://timelines/ch3_满座无人唯我见.dtl",
 "ch4_欲握清风指尖空": "res://timelines/ch4_欲握清风指尖空.dtl",
 "ch5_灯火阑珊人却在": "res://timelines/ch5_灯火阑珊人却在.dtl",
-"chapter_1": "res://timeline/chapter_1.dtl",
-"main": "res://timeline/main.dtl"
+"timeline": "res://timelines/timeline.dtl"
 }
 layout/style_directory={}
 extensions_folder="res://addons/dialogic_additions"
@@ -89,6 +80,8 @@ audio/channel_defaults={
 "volume": 0.0
 }
 }
+variables={}
+glossary/default_case_sensitive=true
 
 [display]
 

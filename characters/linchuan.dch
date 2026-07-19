@@ -17,15 +17,23 @@
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
+"awkward": {
+"export_overrides": {
+"image": "res://assets/portraits/linchuan/awkward.png"
+},
+"offset": Vector2(0, 0),
+"scene": ""
+},
 "neutral": {
 "export_overrides": {
 "image": "res://assets/portraits/linchuan/neutral.png"
 },
+"offset": Vector2(0, 0),
 "scene": ""
 },
-"thinking": {
+"serious": {
 "export_overrides": {
-"image": "res://assets/portraits/linchuan/thinking.png"
+"image": "res://assets/portraits/linchuan/serious.png"
 },
 "scene": ""
 },
@@ -41,15 +49,9 @@
 },
 "scene": ""
 },
-"awkward": {
+"thinking": {
 "export_overrides": {
-"image": "res://assets/portraits/linchuan/awkward.png"
-},
-"scene": ""
-},
-"serious": {
-"export_overrides": {
-"image": "res://assets/portraits/linchuan/serious.png"
+"image": "res://assets/portraits/linchuan/thinking.png"
 },
 "scene": ""
 }

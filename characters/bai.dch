@@ -12,14 +12,40 @@
 },
 &"default_portrait": "neutral",
 &"description": "",
-&"display_name": "Bai",
+&"display_name": "白",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
+"crying": {
+"export_overrides": {
+"image": "res://assets/portraits/bai/crying.png"
+},
+"offset": Vector2(0, 0),
+"scene": ""
+},
+"deadpan": {
+"export_overrides": {
+"image": "res://assets/portraits/bai/deadpan.png"
+},
+"scene": ""
+},
 "neutral": {
 "export_overrides": {
 "image": "res://assets/portraits/bai/neutral.png"
+},
+"offset": Vector2(0, 0),
+"scene": ""
+},
+"sad": {
+"export_overrides": {
+"image": "res://assets/portraits/bai/sad.png"
+},
+"scene": ""
+},
+"serious": {
+"export_overrides": {
+"image": "res://assets/portraits/bai/serious.png"
 },
 "scene": ""
 },
@@ -35,33 +61,9 @@
 },
 "scene": ""
 },
-"deadpan": {
-"export_overrides": {
-"image": "res://assets/portraits/bai/deadpan.png"
-},
-"scene": ""
-},
-"serious": {
-"export_overrides": {
-"image": "res://assets/portraits/bai/serious.png"
-},
-"scene": ""
-},
-"sad": {
-"export_overrides": {
-"image": "res://assets/portraits/bai/sad.png"
-},
-"scene": ""
-},
 "startled": {
 "export_overrides": {
 "image": "res://assets/portraits/bai/startled.png"
-},
-"scene": ""
-},
-"crying": {
-"export_overrides": {
-"image": "res://assets/portraits/bai/crying.png"
 },
 "scene": ""
 }

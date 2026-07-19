@@ -1,152 +1,114 @@
-# =========================================================
-# 诗文社的学生 - 第一章：推门始觉有人来
-#
-# 角色说话人对照表（对应 characters/ 目录下的 .dch 文件名，须小写精确匹配）：
-#   临川   -> linchuan （男主，第一人称）
-#   白     -> bai      （女主）
-#   老师   -> teacher
-#   ？？？ -> archchan （Arch Linux Chan，开场客串）
-#   System / 无说话人的场景描写 -> 不带说话人前缀的纯文本行（Dialogic 会以旁白样式显示）
-#
-# 说明：
-#   - <...> 场景/舞台指示已转换为 [background ...] / [sound ...] / [join ...] /
-#     [update ...] / [leave ...] 等短代码事件；资源路径均为占位，
-#     束束后续补齐 assets/ 下对应文件即可，无需再改时间线。
-#   - 表情标签（如 thinking / smile_first_time）需要与 characters/*.dch 里
-#     portraits 字段的 key 完全对应，目前已在角色文件中预留同名占位。
-#   - 内心独白统一用 (thinking) 表情标注，方便后续在 Dialogic 里做统一的
-#     气泡样式/字体区分。
-#   - 原文中的破折号统一为"——"，省略号统一为"……"，Dialogic 会原样显示。
-# =========================================================
+[background arg="res://assets/backgrounds/school_gate.png" fade="0.0"]
 
-[background path="res://assets/backgrounds/school_gate.png"]
+characters/linchuan: 临川，我，是一个新入学的高中学生。本届高中与往届有些不同——因为政策要求落实"全面发展的素质教育"，学校开始举办放学后的社团活动。
 
-linchuan: 临川，我，是一个新入学的高中学生。本届高中与往届有些不同——因为政策要求落实"全面发展的素质教育"，学校开始举办放学后的社团活动。
+[background arg="res://assets/backgrounds/classroom.png" fade="0.0"]
 
-[background path="res://assets/backgrounds/classroom.png"]
+characters/teacher: 现在统计一下大家报的社团。
 
-teacher: 现在统计一下大家报的社团。
+characters/linchuan: (看着宣发的海报，我开始思考——)
 
-看着宣发的海报，我开始思考——
+characters/linchuan: (篮球社团？——我跑800米都喘；)
 
-linchuan: 篮球社团？——我跑800米都喘；
+characters/linchuan: (超自然研究社团？——听名字就很奇怪，说不定里面还会出现魔女一类的怪人……)
 
-linchuan: 超自然研究社团？——听名字就很奇怪，说不定里面还会出现魔女一类的怪人……
+characters/linchuan: (计算机社团？——自由编程？畅玩Steam？)
 
-linchuan: 计算机社团？——自由编程？畅玩Steam？
+characters/linchuan: (……听起来像天堂)
 
-linchuan: ……听起来像天堂
+characters/linchuan: 我想选计算机社团！
 
-linchuan: 我想选计算机社团！
+characters/archchan: 嗯？？？
 
-archchan: 嗯？？？
+characters/linchuan: 嗯？？？
 
-linchuan (confused): 嗯？？？
+characters/linchuan: 扭头看去，是一位身穿黑色卫衣的"萝莉"。
 
-扭头看去，是一位身穿黑色卫衣的"萝莉"。
+characters/linchuan (thinking): 看上去年龄好小...这真的是个高中生吗？！
 
-[join archchan (default) center]
+characters/linchuan (thinking): 还有种莫名的眼熟感...她长得好像某个宗教的吉祥物啊……
 
-linchuan (thinking): 看上去年龄好小...这真的是个高中生吗？！
+characters/linchuan: 女生好像看透了我的想法。
 
-linchuan (thinking): 还有种莫名的眼熟感...她长得好像某个宗教的吉祥物啊……
+characters/archchan (angry): 喂，我已经24岁了！另外，只有高手才有资格当计算机的主人噢，小白什么的速速退散！
 
-女生好像看透了我的想法。
+characters/linchuan: 24岁？嘶~这不是高中吗...留级？
 
-[update archchan (angry) center]
+characters/linchuan: 看着女生愤怒的表情，总感觉似乎不该太纠结这个问题……
 
-archchan (angry): 喂，我已经24岁了！另外，只有高手才有资格当计算机的主人噢，小白什么的速速退散！
+characters/linchuan (thinking): 算了算了，还是把这个名额给她吧……
 
-linchuan: 24岁？嘶~这不是高中吗...留级？
+characters/linchuan: 在我继续思考报什么社团过程中，其他同学已经大多报完了。
 
-看着女生愤怒的表情，总感觉似乎不该太纠结这个问题……
+characters/teacher: 临川，现在只有诗文社还有剩余名额了，干脆你到诗文社吧。
 
-linchuan (thinking): 算了算了，还是把这个名额给她吧……
+characters/linchuan: 哎？！——
 
-# Arch Linux Chan 立绘消失
-[leave archchan]
+characters/linchuan: 诗文社吗？从名字感觉完全提不起兴趣啊……
 
-在我继续思考报什么社团过程中，其他同学已经大多报完了。
+characters/linchuan: 算了，就当是……完成任务吧。
 
-teacher: 临川，现在只有诗文社还有剩余名额了，干脆你到诗文社吧。
+characters/linchuan: 出于莫名其妙的原因，我进入了诗文社。
 
-linchuan: 哎？！——
+[background arg="res://assets/backgrounds/sunset_sky.png" fade="0.0"]
 
-linchuan: 诗文社吗？从名字感觉完全提不起兴趣啊……
+characters/linchuan: 真是无聊啊~以后的社团活动该怎么熬过去呢？
 
-linchuan (sigh): 算了，就当是……完成任务吧。
+[background arg="res://assets/backgrounds/corridor.png" fade="0.0"]
 
-出于莫名其妙的原因，我进入了诗文社。
+characters/linchuan: 唉，多么无聊啊……
 
-[background path="res://assets/backgrounds/sunset_sky.png"]
+[background arg="res://assets/backgrounds/club_dusty.png" fade="0.0"]
 
-linchuan: 真是无聊啊~以后的社团活动该怎么熬过去呢？
+characters/linchuan: 诗文社在老教学楼的楼顶。推开门，一股旧书和木头混合的、略带陈腐的气味扑面而来。夕阳透过满是灰尘的窗户，把房间切成明暗两半。
 
-# ---------------------------------------------------------
-# 场景：下午 · 诗文社活动室
-# ---------------------------------------------------------
+characters/linchuan: 果然这种社团只有我一个人吗……
 
-[background path="res://assets/backgrounds/corridor.png"]
+characters/linchuan: 诗文社……诗文果然是要被时代遗忘的东西吧
 
-linchuan: 唉，多么无聊啊……
+characters/linchuan: 唉......以后的社团活动时间，难道就要在这里发呆了吗？
 
-[background path="res://assets/backgrounds/poetry_club_room_dusty.png"]
+characters/linchuan: 我百无聊赖地在一张旧书桌前坐下，手指无意识地划过桌面，留下清晰的指痕。书架上的书东倒西歪，积满了灰尘，唯独一本蓝色封皮、没有书名的线装书，干净得与这里格格不入。
 
-诗文社在老教学楼的楼顶。推开门，一股旧书和木头混合的、略带陈腐的气味扑面而来。夕阳透过满是灰尘的窗户，把房间切成明暗两半。
+characters/linchuan: 嗯？这本书...
 
-linchuan (looking_around): 果然这种社团只有我一个人吗……
+characters/linchuan: 我好奇地抽出这本书，翻开书页——
 
-linchuan: 诗文社……诗文果然是要被时代遗忘的东西吧
+characters/linchuan: "君问归期未有期......此间心境，何人能解？"
 
-linchuan (leaning): 唉......以后的社团活动时间，难道就要在这里发呆了吗？
+characters/linchuan: 这社团的前辈，还挺多愁善感的嘛。"此间心境"......看来也是个觉得这里无聊的人？
 
-我百无聊赖地在一张旧书桌前坐下，手指无意识地划过桌面，留下清晰的指痕。书架上的书东倒西歪，积满了灰尘，唯独一本蓝色封皮、没有书名的线装书，干净得与这里格格不入。
+characters/linchuan: 我将书放回原处，决定用睡觉打发时间。就在我意识逐渐模糊时，一阵极细微、极清冷的女声，仿佛贴着我的耳畔响起。
 
-linchuan: 嗯？这本书...
+characters/bai: "......何当共剪西窗烛......却话巴山夜雨时......"
 
-我好奇地抽出这本书，翻开书页——
+characters/linchuan: ？！！
 
-"君问归期未有期......此间心境，何人能解？"
+characters/linchuan: 我猛地惊醒，环顾四周——房间里依旧空无一人，只有风吹动窗帘的影子。
 
-linchuan (smirk): 这社团的前辈，还挺多愁善感的嘛。"此间心境"......看来也是个觉得这里无聊的人？
+characters/linchuan: 是幻听吗？（拍胸口）......靠，老楼的通风也太好了吧，阴风阵阵的。
 
-我将书放回原处，决定用睡觉打发时间。就在我意识逐渐模糊时，一阵极细微、极清冷的女声，仿佛贴着我的耳畔响起。
+audio "res://assets/sfx/school_bell_distant.ogg"
 
-bai (offscreen): "......何当共剪西窗烛......却话巴山夜雨时......"
+characters/linchuan: 算了，撤。第一天打卡完成，明天再来睡。
 
-linchuan: ？！！
+[background arg="res://assets/backgrounds/club_afternoon.png" fade="0.0"]
 
-我猛地惊醒，环顾四周——房间里依旧空无一人，只有风吹动窗帘的影子。
+characters/linchuan: 第二天，我准时来活动室"打卡"。
 
-linchuan (startled): 是幻听吗？（拍胸口）......靠，老楼的通风也太好了吧，阴风阵阵的。
+audio "res://assets/sfx/door_open.ogg"
 
-[sound path="res://assets/sfx/school_bell_distant.ogg"]
+characters/linchuan: ——哎？
 
-linchuan: 算了，撤。第一天打卡完成，明天再来睡。
+characters/linchuan: 门一推开，我愣住了。昨天还满地灰尘的房间，靠窗那一半竟然被打扫得干干净净。桌子擦得反光，书架上的书也被重新码整齐了。
 
-# ---------------------------------------------------------
-# 场景：第二天 · 诗文社活动室，午后阳光
-# ---------------------------------------------------------
+characters/linchuan: 书架旁边站着个女生。
 
-[background path="res://assets/backgrounds/poetry_club_room_afternoon.png"]
+characters/linchuan: 穿着普通校服，长发用一根皮筋随便扎着，正踮脚把一本蓝皮书塞回最高层。阳光打在她侧脸上，表情很专注。
 
-linchuan: 第二天，我准时来活动室"打卡"。
+characters/linchuan: 这社团居然还有活人？
 
-[sound path="res://assets/sfx/door_open.ogg"]
-
-linchuan: ——哎？
-
-门一推开，我愣住了。昨天还满地灰尘的房间，靠窗那一半竟然被打扫得干干净净。桌子擦得反光，书架上的书也被重新码整齐了。
-
-书架旁边站着个女生。
-
-[join bai (neutral) center]
-
-穿着普通校服，长发用一根皮筋随便扎着，正踮脚把一本蓝皮书塞回最高层。阳光打在她侧脸上，表情很专注。
-
-linchuan (thinking): 这社团居然还有活人？
-
-linchuan (thinking): 等等不对，她在擦书架？现在的高中女生还有干这个的？
+characters/linchuan (thinking): 等等不对，她在擦书架？现在的高中女生还有干这个的？
 
 她似乎察觉到我的目光，手一抖，那本蓝皮书滑了下来，"啪"掉在地上。
 
@@ -266,7 +228,7 @@ linchuan (sleepy): 声音挺好听的......当催眠曲正合适......
 
 我感觉衣袖被什么东西轻轻扯了一下，像被风勾住了。我没在意，换了个姿势继续睡。
 
-[background path="res://assets/backgrounds/poetry_club_room_dusk.png"]
+[background fade="0.0"]
 
 等我再醒来的时候，天已经快黑了。白已经收拾好了东西，站在门口看着我。
 
@@ -290,7 +252,7 @@ linchuan: 那......走吧，一起下楼。天黑了老楼没灯。
 
 bai (pause): 好。
 
-[background path="res://assets/backgrounds/old_building_stairs.png"]
+[background fade="0.0"]
 
 我们一前一后走在昏暗的楼梯上。她走得很慢，每一步都踩得很轻，像怕踩碎地上的灰尘。
 
@@ -320,7 +282,7 @@ linchuan: ......啊？
 
 linchuan (thinking): 她刚才笑了吧？笑什么啊？我记住一句诗有什么好高兴的？
 
-[background path="res://assets/backgrounds/school_gate_night.png"]
+[background fade="0.0"]
 
 她在校门口朝我点了一下头，转身走进了另一条路。我看着她的背影消失在路灯尽头。
 
@@ -338,7 +300,7 @@ linchuan: 说起来，她到底几年级几班的？我都没来得及问。
 
 linchuan: ......算了，明天再说吧。
 
-[background path="res://assets/backgrounds/linchuan_bedroom_night.png"]
+[background fade="0.0"]
 
 回到家，躺在床上。本以为今天就是个普通的开学周，脑子里却老是闪过那个画面——她站在书架边，阳光打在脸上，认认真真地把书摆正。
 
