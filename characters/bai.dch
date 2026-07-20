@@ -26,15 +26,18 @@
 },
 "deadpan": {
 "export_overrides": {
-"image": "res://assets/portraits/bai/deadpan.png"
+"image": "\"res://assets/portraits/bai/bai_w.png\""
 },
+"offset": Vector2(0, 300),
+"scale": 1.4,
 "scene": ""
 },
 "neutral": {
 "export_overrides": {
-"image": "res://assets/portraits/bai/neutral.png"
+"image": "\"res://assets/portraits/bai/bai.png\""
 },
-"offset": Vector2(0, 0),
+"offset": Vector2(0, 300),
+"scale": 1.4,
 "scene": ""
 },
 "sad": {
@@ -57,8 +60,10 @@
 },
 "smile_first_time": {
 "export_overrides": {
-"image": "res://assets/portraits/bai/smile_first_time.png"
+"image": "\"res://assets/portraits/bai/bai_smile.png\""
 },
+"offset": Vector2(0, 300),
+"scale": 1.4,
 "scene": ""
 },
 "startled": {

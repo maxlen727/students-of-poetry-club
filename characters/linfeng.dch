@@ -21,6 +21,7 @@
 "export_overrides": {
 "image": "res://assets/portraits/linfeng/energetic.png"
 },
+"offset": Vector2(0, 0),
 "scene": ""
 },
 "neutral": {

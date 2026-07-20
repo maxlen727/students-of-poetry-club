@@ -12,7 +12,7 @@
 },
 &"default_portrait": "default",
 &"description": "",
-&"display_name": "Arch chan",
+&"display_name": "{another_name}",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
@@ -21,14 +21,28 @@
 "export_overrides": {
 "image": "res://assets/portraits/archchan/angry.png"
 },
-"offset": Vector2(0, 0),
+"ignore_char_scale": true,
+"offset": Vector2(-5, -10),
+"scale": 0.98,
 "scene": ""
 },
 "default": {
 "export_overrides": {
 "image": "res://assets/portraits/archchan/default.png"
 },
+"ignore_char_scale": true,
+"mirror": false,
+"offset": Vector2(0, 20),
+"scale": 1.0,
+"scene": ""
+},
+"secret": {
+"export_overrides": {
+"image": ""
+},
+"mirror": false,
 "offset": Vector2(0, 0),
+"scale": 1,
 "scene": ""
 }
 },

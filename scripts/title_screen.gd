@@ -30,7 +30,7 @@ func _build_chapter_buttons() -> void:
 		if completed:
 			label_text += "  ✓ 已通关"
 		elif not unlocked:
-			label_text = "🔒 " + label_text
+			label_text = "🔒 " + "???"
 
 		button.text = label_text
 		button.disabled = not unlocked
