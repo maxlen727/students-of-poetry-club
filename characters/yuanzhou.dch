@@ -17,22 +17,9 @@
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"confused": {
-"export_overrides": {
-"image": "res://assets/portraits/yuanzhou/confused.png"
-},
-"offset": Vector2(0, 0),
-"scene": ""
-},
-"laughing": {
-"export_overrides": {
-"image": "res://assets/portraits/yuanzhou/laughing.png"
-},
-"scene": ""
-},
 "neutral": {
 "export_overrides": {
-"image": "res://assets/portraits/yuanzhou/neutral.png"
+"image": "\"res://assets/portraits/yuanzhou/yuanzhou.png\""
 },
 "offset": Vector2(0, 0),
 "scene": ""

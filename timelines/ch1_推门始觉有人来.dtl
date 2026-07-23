@@ -3,8 +3,10 @@
 临川，我，是一个新入学的高中学生。本届高中与往届有些不同——因为政策要求落实"全面发展的素质教育"，学校开始举办放学后的社团活动。
 
 [background arg="res://assets/backgrounds/classroom.png" fade="0.8"]
+join characters/teacher center
 
 characters/teacher: 现在统计一下大家报的社团。
+leave characters/teacher [animation="Fade Out"]
 
 看着宣发的海报，我开始思考——
 
@@ -44,10 +46,12 @@ characters/linchuan (thinking): 算了算了，还是把这个名额给她吧…
 leave characters/archchan
 
 characters/linchuan: 在我继续思考报什么社团过程中，其他同学已经大多报完了。
+join characters/teacher center [animation="Fade In"]
 
 characters/teacher: 临川，现在只有诗文社还有剩余名额了，干脆你到诗文社吧。
 
 characters/linchuan: 哎？！——
+leave characters/teacher [animation="Fade Out"]
 
 characters/linchuan: 诗文社吗？从名字感觉完全提不起兴趣啊……
 
@@ -116,7 +120,7 @@ characters/linchuan: ——哎？
 门一推开，我愣住了。昨天还满地灰尘的房间，靠窗那一半竟然被打扫得干干净净。桌子擦得反光，书架上的书也被重新码整齐了。
 
 书架旁边站着个女生。
-[background arg="res://assets/backgrounds/bai_bookshelf.png" fade="0.8"]
+[background arg="res://assets/backgrounds/bai_and_bookshelf.png" fade="0.8"]
 
 穿着普通校服，长发在身后披着，簪子随意的别在头侧，流苏在簪尾垂下，正踮脚把一本蓝皮书塞回最高层。阳光打在她侧脸上，表情很专注。
 
@@ -142,14 +146,14 @@ characters/linchuan: 那个......同学，你也是诗文社的？
 characters/bai: 嗯。
 
 characters/linchuan: 我叫临川。你呢？
-update characters/bai (deadpan) [fade="Fade Cross" fade_length="0.01"]
+update characters/bai (deadpan) [fade="Fade Cross"]
 
 characters/bai: ......白。
 
 characters/linchuan: 白？全名呢？
 
 characters/bai: 就叫白。
-update characters/bai (neutral) [fade="Fade Cross" fade_length="0.01"]
+update characters/bai (neutral) [fade="Fade Cross"]
 
 characters/linchuan: （行吧，不愿说就算了。说不定是单亲家庭什么的，不想提。算了不追问了。）
 
@@ -181,12 +185,12 @@ characters/linchuan: 你这笔记本......挺有年代感啊。哪买的？
 characters/bai: 不是买的。
 
 characters/linchuan: 借的？
-update characters/bai (deadpan)
+update characters/bai (deadpan) [fade="Fade Cross"]
 
 characters/bai: ......一直都在的。
 
 characters/linchuan (thinking): （一直都在？什么意思，传家宝吗？算了，可能是什么前辈留的她舍不得换吧。）
-update characters/bai (neutral)
+update characters/bai (neutral) [fade="Fade Cross"]
 
 房间里安静下来。我趴在桌上玩手机，她坐在窗边看书。本来以为这个下午就这么平淡地混过去了。
 
@@ -205,7 +209,7 @@ characters/bai: ......不用翻，都在这里。
 characters/linchuan: 都在这里？你背下来了啊
 
 characters/linchuan: 那你盯着看什么？
-update characters/bai (deadpan)
+update characters/bai (deadpan) [fade="Fade Cross"]
 
 characters/bai: ......在看它还在不在。
 

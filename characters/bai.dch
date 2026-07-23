@@ -17,11 +17,13 @@
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"crying": {
+"angry": {
 "export_overrides": {
-"image": "res://assets/portraits/bai/crying.png"
+"image": "\"res://assets/portraits/bai/angry.png\""
 },
-"offset": Vector2(0, 0),
+"mirror": false,
+"offset": Vector2(0, 300),
+"scale": 1.4,
 "scene": ""
 },
 "deadpan": {
@@ -40,22 +42,47 @@
 "scale": 1.4,
 "scene": ""
 },
+"reading": {
+"export_overrides": {
+"image": "\"res://assets/portraits/bai/reading.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 300),
+"scale": 1.4,
+"scene": ""
+},
 "sad": {
 "export_overrides": {
 "image": "res://assets/portraits/bai/sad.png"
 },
+"offset": Vector2(0, 300),
+"scale": 1.4,
 "scene": ""
 },
-"serious": {
+"shy": {
 "export_overrides": {
-"image": "res://assets/portraits/bai/serious.png"
+"image": "\"res://assets/portraits/bai/shy.png\""
 },
+"mirror": false,
+"offset": Vector2(0, 300),
+"scale": 1.4,
+"scene": ""
+},
+"shy2": {
+"export_overrides": {
+"image": "\"res://assets/portraits/bai/shy_2.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 300),
+"scale": 1.4,
 "scene": ""
 },
 "smile": {
 "export_overrides": {
-"image": "res://assets/portraits/bai/smile.png"
+"image": "\"res://assets/portraits/bai/happy.png\""
 },
+"offset": Vector2(0, 300),
+"scale": 1.4,
 "scene": ""
 },
 "smile_first_time": {
@@ -66,10 +93,13 @@
 "scale": 1.4,
 "scene": ""
 },
-"startled": {
+"thinking": {
 "export_overrides": {
-"image": "res://assets/portraits/bai/startled.png"
+"image": "\"res://assets/portraits/bai/thinking.png\""
 },
+"mirror": false,
+"offset": Vector2(0, 300),
+"scale": 1.4,
 "scene": ""
 }
 },

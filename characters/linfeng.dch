@@ -17,16 +17,9 @@
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"energetic": {
-"export_overrides": {
-"image": "res://assets/portraits/linfeng/energetic.png"
-},
-"offset": Vector2(0, 0),
-"scene": ""
-},
 "neutral": {
 "export_overrides": {
-"image": "res://assets/portraits/linfeng/neutral.png"
+"image": "\"res://assets/portraits/linfeng/linfeng.png\""
 },
 "offset": Vector2(0, 0),
 "scene": ""

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7mdv1bwvnmp6"
-path="res://.godot/imported/bai_bookshelf.png-bca65aaf45493f83743abb912838bb47.ctex"
+uid="uid://ceyyn7x2pdtkt"
+path="res://.godot/imported/cafeteria.png-26362c68f5718a3b9d39aaf54e3a7ad9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/bai_bookshelf.png"
-dest_files=["res://.godot/imported/bai_bookshelf.png-bca65aaf45493f83743abb912838bb47.ctex"]
+source_file="res://assets/backgrounds/cafeteria.png"
+dest_files=["res://.godot/imported/cafeteria.png-26362c68f5718a3b9d39aaf54e3a7ad9.ctex"]
 
 [params]
 
