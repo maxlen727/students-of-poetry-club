@@ -21,7 +21,8 @@
 "export_overrides": {
 "image": "\"res://assets/portraits/linfeng/linfeng.png\""
 },
-"offset": Vector2(0, 0),
+"offset": Vector2(0, 300),
+"scale": 1.4,
 "scene": ""
 }
 },

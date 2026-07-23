@@ -106,12 +106,12 @@ audio "res://assets/sfx/school_bell.mp3"
 system: 放学铃的声音从远处传来——
 
 characters/linchuan: 算了，撤。第一天打卡完成，明天再来睡。
-[background arg="#000000ff" fade="1.0"]
+[background arg="#000000ff" fade="1.0" wait="true"]
 system: 第二天下午——
 
 audio "res://assets/sfx/door.mp3"
 
-[background arg="res://assets/backgrounds/club_afternoon.png" fade="1.0"]
+[background arg="res://assets/backgrounds/club_afternoon.png" fade="1.0" wait="true"]
 
 第二天，我又来到活动室"打卡"。
 

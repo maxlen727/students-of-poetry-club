@@ -41,8 +41,7 @@ overrides = {
 "next_indicator_position_offset": "Vector2(-15, -15)",
 "next_indicator_size": "Vector2(10, 10)",
 "text_size": "18.0",
-"text_use_global_size": "false",
-"typing_sounds_volume": "-15.0"
+"text_use_global_size": "false"
 }
 
 [sub_resource type="Resource" id="Resource_anc13"]
