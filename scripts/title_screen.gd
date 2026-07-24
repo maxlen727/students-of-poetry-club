@@ -7,11 +7,19 @@ extends Control
 @onready var settings_panel: Panel = %SettingsPanel
 
 
+@onready var start_button: Button = %StartButton
+
+
 func _ready() -> void:
 	chapter_select_panel.hide()
 	settings_panel.hide()
 	main_menu_box.show()
 	_build_chapter_buttons()
+	_refresh_start_button_text()
+
+
+func _refresh_start_button_text() -> void:
+	start_button.text = "继续游戏" if GameState.has_continue_save() else "开始游戏"
 
 
 func _build_chapter_buttons() -> void:
@@ -43,10 +51,9 @@ func _on_chapter_button_pressed(index: int) -> void:
 
 
 func _on_start_button_pressed() -> void:
-	# "开始游戏" 默认从玩家上次进度继续；如果全新存档则从第一章开始
-	var next_index: int = GameState.save_data.get("unlocked_chapter", 0)
-	# 若上一章已完成而下一章也已解锁，则默认打开下一章；否则打开当前进度所在章节
-	GameState.start_chapter(next_index)
+	# 有可续读的 Dialogic 存档时，精确恢复到离开时的那一句；
+	# 否则（全新存档，或该章节已经播完清档）从上次所在章节的开头开始。
+	GameState.continue_game()
 
 
 func _on_chapter_select_button_pressed() -> void:
@@ -73,6 +80,7 @@ func _on_settings_back_pressed() -> void:
 func _on_reset_save_button_pressed() -> void:
 	GameState.reset_save()
 	_build_chapter_buttons()
+	_refresh_start_button_text()
 
 
 func _on_quit_button_pressed() -> void:

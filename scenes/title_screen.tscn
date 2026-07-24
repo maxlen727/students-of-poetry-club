@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://de6106nykht3a"]
 
-[ext_resource type="Script" uid="uid://upgh1qq83ytm" path="res://scripts/title_screen.gd" id="1_title"]
+[ext_resource type="Script" uid="uid://ctt4jiwxe3786" path="res://scripts/title_screen.gd" id="1_title"]
 [ext_resource type="Texture2D" uid="uid://bay1ueky2rhrd" path="res://assets/backgrounds/school_gate.png" id="2_sa3yf"]
 
 [node name="TitleScreen" type="Control" unique_id=1565303017]
@@ -67,6 +67,7 @@ layout_mode = 2
 alignment = 1
 
 [node name="StartButton" type="Button" parent="CenterContainer/RootVBox/MainMenuBox" unique_id=866625405]
+unique_name_in_owner = true
 custom_minimum_size = Vector2(240, 48)
 layout_mode = 2
 text = "开始 / 继续游戏"

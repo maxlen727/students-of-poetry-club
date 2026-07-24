@@ -1,0 +1,105 @@
+[gd_scene format=3 uid="uid://c8n5w4d1x2m6q"]
+
+[ext_resource type="Script" path="res://scripts/game_screen.gd" id="1_game"]
+
+[node name="GameScreen" type="CanvasLayer"]
+layer = 10
+script = ExtResource("1_game")
+
+[node name="Root" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="TopBar" type="HBoxContainer" parent="Root"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -220.0
+offset_top = 16.0
+offset_right = -16.0
+offset_bottom = 56.0
+grow_horizontal = 0
+alignment = 2
+
+[node name="AutoPlayButton" type="Button" parent="Root/TopBar" unique_id=100001]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+toggle_mode = true
+text = "自动：关"
+
+[node name="MenuButton" type="Button" parent="Root/TopBar"]
+custom_minimum_size = Vector2(90, 40)
+layout_mode = 2
+text = "菜单 (Esc)"
+
+[node name="ExitConfirmPanel" type="Panel" parent="Root"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="ColorRect" type="ColorRect" parent="Root/ExitConfirmPanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.55)
+
+[node name="CenterContainer" type="CenterContainer" parent="Root/ExitConfirmPanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="Root/ExitConfirmPanel/CenterContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="Root/ExitConfirmPanel/CenterContainer/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "要返回主界面吗？
+（当前进度会自动保存）"
+horizontal_alignment = 1
+
+[node name="Spacer" type="Control" parent="Root/ExitConfirmPanel/CenterContainer/VBox"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+
+[node name="ButtonRow" type="HBoxContainer" parent="Root/ExitConfirmPanel/CenterContainer/VBox"]
+layout_mode = 2
+alignment = 1
+
+[node name="YesButton" type="Button" parent="Root/ExitConfirmPanel/CenterContainer/VBox/ButtonRow"]
+custom_minimum_size = Vector2(120, 44)
+layout_mode = 2
+text = "返回主界面"
+
+[node name="Spacer2" type="Control" parent="Root/ExitConfirmPanel/CenterContainer/VBox/ButtonRow"]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+
+[node name="NoButton" type="Button" parent="Root/ExitConfirmPanel/CenterContainer/VBox/ButtonRow"]
+custom_minimum_size = Vector2(120, 44)
+layout_mode = 2
+text = "继续阅读"
+
+[connection signal="pressed" from="Root/TopBar/AutoPlayButton" to="." method="_on_auto_play_button_pressed"]
+[connection signal="pressed" from="Root/TopBar/MenuButton" to="." method="_toggle_exit_confirm"]
+[connection signal="pressed" from="Root/ExitConfirmPanel/CenterContainer/VBox/ButtonRow/YesButton" to="." method="_on_exit_confirm_yes_pressed"]
+[connection signal="pressed" from="Root/ExitConfirmPanel/CenterContainer/VBox/ButtonRow/NoButton" to="." method="_on_exit_confirm_no_pressed"]
