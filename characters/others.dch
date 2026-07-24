@@ -10,12 +10,49 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "",
+&"default_portrait": "default",
 &"description": "",
 &"display_name": "{other_name}",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
-&"portraits": {},
+&"portraits": {
+"default": {
+"export_overrides": {
+"image": ""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"人生自古谁无死": {
+"export_overrides": {
+"image": "\"res://assets/portraits/others/人生自古谁无死.png\""
+},
+"mirror": false,
+"offset": Vector2(0, -200),
+"scale": 0.5,
+"scene": ""
+},
+"厨中无宿储": {
+"export_overrides": {
+"image": "\"res://assets/portraits/others/厨中无宿储.png\""
+},
+"mirror": false,
+"offset": Vector2(0, -200),
+"scale": 0.5,
+"scene": ""
+},
+"坐起看云时": {
+"export_overrides": {
+"image": "\"res://assets/portraits/others/行到水穷处，坐起看云时.png\""
+},
+"mirror": false,
+"offset": Vector2(0, -200),
+"scale": 0.5,
+"scene": ""
+}
+},
 &"scale": 1.0
 }

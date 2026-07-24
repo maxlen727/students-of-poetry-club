@@ -51,6 +51,15 @@
 "scale": 1.4,
 "scene": ""
 },
+"real_smile": {
+"export_overrides": {
+"image": "\"res://assets/portraits/bai/bai_real_smile.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 300),
+"scale": 1.4,
+"scene": ""
+},
 "sad": {
 "export_overrides": {
 "image": "res://assets/portraits/bai/sad.png"
