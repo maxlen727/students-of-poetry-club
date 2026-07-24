@@ -24,6 +24,7 @@ ArchAge="*uid://ci8qxywevpk6k"
 [dialogic]
 
 directories/dch_directory={
+"another": "res://characters/another.dch",
 "book": "res://characters/book.dch",
 "characters/archchan": "res://characters/archchan.dch",
 "characters/bai": "res://characters/bai.dch",

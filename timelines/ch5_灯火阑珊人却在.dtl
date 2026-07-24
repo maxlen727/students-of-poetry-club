@@ -1233,8 +1233,901 @@ characters/bai (real_smile): 不是"再说"。
 characters/linchuan: ......好。明天见。
 leave --All--
 [background arg="#000000ff" fade="1.0" wait="true"]
-system: 一个月后——
+system: 社团活动室 · 午后
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
-join characters/bai center
+
+一个月后。
+
+准确地说，是三十七天后。
+
+三十七天里，我做了很多事。
+
+表情包从班级群扩展到了年级群，又扩展到了学校论坛。远舟每天早上被我把诗贴在他桌上，从"你有病吧"变成了"今天这首还行"。林风在朋友圈发了一条"竹杖芒鞋轻胜马"，配图是他跑步摔倒的膝盖。获赞三十二个。
+
+广播站每周三下午多了一个五分钟的栏目，叫"一句诗的时间"。稿件是我写的。念的人也是我。第一次念的时候声音抖得像在筛糠。第三次就好多了。
+
+这些事，说起来每一件都很小。小到不值一提。
+
+但白——
+
+白一天比一天清楚了。
+
+今天。午后。活动室。
+
+我推开门的时候，看到了一幕——
+
+白站在书架前。阳光从窗户照进来，整间屋子比以前亮多了——因为我上周擦了窗户。
+
+她手里拿着一本诗集。不是那本蓝皮书，是书架上的一本《唐诗三百首》。
+
+她在念。不是念给我听的。是自己念。
+join characters/bai (reading) center
+
+characters/bai: （低声）"两个黄鹂鸣翠柳，一行白鹭上青天......"
+
+她念得很随意。像在哼歌。
+
+阳光打在她身上。影子落在地板上。稳稳当当的。一点没晃。
+
+characters/linchuan: ......
+
+characters/bai (neutral): （听到门响，转过头）回来了？
+
+characters/linchuan: ......嗯。
+
+characters/bai: 今天广播站念了什么？
+
+characters/linchuan: "大漠孤烟直，长河落日圆。"
+
+characters/bai: 王维。边塞的。
+
+characters/linchuan: 对。远舟说听着像烤肉广告。
+
+characters/bai (thinking): ......为什么？
+
+characters/linchuan: 他说"孤烟直"像烤串冒的烟。
+update characters/bai (real_smile)
+
+characters/linchuan: 你笑了。
+
+characters/bai (deadpan): 没有。
+
+characters/linchuan: 动了。
+
+characters/bai: ......缺镁。
+
+characters/linchuan: 你这镁缺了快半年了。该补补了。
+
+characters/bai (smile_first_time): 嗯。
+
+characters/linchuan: （把书包放下，掏出一个塑料袋）
+
+characters/linchuan: 对了。给你带的。
+
+characters/bai (deadpan): ......什么？
+
+characters/linchuan: 荔枝。新鲜的。跑了两个超市才买到。
+
+characters/bai: （看了一眼塑料袋，眼睛亮了一下——然后迅速恢复平静）
+
+characters/bai (neutral): ......你妈妈又做多了？
+
+characters/linchuan: 荔枝又不是我妈做的。
+
+characters/bai (deadpan): 那为什么带给我？
+
+characters/linchuan: 公平。
+
+characters/bai (smile_first_time): ......
+
+characters/linchuan: 你上次说的。"日啖荔枝三百颗"。我想着得让你尝尝。
+
+characters/bai (deadpan): ......三百颗太多了。
+
+characters/linchuan: 一斤够不够？
+
+characters/bai: 嗯。
+
+她接过塑料袋，坐在窗边开始剥荔枝。剥得很认真，指甲掐开壳，慢慢撕下来，露出里面白白的果肉。
+
+她吃了一颗。
+
+characters/bai (thinking): ......
+
+characters/linchuan: 怎么样？
+
+characters/bai (deadpan): 甜的。
+
+characters/linchuan: 就"甜的"？
+
+characters/bai (neutral): 嗯。很甜。
+
+characters/linchuan: 比番茄炒蛋呢？
+
+characters/bai (thinking): （认真地想了一下）
+
+characters/bai: 不一样。番茄炒蛋是咸甜。这个是——
+
+characters/bai (deadpan): （又吃了一颗）
+
+characters/bai (neutral): 清甜。
+
+characters/linchuan: 你还挺会品。
+
+characters/bai: 嗯。
+
+characters/linchuan: ......
+
+characters/linchuan: （坐到她旁边，也拿了一颗荔枝剥）
+
+characters/bai (deadpan): ......你没带两份。
+
+characters/linchuan: 一袋里两个人吃。也算公平。
+
+characters/bai: ......行吧。
+
+两个人并排坐在窗边剥荔枝。阳光暖暖的。楼下有人在喊什么，听不清。
+
+characters/linchuan: 小白。
+
+characters/bai: 嗯？
+
+characters/linchuan: 你今天看起来——挺好的。
+
+characters/bai (deadpan): ......嗯。
+
+characters/linchuan: 影子很稳。
+
+characters/bai: 嗯。
+
+characters/linchuan: 最近有没有变淡过？
+
+characters/bai (neutral): ......上周三淡了一次。
+
+characters/linchuan: 周三？周三我念诗了。
+
+characters/bai (thinking): 不是念的时候淡的。是念完之后。晚上。十一点。
+
+characters/linchuan: ......
+
+characters/bai (smile_first_time): 但第二天就好了。
+
+characters/linchuan: 怎么好的？
+
+characters/bai (thinking): 不知道。醒来就清楚了。
+
+characters/linchuan: ......
+
+characters/bai: 临川。
+
+characters/linchuan: 嗯？
+
+characters/bai (deadpan): 不用每天检查我。我不是信号格。
+
+characters/linchuan: 我知道。但——
+
+characters/bai: 但？
+
+characters/linchuan: ......我想确认你在。
+
+characters/bai (neutral): ......
+
+characters/bai (shy): 我在。
+
+characters/linchuan: 嗯。
+
+characters/bai: ......
+
+characters/bai: ......
+
+characters/linchuan: 白。
+
+characters/bai (deadpan): 又怎么了。
+
+characters/linchuan: 你之前说，你能听到楼下的人念诗。
+
+characters/bai: 嗯。
+
+characters/linchuan: 那——现在全校这么多人念了。你能听到多少？
+
+characters/bai (thinking): （想了一下）
+
+characters/bai: 像——下雨。
+
+characters/linchuan: 下雨？
+
+characters/bai (neutral): 以前是滴水。一滴一滴的。有时候很久才一滴。
+
+characters/bai (deadpan): 现在是——淅淅沥沥的。不大，但不停。
+
+characters/linchuan: ......
+
+characters/bai: 很吵。但我喜欢。
+
+characters/linchuan: （笑了一下）
+
+characters/bai (angry): 笑什么？
+
+characters/linchuan: 没什么。就觉得你说"很吵但我喜欢"的样子——
+
+characters/linchuan: 像一只淋了雨还赖在外面不走的猫。
+
+characters/bai: ......
+
+characters/bai: 我没有淋雨。
+
+characters/linchuan: 比喻。
+
+characters/bai (deadpan): ......比喻归比喻。猫不喜欢淋雨。
+
+characters/linchuan: 那你喜欢什么？
+
+characters/bai (thinking): （安静了一下，低头又剥了一颗荔枝）
+
+characters/bai (deadpan): 荔枝。
+
+characters/linchuan: 除了荔枝呢？
+
+characters/bai (neutral): ......诗。
+
+characters/linchuan: 除了诗呢？
+
+characters/bai (shy): ......
+
+characters/bai (deadpan): （没回答。把荔枝壳攒成一堆，整整齐齐地码在纸巾上。）
+
+characters/linchuan: （她不回答的时候，就是在回答。）
+
+characters/linchuan: ......
+
+characters/linchuan: （算了。不逼她。）
+leave --All--
+[background arg="#000000ff" fade="1.0" wait="true"]
+system: 又过了几天 · 教学楼走廊
+[background arg="res://assets/backgrounds/courtyard_day.png" fade="0.8" wait="true"]
+
+又过了几天。一件意想不到的事发生了。
+
+中午。我从食堂出来，走在走廊上。前面有两个高一的女生在聊天。
+set {other_name} = "女生A"
+
+characters/others: 你听过那个广播吗？每周三那个。
+
+another: "一句诗的时间"？听过。上次念的什么来着——"大漠孤烟直"？
+
+characters/others: 对对对。远舟说像烤肉广告那个。
+
+another: 哈哈。不过说真的，有些诗还挺好听的。
+
+characters/others: 嗯。我上次去文化祭那个解忧杂货铺，他给我写了一句——"海上生明月，天涯共此时"。我贴在床头了。
+
+another: 你有什么烦恼啊？
+
+characters/others: 我爸妈离婚了。我妈去了外地。那句诗的意思是——不管多远，看同一个月亮，就当在一起了。
+
+another: ......
+
+characters/others: 其实也没什么大不了的。就是——说出来有人用一句诗回应你，感觉——
+
+another: 感觉什么？
+
+characters/others: 感觉有人在听你倾诉。
+
+我站在走廊上，听到这句话，停下了脚步。
+
+她们走远了。声音听不清了。
+
+characters/linchuan: （......有人听。）
+
+characters/linchuan: （白说过。"诗让你知道你不是一个人。"）
+
+characters/linchuan: （现在有人在说"有人在听"。）
+
+characters/linchuan: （她们不知道白。不知道那个帮她们选诗的人。）
+
+characters/linchuan: （但她们记住了那首诗。记住的那一秒——）
+
+characters/linchuan: （白就在）
+
+characters/linchuan: ......
+
+characters/linchuan: （掏出手机，给广播站发了一条消息）
+
+characters/linchuan: （打字）下周三的诗务必交给我，念一首新的——
+
+characters/linchuan: （打字）就念"山有木兮木有枝"。
+[background arg="#000000ff" fade="0.8" wait="true"]
+system: 某天午后 · 活动室
+[background arg="res://assets/backgrounds/club.png" fade="0.7" wait="true"]
+
+又过了一段时间。具体多久我说不清了。因为日子变得很顺，顺到不数了。
+
+今天。活动室。阳光很好。
+
+我推门进去的时候，白不在老位置。
+
+characters/linchuan: 小白？
+
+没人应。
+
+characters/linchuan: 白？
+
+我走到走廊上。四楼走廊尽头，活动室门口——
+[background arg="res://assets/backgrounds/bai_corridor.png" fade="1.0" wait="true"]
+
+白站在走廊的窗户边。不是站着。是——
+
+她在看楼下。
+
+不是以前那种趴在窗台上偷偷看的样子。是整个人站在阳光里，脸朝着楼下，风把头发吹起来。
+
+characters/linchuan: ......白？
+[background arg="res://assets/backgrounds/corridor_day.png" fade="0.8" wait="true"]
+join characters/bai (smile) center
+
+characters/bai: （转过头。她笑了。不是那种嘴角动一下的笑，不是拿书挡脸的笑。是——）
+
+characters/bai (smile): 临川。你看。
+
+她指着楼下。
+
+我走到她旁边，往下看。操场上有人在打球。走廊里有人在聊天。花坛边有人坐在台阶上看书——
+
+看书的那个人，翻了一页，念了一句什么。声音太小听不清。但他念了。
+
+characters/bai: 看到了吗？
+
+characters/linchuan: 看书那个？
+
+characters/bai: 嗯。
+
+characters/linchuan: 他在念诗？
+
+characters/bai (deadpan): 嗯。我听到了。
+
+characters/linchuan: ......
+
+characters/bai: 你不在的时候，我一个人站在这里听。每天中午都有人念。
+
+characters/linchuan: 每天都有？
+
+characters/bai (smile): 嗯。不多。一两句。但每天都有。
+
+characters/linchuan: ......
+
+characters/bai (deadpan): 临川。
+
+characters/linchuan: 嗯？
+
+characters/bai (thinking): 我想试一件事。
+
+characters/linchuan: 什么？
+
+characters/bai (neutral): （深吸了一口气。然后——她朝楼下喊了一声。）
+
+characters/bai: "海上生明月——"
+
+她的声音从四楼飘下去。不大，但很清。
+
+楼下看书的那个人抬起头，四处张望了一下。
+set {other_name} = "学生A"
+
+characters/others: （远远地，接了一句）"天涯共此时！"
+
+白猛地转过身看我。眼睛亮得——
+
+characters/bai (smile): 他听到了！
+
+characters/linchuan: ......
+
+characters/bai (real_smile): 他念了！他接上了！
+
+characters/linchuan: ......嗯。他接上了。
+
+characters/bai: 他看不见我，但他接上了！
+
+characters/linchuan: ......
+
+characters/linchuan: （她笑了。她真的笑了。不是"嘴角动了一下"的那种。是眼睛弯起来的、声音变亮的、整个人都在发光的那种。）
+
+characters/linchuan: （我第一次见她这样笑。）
+
+characters/linchuan: （大概也是她存在了这么久以来，第一次这样笑。）
+
+characters/bai (deadpan): 临川！
+
+characters/linchuan: 嗯？
+
+characters/bai (smile): 他接上了！
+
+characters/linchuan: 我听到了。
+update characters/bai (shy) [animation="Shake X" length="1.0"]
+
+characters/bai: ——
+
+characters/linchuan: 行了行了，别摇我了。
+
+characters/bai (deadpan): 我没有摇你。
+
+characters/linchuan: 你刚才抓我袖子了。
+
+characters/bai (angry): ......那是风吹的。
+
+characters/linchuan: 四楼走廊哪来的风——
+
+characters/bai: 风大。
+
+characters/linchuan: 你又来。
+
+characters/bai (real_smile): （终于松开手，但脸上的笑没收回去）
+
+characters/linchuan: ......
+
+characters/linchuan: （她刚才抓我袖子的时候，有触感。）
+
+characters/linchuan: （实实在在的。不是凉风。是手指。）
+
+characters/linchuan: （她能碰到我了。）
+leave --All--
+[background arg="res://assets/backgrounds/blue_sky.png" fade="1.0" wait="true"]
+system: 回到活动室 · 午后阳光
+[background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
+
+回到活动室。白坐在窗边，我坐在对面。
+
+阳光照进来。照在她身上。影子落在地板上。清清楚楚。
+
+她低头翻笔记本。翻到一页，看了一会儿。
+join characters/bai (reading) center
+
+characters/bai: 临川。
+
+characters/linchuan: 嗯？
+
+characters/bai (neutral): 你知道吗。
+
+characters/linchuan: 知道什么？
+
+characters/bai: 以前这间屋子只有我一个人。书架上的灰很厚。窗帘也旧了。窗户关着，因为没人开。
+
+characters/linchuan: ......嗯。
+
+characters/bai: 然后你来了。
+
+characters/linchuan: 我是被逼来的。
+
+characters/bai (deadpan): 嗯。但你来了。
+
+characters/linchuan: ......嗯。
+
+characters/bai: 你来了之后，有人擦窗户了。有人带便当了。有人在走廊上陪我听吉他了。
+
+characters/linchuan: 窗户是我擦的。便当是我妈做的。听吉他是你自己站门口的，我只是陪着。
+
+characters/bai: 嗯。但你来了。
+
+characters/linchuan: ......
+
+characters/bai (shy): 你来了之后——我开始期待明天了。
+
+characters/linchuan: ......
+
+characters/bai: 以前我是不期待明天的。因为明天跟今天一样。一个人坐着。看书。等。不知道等什么。
+
+characters/bai: 现在——
+
+characters/bai (shy): （合上笔记本，看着我。阳光打在她脸上。她没挡。没拿书。没移开。就那么看着我。）
+
+characters/bai (deadpan): 现在我知道在等什么了。
+
+characters/linchuan: ......
+
+characters/linchuan: 等什么？
+
+characters/bai (neutral): 等你来。
+
+characters/linchuan: ......
+
+characters/linchuan: ——
+
+characters/linchuan: （她说"等你来"。）
+
+characters/linchuan: （不是诗。不是引用。不是绕弯。）
+
+characters/linchuan: （就是三个字。）
+
+characters/linchuan: ......
+
+characters/linchuan: （我张了张嘴。想说什么。但什么都没说出来。）
+
+characters/linchuan: （因为我发现——）
+
+characters/linchuan: （我也在等。）
+
+characters/linchuan: （每天早上醒来想的第一件事是"今天活动室见"。）
+
+characters/linchuan: （每天放学走在老教学楼楼梯上的时候脚步会快一点。）
+
+characters/linchuan: （每天推开门看到她在窗边——）
+
+characters/linchuan: （心会落下来。）
+
+characters/linchuan: （像走了很远的路，终于到了。）
+
+characters/linchuan: ......
+
+characters/bai (deadpan): 怎么不说话？
+
+characters/linchuan: ......我在想。
+
+characters/bai: 想什么？
+
+characters/linchuan: 在想——
+
+characters/linchuan: 你说诗不是用来全懂的。是用来感受的。
+
+characters/bai: 嗯。
+
+characters/linchuan: 那——有些感受，不用诗也能说吗？
+
+characters/bai (thinking): ......什么感受？
+
+characters/linchuan: ......
+
+我站起来。走到窗边。站在她旁边。
+
+阳光照在两个人身上。地板上有两个影子。
+
+characters/linchuan: 白。
+
+characters/bai: 嗯？
+
+characters/linchuan: "山有木兮木有枝，心悦君兮君不知。"
+
+characters/bai (deadpan): ......
+
+characters/linchuan: 这首诗——你之前说，不只是写给那个女生的。
+
+characters/bai: ......嗯。
+
+characters/linchuan: 我今天不念这首了。
+
+characters/bai: ......？
+
+characters/linchuan: 我念别的。
+
+characters/bai (real_smile): 什么？
+
+characters/linchuan: （看着她。阳光把她的眼睛照得很亮。）
+
+characters/linchuan: "只缘感君一回顾，使我思君朝与暮。"
+
+characters/bai (neutral): ......
+
+她愣住了。
+
+不是那种"想了一下"的愣。是整个人都停了。手停在笔记本上。眼睛睁大了一点。嘴唇微微张开。
+
+然后——
+update characters/bai (shy)
+
+她的脸红了。
+
+不是一点一点红。是"猛地意识到什么"的那种红。从耳朵尖开始，蔓延到脸颊。
+
+characters/bai (shy): ......
+
+characters/linchuan: ......
+
+characters/bai (shy2): （猛地扭过头，把笔记本举到脸前）
+
+characters/bai: ......老土。
+
+characters/linchuan: ......什么？
+
+characters/bai (deadpan): 我说——老土。
+
+characters/linchuan: 我念诗给你听，你说老土？
+
+characters/bai: 这首诗太直白了。没有含蓄。不好。
+
+characters/linchuan: 你不是说诗是用来感受的吗？我感受了。
+
+characters/bai (angry): ......
+
+characters/linchuan: 而且你不是说过——如果你愿意记住一个人念的东西，那这些东西对你来说就不是完全没用的。
+
+characters/bai (neutral): ......我说过。
+
+characters/linchuan: 那这首——
+
+characters/bai: 这首不需要记。
+
+characters/linchuan: 为什么？
+
+characters/bai (shy2): （声音闷闷的，从笔记本后面传出来）
+
+characters/bai: 因为......我已经知道了。
+
+characters/linchuan: ......
+
+characters/linchuan: （她说"已经知道了"。）
+
+characters/linchuan: （从什么时候知道的？）
+
+characters/linchuan: （大概——）
+
+characters/linchuan: （大概从"山有木兮木有枝"那天就知道了。）
+
+characters/linchuan: （不。可能更早。）
+
+characters/linchuan: （从她翻那首诗的时候停了一下。）
+
+characters/linchuan: （从她说"想让你听"。）
+
+characters/linchuan: （从她说"等你说来"。）
+
+characters/linchuan: （从她每次说"风大"的时候——）
+
+characters/linchuan: （她不是在挡笑。她是在挡自己。）
+
+characters/linchuan: 白。
+
+characters/bai: ......嗯。
+
+characters/linchuan: 把书放下。
+
+characters/bai: 不放下。
+
+characters/linchuan: 白。
+
+characters/bai: ......风大。
+
+characters/linchuan: 室内没有风。这招你用了八百遍了。
+
+characters/bai (shy): ......
+
+她慢慢放下笔记本。
+
+她的脸还是红的。眼睛没看我，看着窗外。
+
+characters/bai (shy): ......你什么时候开始的？
+
+characters/linchuan: 什么开始？
+
+characters/bai: 就是——
+
+characters/linchuan: 我也不确定。可能是你第一次念"行到水穷处"的时候。可能是你喜欢吃番茄炒蛋被我发现的时候。可能是你站在吉他社门口不敢进去的时候。
+
+characters/linchuan: 我不知道具体是哪一刻。但——
+
+characters/linchuan: 回头看的时候，你已经在那里了。
+
+characters/bai (deadpan): ......
+
+characters/linchuan: "蓦然回首"嘛。
+
+白终于看了我一眼。脸还是红的。但嘴角——
+
+characters/bai (real_smile): ......你真的很老土。
+
+characters/linchuan: 你第三次说老土了。
+
+characters/bai (deadpan): 因为你真的很老土。
+
+characters/linchuan: 那你呢？你什么时候——
+
+characters/bai (shy2): （又把笔记本举起来了）
+
+characters/linchuan: 别挡。
+
+characters/bai: ......
+
+characters/linchuan: 白。
+
+characters/bai (shy): （放下笔记本。深呼吸了一下。然后——）
+
+characters/bai: "只缘感君一回顾。"
+
+characters/linchuan: ......
+
+characters/bai (deadpan): 你第一次来活动室的时候。推开门。说了一句什么来着。
+
+characters/linchuan: 我说什么了？
+
+characters/bai: 你说"这书要是能说话，估计也得骂这社团冷清"。
+
+characters/linchuan: ......那是在跟你说话？
+
+characters/bai (deadpan): 你是在跟书说话。但我听到了。
+
+characters/bai: 那是我——
+
+characters/bai (shy): （声音轻了一点）
+
+characters/bai: 第一次被人搭话。
+
+characters/linchuan: ......
+
+characters/bai: 所以——
+
+characters/bai: "只缘感君一回顾。"
+
+characters/linchuan: ......
+
+characters/linchuan: ......
+
+characters/linchuan: （笑了。不是吐槽的笑。是那种——从胸口涌上来的、收不住的笑。）
+
+characters/bai (angry): 笑什么——
+
+characters/linchuan: 没事。就是觉得——
+
+characters/linchuan: 我们俩绕了半年，原来从第一天就开始了。
+
+characters/bai (shy): ......嗯。
+
+characters/linchuan: 那以后不绕了。
+
+characters/bai: ......嗯。
+
+characters/linchuan: 以后想说什么直接说。
+
+characters/bai (deadpan): ......
+
+characters/linchuan: 比如？
+
+characters/bai (thinking): （安静了一下。然后——）
+
+characters/bai: 荔枝没了。
+
+characters/linchuan: ......
+
+characters/linchuan: 就这？
+
+characters/bai (neutral): 嗯。还想吃。
+
+characters/linchuan: ......行。明天再买。
+
+characters/bai: 带两份。
+
+characters/linchuan: 两份都是你的？
+
+characters/bai (angry): 公平。
+
+characters/linchuan: 你跟"公平"这俩字到底什么关系——
+
+characters/bai (deadpan): 嗯。
+
+characters/linchuan: （叹气。但嘴角没放下来。）
+
+characters/linchuan: ......
+
+characters/linchuan: （她还是她。嘴硬、偷吃、拿书挡脸。）
+
+characters/linchuan: （我也是我。吐槽、无奈、嘴上说不要身体很诚实。）
+
+characters/linchuan: （什么都没变。）
+
+characters/linchuan: （但是什么都变了。）
+leave --All--
+[background arg="#000000ff" fade="1.0" wait="true"]
+system: 下午 · 活动室窗边
+[background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
+
+白坐在窗边，翻着笔记本。我在对面吃零食。
+
+窗外的天很蓝。楼下有人在喊。有人在笑。有人在看书。有人在念诗。
+
+那些声音飘上来，断断续续的。
+
+白侧着头听了一会儿，嘴角弯了一下。
+join characters/bai (reading) center
+
+characters/bai: "人间烟火气，最抚凡人心。"
+
+characters/linchuan: 你又念。
+
+characters/bai (deadpan): 不是念。是说。
+
+characters/linchuan: 有什么区别？
+
+characters/bai: 念是给别人听的。说是给自己听的。
+
+characters/linchuan: ......那你说给谁听的？
+
+characters/bai (shy): ......
+
+characters/bai (deadpan): （没回答。但影子在地板上轻轻晃了一下。）
+
+characters/linchuan: （她在开心。）
+
+characters/linchuan: （不是因为诗。是因为——楼下有人在念诗。走廊上有人路过。这栋楼不再空了。）
+
+characters/linchuan: （她不再是一个人了。）
+
+characters/linchuan: ......
+
+characters/linchuan: （我也不是了。）
+
+characters/linchuan: 白。
+
+characters/bai: 嗯？
+
+characters/linchuan: 明天广播站念什么？
+
+characters/bai (thinking): （想了一下）"海上生明月，天涯共此时。"
+
+characters/linchuan: 上次文化祭有人用过这首。
+
+characters/bai (smile_first_time): 嗯。但好诗不怕重复。
+
+characters/linchuan: 行。
+
+characters/bai: ......
+
+characters/linchuan: ......
+
+characters/bai: 临川。
+
+characters/linchuan: 嗯？
+
+characters/bai (deadpan): 谢谢。
+
+characters/linchuan: 谢什么？
+
+characters/bai: 谢谢你推了那扇门。
+
+characters/linchuan: ......
+
+characters/linchuan: 你谢早了。
+
+characters/bai (thinking): 嗯？
+
+characters/linchuan: 我明天还会推。后天也会。大后天也会。
+
+characters/linchuan: 推到你烦为止。
+
+characters/bai (neutral): ......
+
+characters/bai (real_smile): （笑了。轻轻的。阳光打在她脸上。）
+
+characters/bai: 不会烦的。
+
+characters/linchuan: 你怎么知道？
+
+characters/bai (shy): 因为——
+
+characters/bai: "蓦然回首，那人却在，灯火阑珊处。"
+
+characters/linchuan: ......
+
+characters/linchuan: （她在说——）
+
+characters/linchuan: （不管什么时候回头，她都在。）
+
+characters/linchuan: ......
+
+characters/linchuan: （我也是。）
+
+characters/linchuan: （不管什么时候回头，我都在。）
+
+characters/linchuan: ......
+
+characters/linchuan: （不说了。有些事不用说。）
+
+characters/linchuan: （窗外的光很好。她在。我也在。）
+
+characters/linchuan: （这就够了。）
+leave --All--
+[background arg="#000000ff" fade="1.5" wait="true"]
+
+诗不会消失。
+
+只要有人在某个瞬间被打动——
+
+她就在。
+
+我也在。
 
 [end_timeline]
