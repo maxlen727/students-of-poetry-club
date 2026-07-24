@@ -31,12 +31,14 @@ alignment = 2
 unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 40)
 layout_mode = 2
+focus_mode = 0
 toggle_mode = true
 text = "自动：关"
 
 [node name="MenuButton" type="Button" parent="Root/TopBar"]
 custom_minimum_size = Vector2(90, 40)
 layout_mode = 2
+focus_mode = 0
 text = "菜单 (Esc)"
 
 [node name="ExitConfirmPanel" type="Panel" parent="Root"]
@@ -88,6 +90,7 @@ alignment = 1
 [node name="YesButton" type="Button" parent="Root/ExitConfirmPanel/CenterContainer/VBox/ButtonRow"]
 custom_minimum_size = Vector2(120, 44)
 layout_mode = 2
+focus_mode = 0
 text = "返回主界面"
 
 [node name="Spacer2" type="Control" parent="Root/ExitConfirmPanel/CenterContainer/VBox/ButtonRow"]
@@ -97,6 +100,7 @@ layout_mode = 2
 [node name="NoButton" type="Button" parent="Root/ExitConfirmPanel/CenterContainer/VBox/ButtonRow"]
 custom_minimum_size = Vector2(120, 44)
 layout_mode = 2
+focus_mode = 0
 text = "继续阅读"
 
 [connection signal="pressed" from="Root/TopBar/AutoPlayButton" to="." method="_on_auto_play_button_pressed"]
