@@ -7,7 +7,7 @@ audio music "res://assets/music/kasumisou.mp3" [fade="3.0" bus="" loop="true"]
 join characters/teacher center
 
 characters/teacher: 现在统计一下大家报的社团。
-leave characters/teacher [animation="Fade Out"]
+leave characters/teacher [animation="Fade Out" wait="true"]
 
 看着宣发的海报，我开始思考——
 
@@ -47,7 +47,7 @@ characters/linchuan (thinking): 算了算了，还是把这个名额给她吧…
 leave characters/archchan
 
 characters/linchuan: 在我继续思考报什么社团过程中，其他同学已经大多报完了。
-join characters/teacher center [animation="Fade In"]
+join characters/teacher center [animation="Fade In" wait="true"]
 
 characters/teacher: 临川，现在只有诗文社还有剩余名额了，干脆你到诗文社吧。
 
@@ -71,7 +71,7 @@ characters/linchuan: 唉，多么无聊啊……
 audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" bus="" loop="true"]
 audio "res://assets/sfx/door.mp3" [volume="-5.0"]
 
-[background arg="res://assets/backgrounds/club_dusty.png" fade="1.0"]
+[background arg="res://assets/backgrounds/club_dusty.png" fade="1.0" wait="true"]
 
 诗文社在老教学楼的楼顶。推开门，一股旧书和木头混合的、略带陈腐的气味扑面而来。夕阳透过满是灰尘的窗户，把房间切成明暗两半。
 
@@ -125,7 +125,7 @@ characters/linchuan: ——哎？
 门一推开，我愣住了。昨天还满地灰尘的房间，靠窗那一半竟然被打扫得干干净净。桌子擦得反光，书架上的书也被重新码整齐了。
 
 书架旁边站着个女生。
-[background arg="res://assets/backgrounds/bai_and_bookshelf.png" fade="0.8"]
+[background arg="res://assets/backgrounds/bai_and_bookshelf.png" fade="0.8" wait="true"]
 
 穿着普通校服，长发在身后披着，簪子随意的别在头侧，流苏在簪尾垂下，正踮脚把一本蓝皮书塞回最高层。阳光打在她侧脸上，表情很专注。
 
@@ -135,7 +135,7 @@ characters/linchuan: （等等不对，她在擦书架？现在的高中女生�
 
 她似乎察觉到我的目光，手一抖，那本蓝皮书滑了下来，"啪"掉在地上。
 audio "res://assets/sfx/book_drop.mp3" [volume="6.0"]
-[background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8"]
+[background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
 
 characters/linchuan: 啊——我帮你捡。
 
@@ -151,14 +151,12 @@ characters/linchuan: 那个......同学，你也是诗文社的？
 characters/bai: 嗯。
 
 characters/linchuan: 我叫临川。你呢？
-update characters/bai (deadpan) [fade="Fade Cross"]
 
-characters/bai: ......白。
+characters/bai (deadpan): ......白。
 
 characters/linchuan: 白？全名呢？
 
-characters/bai: 就叫白。
-update characters/bai (neutral) [fade="Fade Cross"]
+characters/bai (neutral): 就叫白。
 
 characters/linchuan: （行吧，不愿说就算了。说不定是单亲家庭什么的，不想提。算了不追问了。）
 
@@ -190,9 +188,8 @@ characters/linchuan: 你这笔记本......挺有年代感啊。哪买的？
 characters/bai: 不是买的。
 
 characters/linchuan: 借的？
-update characters/bai (deadpan) [fade="Fade Cross"]
 
-characters/bai: ......一直都在的。
+characters/bai (deadpan): ......一直都在的。
 
 characters/linchuan (thinking): （一直都在？什么意思，传家宝吗？算了，可能是什么前辈留的她舍不得换吧。）
 update characters/bai (neutral) [fade="Fade Cross"]
@@ -214,9 +211,8 @@ characters/bai: ......不用翻，都在这里。
 characters/linchuan: 都在这里？你背下来了啊
 
 characters/linchuan: 那你盯着看什么？
-update characters/bai (deadpan) [fade="Fade Cross"]
 
-characters/bai: ......在看它还在不在。
+characters/bai (deadpan): ......在看它还在不在。
 
 characters/linchuan: ......？
 update characters/bai (neutral)
@@ -230,7 +226,7 @@ characters/linchuan: （什么鬼回答。在不在？书不是好好在你手�
 characters/bai: "行到水穷处，坐看云起时......"
 
 characters/linchuan: ......你在背诗？
-leave characters/bai [animation="Fade Out"]
+leave characters/bai [animation="Fade Out" wait="true"]
 
 声音停了。我翻了个身，含糊地嘟囔了一句。
 
@@ -245,7 +241,7 @@ leave characters/bai [animation="Fade Out"]
 等我再醒来的时候，天已经快黑了。白已经收拾好了东西，站在门口看着我。
 
 characters/linchuan: ......几点了？
-join characters/bai (neutral) center
+join characters/bai (neutral) center [animation="Fade In" length="0.8" wait="true"]
 
 characters/bai: 六点半。
 
@@ -264,7 +260,7 @@ characters/linchuan (thinking): (这人是真的不会聊天，还是就是这�
 characters/linchuan: 那......走吧，一起下楼。天黑了老楼没灯。
 
 characters/bai: 好。
-leave characters/bai [animation="Fade Out" length="0.8"]
+leave characters/bai [animation="Fade Out" length="0.8" wait="true"]
 
 [background arg="res://assets/backgrounds/stairs_night_light.png" fade="1.0"]
 
@@ -275,7 +271,7 @@ characters/linchuan: 小白，你明天还来吗？
 characters/bai: 嗯。
 
 characters/linchuan: 行。那明天见。
-join characters/bai center [animation="Fade In" length="0.8"]
+join characters/bai center [animation="Fade In" length="0.8" wait="true"]
 
 characters/bai: ......临川。
 
@@ -291,10 +287,10 @@ characters/linchuan: ......啊？
 
 characters/linchuan: （她刚才笑了吧？笑什么啊？我记住一句诗有什么好高兴的？）
 
-[background arg="res://assets/backgrounds/school_gate_night.png" fade="0.8"]
+[background arg="res://assets/backgrounds/school_gate_night.png" fade="0.8" wait="true"]
 
 她在校门口朝我点了一下头，转身走进了另一条路。我看着她的背影消失在路灯尽头。
-leave characters/bai
+leave characters/bai [animation="Fade Out" wait="true"]
 
 characters/linchuan: ......奇怪的人。
 
@@ -310,7 +306,7 @@ characters/linchuan: （说起来，她到底几年级几班的？我都没来�
 
 characters/linchuan: （......算了，明天再说吧。）
 
-[background arg="res://assets/backgrounds/bedroom_night.png" fade="0.8"]
+[background arg="res://assets/backgrounds/bedroom_night.png" fade="0.8" wait="true"]
 
 回到家，躺在床上。本以为今天就是个普通的开学周，脑子里却老是闪过那个画面——她站在书架边，阳光打在脸上，认认真真地把书摆正。
 

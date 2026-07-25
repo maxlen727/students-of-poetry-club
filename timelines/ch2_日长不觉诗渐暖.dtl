@@ -1,5 +1,5 @@
 audio music "res://assets/music/kasumisou.mp3" [fade="3.0" loop="true"]
-[background arg="res://assets/backgrounds/club.png" fade="0.0"]
+[background arg="res://assets/backgrounds/club.png" fade="1.0" wait="true"]
 audio "res://assets/sfx/door.mp3"
 
 characters/linchuan: 我来了——
@@ -302,7 +302,7 @@ audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
 
 characters/linchuan: 小白，今天读什么？
-join characters/bai (neutral) center [animation="Fade In"]
+join characters/bai (neutral) center [animation="Fade In" wait="true"]
 
 characters/bai (reading): "落叶满空山，何处寻行迹。"
 
@@ -334,7 +334,7 @@ characters/linchuan: （不对，一周而已，又不是什么大事。）
 leave characters/bai
 
 characters/linchuan: 看什么呢？
-[background arg="res://assets/backgrounds/bai_windows_side.png" fade="0.0"]
+[background arg="res://assets/backgrounds/bai_windows_side.png" fade="1.0" wait="true"]
 
 characters/bai: 下面好吵。
 
@@ -499,7 +499,7 @@ characters/linchuan: （......我在想什么。太文艺了。）
 
 过了大概十分钟，她抽出一本薄薄的诗集，走回来坐下。
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
-join characters/bai (neutral) center
+join characters/bai (neutral) center [animation="Fade In" wait="true"]
 
 characters/bai: 找到了。
 
@@ -526,7 +526,7 @@ characters/bai (smile_first_time): "我言秋日胜春朝。"
 她没回答我的问题。但她念第二遍的时候，语气跟第一遍不一样。第一遍是在介绍，第二遍是在认同。
 
 characters/linchuan: 她喜欢安静的地方。她来这里大概也是这个原因。
-leave characters/bai
+leave characters/bai [animation="Fade Out" wait="true"]
 [background arg="#000000ff" fade="0.5" wait="true"]
 system: 某天放学 · 走廊
 [background arg="res://assets/backgrounds/corridor_day.png" fade="0.8" wait="true"]
@@ -536,7 +536,7 @@ system: 某天放学 · 走廊
 她站在音乐教室门口，靠着墙，侧着头。音乐教室门没关严，里面有吉他社在排练，声音从门缝里漏出来。
 
 characters/linchuan: 小白？
-join characters/bai (neutral) center [animation="Fade In Up" length="0.8"]
+join characters/bai (neutral) center [animation="Fade In Up" length="0.8" wait="true"]
 
 characters/bai: ......嗯。
 
@@ -607,7 +607,7 @@ characters/bai (thinking): 不知道。但感觉快结束了。
 characters/bai (deadpan): 走了。
 
 characters/linchuan: 嗯。
-leave characters/bai [animation="Fade Out"]
+leave characters/bai [animation="Fade Out" wait="true"]
 
 我们并肩走在走廊上。夕阳从窗户一格一格地照过来。
 
@@ -634,7 +634,7 @@ audio music "res://assets/music/sangatsunosundasora.mp3" [fade="3.0" loop="true"
 characters/linchuan: （把书包往桌上一摔）
 
 characters/linchuan: 烦死了。
-join characters/bai center
+join characters/bai center [animation="Fade In" length="0.8" wait="true"]
 
 characters/bai (deadpan): （抬头看我）
 
@@ -650,7 +650,8 @@ characters/linchuan: 你翻那个干嘛？现在念诗能把我三十八分变�
 
 characters/bai: （翻到一页，推过来）
 
-book: 莫愁前路无知己，天下谁人不识君。
+book: 莫愁前路无知己，\
+天下谁人不识君。
 
 characters/linchuan: ......
 
@@ -698,7 +699,7 @@ characters/linchuan: （走到门口，回头看了一眼）
 update characters/bai (reading)
 
 她已经开始看书了。好像刚才什么都没发生。
-leave characters/bai
+leave characters/bai [animation="Fade Out" length="0.8" wait="true"]
 
 但那句"莫愁前路无知己"确实卡在脑子里了。像首歌的副歌，怎么都甩不掉。
 [background arg="#000000ff" fade="0.5" wait="true"]
@@ -726,7 +727,7 @@ system: 第三周 · 活动室
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
 
 characters/linchuan: 小白，问你个事。
-join characters/bai (neutral) center
+join characters/bai (neutral) center [animation="Fade In" length="0.8" wait="true"]
 
 characters/bai: 嗯？
 
@@ -905,7 +906,7 @@ characters/bai (deadpan): ......再说。
 characters/linchuan: 又是"再说"。
 
 characters/bai: 嗯。
-leave characters/bai
+leave characters/bai [animation="Fade Out" length="0.8" wait="true"]
 [background arg="res://assets/backgrounds/corridor.png" fade="0.5" wait="true"]
 
 她说"再说"的时候，语气跟之前不太一样。之前是"不想回答"。这次像是......"不确定能不能回答"。
@@ -946,7 +947,7 @@ characters/linchuan: 睡不着。
 characters/linchuan: （但今年总觉得少了点什么。）
 
 characters/linchuan: （少什么呢？）
-[background arg="res://assets/backgrounds/bai_and_cloud.png" fade="0.8" wait="true"]
+[background arg="res://assets/backgrounds/bai_and_cloud.png" fade="1.2" wait="true"]
 
 characters/linchuan: （打开手机相册，翻到最后一张——是活动室窗户的随手拍。那天阳光正好，拍的时候其实是在拍窗外的云，但画面角落里拍到了白的侧脸。）
 
@@ -1065,7 +1066,7 @@ characters/linchuan: （是不是换了社团？还是转学了？还是——�
 audio music "res://assets/music/akiurara.mp3" [fade="3.0" loop="true"]
 
 audio "res://assets/sfx/door.mp3"
-[background arg="res://assets/backgrounds/club.png" fade="0.0"]
+[background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
 
 characters/linchuan: ——
 

@@ -48,7 +48,7 @@ characters/yuanzhou: 什么叫"再说"？你跟谁学的这句？
 audio music "res://assets/music/haruemukaukusabanae.mp3" [fade="3.0" loop="true"]
 
 characters/linchuan: （......跟谁学的。）
-leave characters/yuanzhou [animation="Fade Out"]
+leave characters/yuanzhou [animation="Fade Out" wait="true"]
 
 characters/linchuan: （我好像确实是从白那里染上这个习惯的。）
 
@@ -69,7 +69,7 @@ characters/linchuan: （这些事我以前都没注意。因为跟她待在一�
 characters/linchuan: （现在远舟一问——）
 
 characters/linchuan: （我发现自己什么都答不上来。）
-join characters/yuanzhou center [animation="Fade In"]
+join characters/yuanzhou center [animation="Fade In" wait="true"]
 
 characters/yuanzhou: 喂？发什么呆呢？
 
@@ -134,7 +134,7 @@ characters/linchuan: （她说"好"的时候，语气不像平时那么平。有
 characters/linchuan: （......紧张就紧张呗。见个朋友而已，没什么大不了的。）
 
 characters/linchuan: （没什么大不了的。）
-leave characters/bai
+leave characters/bai [animation="Fade Out" wait="true"]
 [background arg="#000000ff" fade="0.8" wait="true"]
 audio music "res://assets/music/pugtoosanpo.mp3" [fade="3.0" loop="true"]
 system: 第二天 · 放学
@@ -192,7 +192,7 @@ audio "res://assets/sfx/door.mp3"
 推开门。阳光从窗户照进来，灰尘在光柱里浮动。书架、旧桌椅、窗台——一切都跟平时一样。
 
 白坐在窗边。
-join characters/bai leftmost
+join characters/bai leftmost [animation="Fade In" length="1.0"]
 
 她穿着校服，头发在后面披着，笔记本在左手中。阳光打在她侧脸上。
 

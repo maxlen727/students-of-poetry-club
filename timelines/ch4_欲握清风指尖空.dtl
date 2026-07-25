@@ -30,7 +30,7 @@ audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 system: 某天下午，活动室
 
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
-join characters/bai (reading) center
+join characters/bai (reading) center [animation="Fade In Up" wait="true"]
 
 characters/linchuan: 小白，今天读什么？
 
@@ -53,7 +53,7 @@ characters/linchuan: 就翻到了？
 characters/bai: 嗯。
 
 她翻笔记本的时候比以前慢了。以前一两秒就能找到想念的那一页。现在要翻好几下，像是在确认字还在不在。
-leave characters/bai
+leave characters/bai [animation="Fade Out" wait="true"]
 
 characters/linchuan: ......
 
@@ -63,7 +63,7 @@ system: 某天傍晚 · 活动室
 [background arg="res://assets/backgrounds/club_night.png" fade="0.8" wait="true"]
 
 白站在窗边看楼下。我趴在桌上，有一搭没一搭地跟她说话。
-join characters/bai center
+join characters/bai center [animation="Fade In" wait="true"]
 
 characters/linchuan: 小白。
 
@@ -104,7 +104,7 @@ characters/linchuan: 就看书？
 characters/bai (deadpan): 嗯。等开学。
 
 characters/linchuan: 等我？
-leave characters/bai
+leave characters/bai [animation="Fade Out" wait="true"]
 
 characters/bai: （没有回答。转回去看窗外。）
 
@@ -297,7 +297,7 @@ characters/linchuan: ......？
 characters/linchuan: ......这几页以前有字吗？
 
 我看向白。她坐在对面，看着我翻书，表情平静。但她的手放在膝盖上，指尖微微蜷了一下。
-join characters/bai center
+join characters/bai center [animation="Fade In" wait="true"]
 
 characters/linchuan: 白。
 

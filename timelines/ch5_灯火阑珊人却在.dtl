@@ -48,7 +48,7 @@ system: 次日 · 教室
 用白念过的诗，配上班级群里日常的搞笑图，做了几张表情包。
 
 三张自制表情包——
-join characters/others (坐起看云时) center
+join characters/others (坐起看云时) center [animation="Fade In" length="0.8" wait="true"]
 图一：一只猫瘫在地上，配文"行到水穷处，坐看云起时"
 update characters/others (厨中无宿储)
 图二：一个人对着空冰箱发呆，配文"厨中无宿储，灶下绝新烟"
@@ -56,7 +56,7 @@ update characters/others (人生自古谁无死)
 图三：体育课跑八百米的抓拍，配文"人生自古谁无死"
 
 characters/linchuan: （......最后一张是不是太过分了。）
-leave --All--
+leave --All-- [animation="Fade Out" length="1.0" wait="true"]
 
 characters/linchuan: （算了。发。）
 
@@ -82,7 +82,7 @@ system: 放学后 · 活动室
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.7" wait="true"]
 
 characters/linchuan: 小白，我今天发了点东西在班级群。
-join characters/bai (neutral) center
+join characters/bai (neutral) center [animation="Fade In" length="0.8" wait="true"]
 
 characters/bai: 嗯？
 
@@ -165,7 +165,7 @@ system: 一周后 · 教室
 
 但表情包不够。我需要更大的东西。
 audio music "res://assets/music/pugtoosanpo.mp3" [fade="3.0" loop="true"]
-join characters/yuanzhou center
+join characters/yuanzhou center [animation="Fade In" length="0.8" wait="true"]
 
 characters/yuanzhou: （课间凑过来）临川，你最近是不是转性了？天天发古诗表情包。
 
@@ -223,7 +223,7 @@ leave --All--
 audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 system: 放学后 · 活动室
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.7" wait="true"]
-join characters/bai center
+join characters/bai center [animation="Fade In" wait="true"]
 
 characters/linchuan: 小白。文化祭。下个月。
 
@@ -340,7 +340,7 @@ characters/bai (shy): 好。
 characters/linchuan: 这回又不是"再说"了。
 
 characters/bai (deadpan): 嗯。
-leave --All--
+leave --All-- [animation="Fade Out" wait="true"]
 [background arg="#000000ff" fade="1.0" wait="true"]
 system: 文化祭前两周 · 活动室
 [background arg="res://assets/backgrounds/club.png" fade="0.7" wait="true"]
@@ -348,7 +348,7 @@ system: 文化祭前两周 · 活动室
 接下来两周，我和白开始了密集的准备。
 
 我们坐在活动室里，一条一条地列——
-join characters/bai (reading) center
+join characters/bai (reading) center [animation="Fade In" length="0.9" wait="true"]
 
 characters/linchuan: 第一种：考试焦虑。
 
@@ -453,7 +453,7 @@ system: 文化祭前一天 · 活动室
 文化祭前一天。准备工作差不多了。我手写了一沓便签，每张上面一首诗加一句白话翻译。桌上还堆着一摞空白的便签，留给明天临时用的。
 
 白坐在旁边看我写。偶尔纠正我的字。
-join characters/bai center
+join characters/bai center [animation="Fade In" length="0.8" wait="true"]
 
 characters/bai: 你这个"蓑"字写错了。草字头下面是个"衰"不是"哀"。
 
@@ -525,7 +525,7 @@ characters/linchuan: （......来吧。）
 characters/linchuan: （正常。谁会跟一个陌生人说自己的烦恼。）
 
 第二个小时。远舟来了。
-join characters/yuanzhou center
+join characters/yuanzhou center [animation="Fade In" length="0.8" wait="true"]
 
 characters/yuanzhou: 哟，开张没？
 
@@ -544,7 +544,7 @@ characters/yuanzhou: 你到底解不解答？
 characters/linchuan: 等一下。
 
 characters/linchuan: 等我一下！
-leave characters/yuanzhou
+leave characters/yuanzhou [animation="Fade Out" length="0.8" wait="true"]
 [background arg="res://assets/backgrounds/stairs_day.png" fade="0.8" wait="true"]
 audio "res://assets/sfx/running.mp3"
 [background arg="res://assets/backgrounds/corridor_day.png" fade="1.0" wait="true"]
@@ -552,7 +552,7 @@ audio "res://assets/sfx/running.mp3"
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
 
 我跑上四楼。推开活动室的门。
-join characters/bai center
+join characters/bai center [animation="Fade In" length="0.8" wait="true"]
 
 characters/bai: （坐在窗边，抬头看我）
 
@@ -581,7 +581,7 @@ characters/linchuan: ......你确定这能帮到远舟？
 characters/bai: 不确定。但这首——适合"不敢先开口"的人。
 
 characters/linchuan: 行。
-leave --All--
+leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 audio "res://assets/sfx/running.mp3"
 [background arg="res://assets/backgrounds/corridor_day.png" fade="1.0" wait="true"]
 audio "res://assets/sfx/running.mp3"
@@ -589,7 +589,7 @@ audio "res://assets/sfx/running.mp3"
 [background arg="res://assets/backgrounds/cultural_festival.png" fade="0.8" wait="true"]
 
 我跑回一楼。远舟还在等。
-join characters/yuanzhou center
+join characters/yuanzhou center [animation="Fade In" wait="true"]
 
 characters/linchuan: 来了。"我寄愁心与明月，随君直到夜郎西。"
 
@@ -602,7 +602,7 @@ characters/yuanzhou: 就这？
 characters/linchuan: 就这。
 
 characters/yuanzhou: ......行吧。谢了。
-leave characters/yuanzhou
+leave characters/yuanzhou [animation="Fade Out" wait="true"]
 
 远舟拿着便签走了。半信半疑的样子。
 
@@ -611,8 +611,8 @@ characters/linchuan: （不知道有没有用。但至少他带走了一首诗�
 下午一点。人开始多了。
 
 远舟回来的时候，带着林风。两个人走在一起，虽然还有点别扭，但至少走在一起了。
-join characters/yuanzhou center
-join characters/linfeng right
+join characters/yuanzhou center [animation="Fade In"]
+join characters/linfeng right [animation="Fade In"]
 
 characters/yuanzhou: （在展位前小声说）便签我放他桌上了。他看了之后——
 
@@ -635,7 +635,7 @@ characters/linchuan: 问。
 characters/linfeng: 我最近考试压力特别大。每天学到两点，但觉得什么都不会。
 
 characters/linchuan: 等一下。
-leave --All--
+leave --All-- [animation="Fade Out"]
 [background arg="res://assets/backgrounds/stairs_day.png" fade="0.8" wait="true"]
 audio "res://assets/sfx/running.mp3"
 [background arg="res://assets/backgrounds/corridor_day.png" fade="1.0" wait="true"]
@@ -643,7 +643,7 @@ audio "res://assets/sfx/running.mp3"
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
 
 又跑上四楼。
-join characters/bai center
+join characters/bai center [animation="Fade In" length="0.8" wait="true"]
 
 characters/bai (reading): （看到我跑进来，已经翻好了笔记本）
 
@@ -684,7 +684,7 @@ characters/linchuan: （因为楼下有人在读诗。有人在念她选的诗�
 characters/linchuan: （她在——吃东西。）
 
 characters/linchuan: （......那我今天让她吃饱。）
-leave --All--
+leave --All-- [animation="Fade Out" length="0.7" wait="true"]
 [background arg="res://assets/backgrounds/corridor_day.png" fade="1.0" wait="true"]
 audio "res://assets/sfx/running.mp3"
 [background arg="res://assets/backgrounds/stairs_day.png" fade="0.8" wait="true"]
@@ -692,7 +692,7 @@ audio "res://assets/sfx/running.mp3"
 [background arg="res://assets/backgrounds/cultural_festival.png" fade="0.8" wait="true"]
 
 我跑回一楼。
-join characters/linfeng center
+join characters/linfeng center [animation="Fade In" wait="true"]
 
 characters/linchuan: 来了。"竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。"
 
@@ -703,7 +703,7 @@ characters/linchuan: （写便签，递过去）你学到两点不是问题。�
 characters/linfeng: ......
 
 characters/linfeng: 谢了。
-leave characters/linfeng
+leave characters/linfeng [animation="Fade Out" wait="true"]
 
 林风拿着便签走了。这次没有"就这"。
 
@@ -744,7 +744,7 @@ audio "res://assets/sfx/running.mp3"
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
 
 我跑上四楼。
-join characters/bai (reading) center
+join characters/bai (reading) center [animation="Fade In" length="0.8" wait="true"]
 
 characters/bai: （已经翻到了那一页）
 
@@ -783,12 +783,12 @@ characters/bai: 快回去。人家等着。
 
 characters/linchuan: ......
 
-characters/linchuan: 她没回答。
+characters/linchuan: （她没回答。）
 
-characters/linchuan: 但我知道了。
+characters/linchuan: 我知道了。
 
-characters/linchuan: 我跑了。
-leave --All--
+characters/linchuan: （我跑了。）
+leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 [background arg="res://assets/backgrounds/corridor_day.png" fade="1.0" wait="true"]
 audio "res://assets/sfx/running.mp3"
 [background arg="res://assets/backgrounds/stairs_day.png" fade="0.8" wait="true"]
@@ -897,7 +897,7 @@ characters/bai: 今天——
 
 characters/linchuan: 很多人来了。
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="1.0" wait="true"]
-join characters/bai center
+join characters/bai center [animation="Fade In" length="0.9" wait="true"]
 
 characters/bai: 嗯。我听到了。
 
@@ -1061,7 +1061,7 @@ characters/bai (neutral): ......
 characters/linchuan: 等我。
 
 characters/bai (shy): ......好。
-leave --All--
+leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 [background arg="res://assets/backgrounds/sunset_sky.png" fade="1.0" wait="true"]
 audio music "res://assets/music/akiironooka.mp3" [fade="3.0" loop="true"]
 system: 文化祭 · 开放麦舞台
@@ -1167,7 +1167,7 @@ audio "res://assets/sfx/door.mp3"
 不是完全清晰。但比我这几个月见过的任何时候都清楚。晚光从窗户照进来，地面上有她的影子。实实在在的影子。
 
 characters/linchuan: ......白？
-join characters/bai (neutral) center
+join characters/bai (neutral) center [animation="Fade In" length="0.8" wait="true"]
 
 characters/bai: （转过头）
 
@@ -1244,7 +1244,7 @@ characters/linchuan: 不是"再说"？
 characters/bai (real_smile): 不是"再说"。
 
 characters/linchuan: ......好。明天见。
-leave --All--
+leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 [background arg="#000000ff" fade="1.0" wait="true"]
 audio music "res://assets/music/Woodland Fantasy.mp3" [fade="3.0" loop="true"]
 system: 社团活动室 · 午后
@@ -1275,7 +1275,7 @@ system: 社团活动室 · 午后
 她手里拿着一本诗集。不是那本蓝皮书，是书架上的一本《唐诗三百首》。
 
 她在念。不是念给我听的。是自己念。
-join characters/bai (reading) center
+join characters/bai (reading) center [animation="Fade In" length="0.9" wait="true"]
 
 characters/bai: （低声）"两个黄鹂鸣翠柳，一行白鹭上青天......"
 
@@ -1495,7 +1495,7 @@ characters/linchuan: （她不回答的时候，就是在回答。）
 characters/linchuan: ......
 
 characters/linchuan: （算了。不逼她。）
-leave --All--
+leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 [background arg="#000000ff" fade="1.0" wait="true"]
 audio music "res://assets/music/TownTheme.mp3" [fade="3.0" loop="true"]
 system: 又过了几天 · 教学楼走廊
@@ -1579,7 +1579,7 @@ characters/linchuan: 白？
 
 characters/linchuan: ......白？
 [background arg="res://assets/backgrounds/corridor_day.png" fade="0.8" wait="true"]
-join characters/bai (smile) center
+join characters/bai (smile) center [animation="Fade In" length="0.8" wait="true"]
 
 characters/bai: （转过头。她笑了。不是那种嘴角动一下的笑，不是拿书挡脸的笑。是——）
 
@@ -1684,7 +1684,7 @@ characters/linchuan: （她刚才抓我袖子的时候，有触感。）
 characters/linchuan: （实实在在的。不是凉风。是手指。）
 
 characters/linchuan: （她能碰到我了。）
-leave --All--
+leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 [background arg="res://assets/backgrounds/blue_sky.png" fade="1.0" wait="true"]
 system: 回到活动室 · 午后阳光
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
@@ -1694,7 +1694,7 @@ system: 回到活动室 · 午后阳光
 阳光照进来。照在她身上。影子落在地板上。清清楚楚。
 
 她低头翻笔记本。翻到一页，看了一会儿。
-join characters/bai (reading) center
+join characters/bai (reading) center [animation="Fade In" length="0.8" wait="true"]
 
 characters/bai: 临川。
 
@@ -2027,7 +2027,7 @@ characters/linchuan: （我也是我。吐槽、无奈、嘴上说不要身体�
 characters/linchuan: （什么都没变。）
 
 characters/linchuan: （但是什么都变了。）
-leave --All--
+leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 [background arg="#000000ff" fade="1.0" wait="true"]
 system: 下午 · 活动室窗边
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
@@ -2039,7 +2039,7 @@ system: 下午 · 活动室窗边
 那些声音飘上来，断断续续的。
 
 白侧着头听了一会儿，嘴角弯了一下。
-join characters/bai (reading) center
+join characters/bai (reading) center [animation="Fade In" length="0.8" wait="true"]
 
 characters/bai: "人间烟火气，最抚凡人心。"
 
@@ -2136,7 +2136,7 @@ characters/linchuan: （不说了。有些事不用说。）
 characters/linchuan: （窗外的光很好。她在。我也在。）
 
 characters/linchuan: （这就够了。）
-leave --All--
+leave --All-- [animation="Fade Out" wait="true"]
 [background arg="#000000ff" fade="1.5" wait="true"]
 
 诗不会消失。
