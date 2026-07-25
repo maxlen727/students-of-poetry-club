@@ -1,4 +1,5 @@
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
+audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 
 我回来之后的日子，表面上看跟以前一样。白念诗，我听，偶尔斗嘴，偶尔安静。
 
@@ -57,7 +58,6 @@ leave characters/bai
 characters/linchuan: ......
 
 我没问。
-# 场景：某天傍晚 · 活动室
 [background arg="#000000ff" fade="0.8" wait="true"]
 system: 某天傍晚 · 活动室
 [background arg="res://assets/backgrounds/club_night.png" fade="0.8" wait="true"]
@@ -154,6 +154,7 @@ characters/bai: ......好。
 
 ......我想带她去。但我说不出口的是——我不确定到时候她还在不在。
 [background arg="#000000ff" fade="0.8" wait="true"]
+audio music "res://assets/music/natsunokiri.mp3" [fade="3.0" loop="true"]
 system: 两周后 · 活动室
 [background arg="res://assets/backgrounds/club.png" fade="0.7" wait="true"]
 
@@ -446,6 +447,7 @@ update characters/bai (sad)
 characters/bai: ......临川。
 
 characters/linchuan: 嗯。
+audio music "res://assets/music/Path to Lake Land.ogg" [fade="3.0" loop="true"]
 
 characters/bai (deadpan): 我想试一件事。
 
@@ -538,6 +540,7 @@ characters/bai (neutral): （声音轻了一点）
 characters/bai: 这次是真的。
 
 characters/linchuan: ......
+audio music "res://assets/music/haruemukaukusabanae.mp3" [fade="3.0" loop="true"]
 
 characters/linchuan: （她在说什么？真的没有？还是真的有？）
 

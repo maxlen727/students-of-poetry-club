@@ -1,3 +1,4 @@
+audio music "res://assets/music/kasumisou.mp3" [fade="3.0" loop="true"]
 [background arg="res://assets/backgrounds/club.png" fade="0.0"]
 audio "res://assets/sfx/door.mp3"
 
@@ -14,7 +15,7 @@ characters/linchuan: 你不用上补习班？不用写作业？
 
 characters/bai (thinking): 不用。
 
-characters/linchuan (thinking):  （不是吧，这人是学霸还是不用学习的那种？不对，也可能成绩很差所以破罐破摔......算了不关我事。）
+characters/linchuan (thinking): （不是吧，这人是学霸还是不用学习的那种？不对，也可能成绩很差所以破罐破摔......算了不关我事。）
 update characters/bai (neutral)
 
 我在她对面的座位坐下。两个人沉默了大概三十秒。
@@ -184,7 +185,8 @@ characters/bai: ......
 
 characters/linchuan: （嘴上什么都不承认，筷子倒是很诚实。）
 system: 饭后——
-update characters/bai (neutral)
+update characters/bai (neutral) [fade="Fade Cross"]
+audio music "res://assets/music/houkagonoyuzora.mp3" [fade="5.0" loop="true"]
 
 characters/linchuan: 小白，聊聊正事。
 
@@ -223,6 +225,7 @@ characters/bai: 可以。但你要先听完再下结论。不能听到一半就�
 characters/linchuan: 成交。
 
 白翻开笔记本，想了一下，翻到一页。
+audio music "res://assets/music/kasumisou.mp3" [fade="3.0" loop="true"]
 
 characters/bai (reading): "行到水穷处，坐看云起时。"
 
@@ -290,9 +293,10 @@ characters/bai (deadpan): 稳重的。
 characters/linchuan: （笑出声）
 
 characters/bai: （看了我一眼，没说话，低头翻了一页）
-leave characters/bai [animation="Fade Out" length="0.8"]
+leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 [background arg="#000000ff" fade="0.5" wait="true"]
 system: 几天后——
+audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 [background arg="res://assets/backgrounds/blue_sky.png" fade="0.8" wait="true"]
 
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
@@ -395,6 +399,7 @@ characters/linchuan: （算了。她肯定在说诗。她就是这种人，认�
 characters/linchuan: 行吧。以后继续听着。反正闲着也是闲着。
 
 characters/bai: 嗯。
+audio music "res://assets/music/kasumisou.mp3" [fade="3.0" loop="true"]
 
 characters/linchuan: 不过下次念点开心的。有没有写吃的诗？
 
@@ -418,6 +423,7 @@ characters/bai: 公平。
 
 characters/linchuan: （她明明就是想吃。）
 [background arg="#000000ff" fade="0.5" wait="true"]
+audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 system: 第十天 · 活动室
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
 join characters/bai center [animation="Fade In" wait="true"]
@@ -621,6 +627,7 @@ system: 两周后 · 活动室
 两周不知不觉就过去了。活动室里的日常变成了一种固定的节奏——她念诗，我听，偶尔斗嘴，偶尔安静。
 
 我以为这种日子会一直这样下去。平平淡淡的，说不上好，也说不上坏。
+audio music "res://assets/music/sangatsunosundasora.mp3" [fade="3.0" loop="true"]
 
 直到有一天——
 
@@ -782,6 +789,7 @@ characters/linchuan: ......
 
 characters/linchuan: （说不上来。就觉得这句话好像不只是说诗的。）
 leave characters/bai [animation="Fade Out" wait="true"]
+audio music "res://assets/music/kasumisou.mp3" [fade="3.0" loop="true"]
 [background arg="#000000ff" fade="0.5" wait="true"]
 system: 某天 · 学校食堂
 [background arg="res://assets/backgrounds/cafeteria.png" fade="0.8" wait="true"]
@@ -806,6 +814,7 @@ characters/linchuan: 今天想换换口味。
 characters/bai: 哦。
 
 她低下头继续吃面。我也开始吃饭。对面的人来人往，吵闹声不断。
+audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 
 characters/linchuan: 你以后不用一个人在活动室啃面包了。中午来食堂，我帮你占座。
 
@@ -845,6 +854,7 @@ characters/bai: 我知道。
 
 算了。都行。
 [background arg="#000000ff" fade="0.5" wait="true"]
+audio music "res://assets/music/natsunokiri.mp3" [fade="3.0" loop="true"]
 system: 活动室——
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
 join characters/bai center
@@ -917,6 +927,7 @@ characters/linchuan: （......我在瞎想什么。）
 characters/linchuan: （开学就又能见到了。）
 
 [background arg="#000000ff" fade="0.5" wait="true"]
+audio music "res://assets/music/tsukiakarinotodai.mp3" [fade="3.0" loop="true"]
 system: 临川卧室，夜晚，暑假
 [background arg="res://assets/backgrounds/bedroom_evening.png" fade="0.8" wait="true"]
 
@@ -970,6 +981,7 @@ characters/linchuan: ......算了。
 
 characters/linchuan: 开学就见到了。急什么。
 [background arg="#000000ff" fade="0.8" wait="true"]
+audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 system: 九月初 · 学校走廊
 [background arg="res://assets/backgrounds/corridor_day.png" fade="0.8" wait="true"]
 
@@ -1050,6 +1062,7 @@ characters/linchuan: （是不是换了社团？还是转学了？还是——�
 一整个学期，我连她最基本的联系方式都没要。我到底在干什么。
 
 第五天。我照常推开门——
+audio music "res://assets/music/akiurara.mp3" [fade="3.0" loop="true"]
 
 audio "res://assets/sfx/door.mp3"
 [background arg="res://assets/backgrounds/club.png" fade="0.0"]
@@ -1095,6 +1108,7 @@ characters/bai: ......哦。
 
 characters/linchuan: （回来就好。）
 [background arg="#000000ff" fade="0.8" wait="true"]
+audio music "res://assets/music/sangatsunosundasora.mp3" [fade="3.0" loop="true"]
 system: 开学第三周
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
 

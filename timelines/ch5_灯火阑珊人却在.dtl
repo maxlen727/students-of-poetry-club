@@ -1,3 +1,4 @@
+audio music "res://assets/music/seishishitauchu.mp3" [fade="3.0" loop="true"]
 [background arg="res://assets/backgrounds/bedroom_evening.png" fade="1.0" wait="true"]
 
 那天晚上回到家里，我躺在床上，盯着天花板。
@@ -38,6 +39,7 @@ characters/linchuan: （坐起来）
 
 characters/linchuan: （可以混进他们已经在看的东西里。）
 [background arg="#000000ff" fade="0.8" wait="true"]
+audio music "res://assets/music/akiironooka.mp3" [fade="3.0" loop="true"]
 system: 次日 · 教室
 [background arg="res://assets/backgrounds/classroom.png" fade="0.7" wait="true"]
 
@@ -75,6 +77,7 @@ characters/linchuan: （有用吗？这种程度的"读"——有用吗？）
 characters/linchuan: （我不知道。但总比什么都没有强。）
 [background arg="res://assets/backgrounds/blue_sky.png" fade="1.0" wait="true"]
 [background arg="res://assets/backgrounds/sunset_sky.png" fade="1.0" wait="true"]
+audio music "res://assets/music/kasumisou.mp3" [fade="3.0" loop="true"]
 system: 放学后 · 活动室
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.7" wait="true"]
 
@@ -161,6 +164,7 @@ system: 一周后 · 教室
 表情包继续发。每天一张。班里的人从"什么鬼"变成了"今天的呢"。辰安甚至开始催更。
 
 但表情包不够。我需要更大的东西。
+audio music "res://assets/music/pugtoosanpo.mp3" [fade="3.0" loop="true"]
 join characters/yuanzhou center
 
 characters/yuanzhou: （课间凑过来）临川，你最近是不是转性了？天天发古诗表情包。
@@ -182,6 +186,7 @@ characters/linchuan: ......文化祭？
 characters/yuanzhou: 对啊。每个社团都要出个展位。你们诗文社总不能摆几本旧书在那吧。
 
 characters/linchuan: ......
+audio music "res://assets/music/TownTheme.mp3" [fade="3.0" loop="true"]
 
 characters/linchuan: （文化祭。）
 
@@ -215,6 +220,7 @@ characters/linchuan: 行。就这么搞。
 leave --All--
 [background arg="res://assets/backgrounds/blue_sky.png" fade="1.0" wait="true"]
 [background arg="res://assets/backgrounds/sunset_sky.png" fade="1.0" wait="true"]
+audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 system: 放学后 · 活动室
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.7" wait="true"]
 join characters/bai center
@@ -413,6 +419,7 @@ characters/bai (neutral): ......翻下一页吧。
 characters/linchuan: （她说"想家"的时候——她有家吗？她的家是那本蓝皮书。她想的是哪个家？）
 
 characters/linchuan: （......算了。不问了。）
+audio music "res://assets/music/kiminoitanatsu.mp3" [fade="3.0" loop="true"]
 
 characters/linchuan: 第五种：喜欢一个人但不敢说。
 
@@ -439,6 +446,7 @@ characters/linchuan: ......嗯。记下来了。
 characters/linchuan: （算了。不想了。）
 leave --All-- [animation="Fade Out" wait="true"]
 [background arg="#000000ff" fade="1.0" wait="true"]
+audio music "res://assets/music/akiironooka.mp3" [fade="3.0" loop="true"]
 system: 文化祭前一天 · 活动室
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.7" wait="true"]
 
@@ -500,6 +508,7 @@ characters/linchuan: （她说了"答应你"。不是"好"，不是"再说"。�
 
 characters/linchuan: （这应该是她能给出的最重的承诺了。）
 [background arg="#000000ff" fade="1.0" wait="true"]
+audio music "res://assets/music/hiyokonokakekko.mp3" [fade="3.0" loop="true"]
 system: 文化祭当天
 [background arg="res://assets/backgrounds/cultural_festival.png" fade="0.7" wait="true"]
 
@@ -713,6 +722,7 @@ leave characters/linfeng
 [background arg="res://assets/backgrounds/blue_sky.png" fade="1.2" wait="true"]
 
 system: 下午四点。
+audio music "res://assets/music/Woodland Fantasy.mp3" [fade="3.0" loop="true"]
 [background arg="res://assets/backgrounds/cultural_festival.png" fade="0.8" wait="true"]
 
 一个女生走到展位前。她没有马上说烦恼，而是站在那里看了一会儿招牌。
@@ -821,6 +831,7 @@ system: 下午五点 · 文化祭尾声
 桌上的一沓便签已经发完了。我写到手酸。嗓子也哑了。
 
 远舟帮我把最后几波人应付走了之后，跑来找我。
+audio music "res://assets/music/pugtoosanpo.mp3" [fade="3.0" loop="true"]
 join characters/yuanzhou center
 
 characters/yuanzhou: 哥们，你今天跑了得有几十趟四楼吧。
@@ -855,6 +866,7 @@ characters/yuanzhou: 算了。没什么。你去忙吧。
 leave characters/yuanzhou
 
 远舟走了。我坐在展位后面，看着空了的便签盒。
+audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 
 characters/linchuan: （......该收摊了。）
 
@@ -1051,6 +1063,7 @@ characters/linchuan: 等我。
 characters/bai (shy): ......好。
 leave --All--
 [background arg="res://assets/backgrounds/sunset_sky.png" fade="1.0" wait="true"]
+audio music "res://assets/music/akiironooka.mp3" [fade="3.0" loop="true"]
 system: 文化祭 · 开放麦舞台
 [background arg="res://assets/backgrounds/openmic.png" fade="0.8" wait="true"]
 
@@ -1194,7 +1207,7 @@ characters/linchuan: 还有。文化祭不是只有一次。明年还有。后�
 
 characters/bai: ......嗯。
 
-characters/linchuan: 而且——等你哪天能出这间活动室了。我带你出去。书店、图书馆、公园。到处都有人念诗。
+characters/linchuan: 而且——等你哪天能出这里了。我带你出去。书店、图书馆、公园。到处都有人念诗。
 
 characters/bai: ......我现在出不了这栋楼。
 
@@ -1233,6 +1246,7 @@ characters/bai (real_smile): 不是"再说"。
 characters/linchuan: ......好。明天见。
 leave --All--
 [background arg="#000000ff" fade="1.0" wait="true"]
+audio music "res://assets/music/Woodland Fantasy.mp3" [fade="3.0" loop="true"]
 system: 社团活动室 · 午后
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
 
@@ -1483,6 +1497,7 @@ characters/linchuan: ......
 characters/linchuan: （算了。不逼她。）
 leave --All--
 [background arg="#000000ff" fade="1.0" wait="true"]
+audio music "res://assets/music/TownTheme.mp3" [fade="3.0" loop="true"]
 system: 又过了几天 · 教学楼走廊
 [background arg="res://assets/backgrounds/courtyard_day.png" fade="0.8" wait="true"]
 
@@ -1537,6 +1552,7 @@ characters/linchuan: （打字）下周三的诗务必交给我，念一首新�
 
 characters/linchuan: （打字）就念"山有木兮木有枝"。
 [background arg="#000000ff" fade="0.8" wait="true"]
+audio music "res://assets/music/Woodland Fantasy.mp3" [fade="3.0" loop="true"]
 system: 某天午后 · 活动室
 [background arg="res://assets/backgrounds/club.png" fade="0.7" wait="true"]
 
@@ -1683,6 +1699,7 @@ join characters/bai (reading) center
 characters/bai: 临川。
 
 characters/linchuan: 嗯？
+audio music "res://assets/music/futatsunoviolin_cut.mp3" [fade="3.0" loop="true"]
 
 characters/bai (neutral): 你知道吗。
 

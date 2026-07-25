@@ -1,6 +1,7 @@
 [background arg="res://assets/backgrounds/classroom.png" fade="0.5" wait="true"]
 
 课间。我趴在桌上补觉。远舟——初中就认识的哥们儿——坐到我旁边，拍了下我肩膀。
+audio music "res://assets/music/pugtoosanpo.mp3" [fade="3.0" loop="true"]
 join characters/yuanzhou center
 
 characters/yuanzhou: 临川，放学打瓦来不来？最近放学老不见你人。
@@ -44,6 +45,7 @@ characters/yuanzhou: 行行行。那什么时候带我去见识见识？看看�
 characters/linchuan: ......再说吧。
 
 characters/yuanzhou: 什么叫"再说"？你跟谁学的这句？
+audio music "res://assets/music/haruemukaukusabanae.mp3" [fade="3.0" loop="true"]
 
 characters/linchuan: （......跟谁学的。）
 leave characters/yuanzhou [animation="Fade Out"]
@@ -84,6 +86,7 @@ characters/linchuan: （一半是不想让远舟再追问，一半是——）
 
 characters/linchuan: （我也想让别人看到她。）
 [background arg="#000000ff" fade="0.8" wait="true"]
+audio music "res://assets/music/sangatsunosundasora.mp3" [fade="3.0" loop="true"]
 system: 某天放学 · 诗文社活动室
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
 join characters/bai (reading) center [animation="Fade In" wait="true"]
@@ -133,6 +136,7 @@ characters/linchuan: （......紧张就紧张呗。见个朋友而已，没什�
 characters/linchuan: （没什么大不了的。）
 leave characters/bai
 [background arg="#000000ff" fade="0.8" wait="true"]
+audio music "res://assets/music/pugtoosanpo.mp3" [fade="3.0" loop="true"]
 system: 第二天 · 放学
 [background arg="res://assets/backgrounds/corridor.png" fade="0.8" wait="true"]
 
@@ -197,6 +201,7 @@ join characters/bai leftmost
 characters/linchuan: ——就是这。进来吧。
 
 我让开身，让远舟他们进来。
+audio music "res://assets/music/natsunokiri.mp3" [fade="3.0" loop="true"]
 join characters/yuanzhou center [animation="Fade In"]
 update characters/yuanzhou [animation="Tada" length="1.0"]
 
@@ -435,6 +440,7 @@ characters/linchuan: 操。
 
 我没有回活动室。
 [background arg="#000000ff" fade="0.8" wait="true"]
+audio music "res://assets/music/seishishitauchu.mp3" [fade="3.0" loop="true"]
 system: 临川卧室，夜晚
 [background arg="res://assets/backgrounds/bedroom_evening.png" fade="0.8" wait="true"]
 
@@ -474,6 +480,7 @@ characters/linchuan: （翻了个身，把脸埋进枕头里）
 
 characters/linchuan: ......操。
 [background arg="#000000ff" fade="0.8" wait="true"]
+audio music "res://assets/music/natsunokiri.mp3" [fade="3.0" loop="true"]
 system: 某天 · 学校
 [background arg="res://assets/backgrounds/classroom_afternoon.png" fade="0.8" wait="true"]
 
@@ -534,6 +541,7 @@ characters/linchuan: ......
 
 这个事实比什么都让人难受。
 [background arg="#000000ff" fade="0.8" wait="true"]
+audio music "res://assets/music/tsukiakarinotodai.mp3" [fade="3.0" loop="true"]
 system: 第七天 · 临川卧室，夜晚
 [background arg="res://assets/backgrounds/bedroom_evening.png" fade="0.8" wait="true"]
 
@@ -575,6 +583,7 @@ characters/linchuan: 操。
 
 characters/linchuan: 我是不是个东西？
 [background arg="#000000ff" fade="0.8" wait="true"]
+audio music "res://assets/music/sangatsunosundasora.mp3" [fade="3.0" loop="true"]
 system: 第八天 · 放学
 [background arg="res://assets/backgrounds/classroom_afternoon.png" fade="0.8" wait="true"]
 audio "res://assets/sfx/school_bell.mp3"

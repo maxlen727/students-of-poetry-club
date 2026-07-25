@@ -1,3 +1,4 @@
+audio music "res://assets/music/kasumisou.mp3" [fade="3.0" bus="" loop="true"]
 [background arg="res://assets/backgrounds/school_gate.png" fade="0.8" wait="true"]
 
 临川，我，是一个新入学的高中学生。本届高中与往届有些不同——因为政策要求落实"全面发展的素质教育"，学校开始举办放学后的社团活动。
@@ -59,14 +60,15 @@ characters/linchuan: 算了，就当是……完成任务吧。
 
 characters/linchuan: 出于莫名其妙的原因，我进入了诗文社。
 
-[background arg="res://assets/backgrounds/sunset_sky.png" fade="1.0" transition="Simple Fade"]
+[background arg="res://assets/backgrounds/sunset_sky.png" fade="1.0" transition="Simple Fade" wait="true"]
 
 characters/linchuan: 真是无聊啊~以后的社团活动该怎么熬过去呢？
 
-[background arg="res://assets/backgrounds/corridor.png" fade="0.8"]
+[background arg="res://assets/backgrounds/corridor.png" fade="0.8" wait="true"]
 system: 下午——
 
 characters/linchuan: 唉，多么无聊啊……
+audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" bus="" loop="true"]
 audio "res://assets/sfx/door.mp3" [volume="-5.0"]
 
 [background arg="res://assets/backgrounds/club_dusty.png" fade="1.0"]
@@ -86,7 +88,10 @@ characters/linchuan: 嗯？这本书...
 
 我好奇地抽出这本书，翻开书页——
 
-book: "君问归期未有期......此间心境，何人能解？"
+book: 君问归期未有期......\
+\
+此间心境，\
+何人能解？
 
 characters/linchuan: 这社团的前辈，还挺多愁善感的嘛。"此间心境"......看来也是个觉得这里无聊的人？
 leave book
