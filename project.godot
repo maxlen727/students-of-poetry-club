@@ -105,7 +105,7 @@ history/simple_history_enabled=false
 history/simple_history_save=false
 history/full_history_enabled=false
 history/full_history_save=false
-save/autosave=true
+save/autosave=false
 save/autosave_mode=2
 save/default_slot="main_slot"
 

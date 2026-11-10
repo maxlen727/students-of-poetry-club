@@ -8,11 +8,17 @@ extends Node
 ## 1. 本脚本的 save_data —— 记录"游戏层面"的进度（解锁到第几章、每章是否通关），
 ##    存成简单的 json，供标题界面的章节选择使用。
 ## 2. Dialogic 自带的存档系统（Dialogic.Save）—— 记录"读到当前章节的第几句对话、
-##    所有 Dialogic 变量"等精确断点，开启了 autosave 后会在剧情推进时自动写入，
-##    读档时能把玩家精确带回离开时的那一句话。
+##    所有 Dialogic 变量"等精确断点，读档时能把玩家精确带回离开时的那一句话。
 ## 两者配合，就实现了"自动保存进度、下次打开自动继续"的需求，且不需要手写存档槽 UI。
-## （project.godot 里 autosave_mode=2，即每推进一句文本存一次；
-##   直接关窗口时 _notification 里再补存一次。）
+##
+## Dialogic 自带的 autosave 已在 project.godot 里关闭，改由本脚本存档：
+## 每推进一句文本存一次（_on_dialogic_event_handled），关窗口时再补存一次。
+## 原因：Dialogic 的 autosave 每次都会截一张屏幕缩略图（viewport 纹理回读），
+## 在部分显卡/驱动上取不到纹理会报错，而且每句都回读一次 GPU 也拖性能；
+## 本游戏没有存档槽界面，用不到缩略图，所以自己存、不截图。
+
+## 对应 Dialogic.Save 里的 ThumbnailMode.NONE（该脚本没有 class_name，无法直接引用枚举）。
+const THUMBNAIL_NONE := 0
 
 const SAVE_DIR := "user://saves/"
 const SAVE_FILE := "user://saves/save_slot_1.json"
@@ -111,6 +117,8 @@ func continue_game() -> void:
 
 
 func _goto_game_scene() -> void:
+	if not Dialogic.event_handled.is_connected(_on_dialogic_event_handled):
+		Dialogic.event_handled.connect(_on_dialogic_event_handled)
 	if not Dialogic.timeline_started.is_connected(_on_dialogic_timeline_started):
 		Dialogic.timeline_started.connect(_on_dialogic_timeline_started)
 	if not Dialogic.timeline_ended.is_connected(_on_dialogic_timeline_ended):
@@ -152,11 +160,24 @@ func _on_dialogic_timeline_started() -> void:
 	save_game()
 
 
+## 写入 Dialogic 精确断点，不截缩略图。
+## is_autosave 必须传 false：Dialogic 的 save() 遇到"自动存档且 autosave 已关闭"
+## 会直接跳过不写，而我们正是把它的 autosave 关掉了。
+func _save_progress() -> void:
+	Dialogic.Save.save(DIALOGIC_SLOT, false, THUMBNAIL_NONE)
+
+
+## 每推进一句文本自动存一次。
+func _on_dialogic_event_handled(event: DialogicEvent) -> void:
+	if current_chapter_index >= 0 and event is DialogicTextEvent:
+		_save_progress()
+
+
 ## 直接关窗口时也存一次精确断点（自动存档只在推进文本时写入）。
 func _notification(what: int) -> void:
 	if what == NOTIFICATION_WM_CLOSE_REQUEST:
 		if current_chapter_index >= 0 and Dialogic.current_timeline != null:
-			Dialogic.Save.save(DIALOGIC_SLOT, false)
+			_save_progress()
 
 
 func _on_dialogic_timeline_ended() -> void:
@@ -176,21 +197,16 @@ func _on_dialogic_timeline_ended() -> void:
 
 	if next_index < CHAPTERS.size():
 		# 还有下一章：直接无缝衔接播放，不退出到主界面。
-		# 注意：这里不手动删除 Dialogic 存档槽——Dialogic 自己也监听了
-		# timeline_ended 来做 autosave，两者若在同一信号里抢着操作同一个槽位，
-		# 执行顺序无法保证，手动 delete 可能被随后触发的自动存档"复活"。
-		# 干脆不删：下一章开始播放后，下一次 autosave（章节跳转/文本推进）
-		# 会自然把同一个槽位覆盖成新章节的进度，不影响功能。
+		# 不删除存档槽：下一章推进第一句文本时会自然覆盖成新章节的进度；
+		# 万一在那之前关了游戏，读档后 _on_dialogic_timeline_started 会按
+		# 实际时间线校正章节下标。
 		current_chapter_index = next_index
 		save_data["last_played_chapter"] = next_index
 		save_game()
 		Dialogic.start(CHAPTERS[next_index]["timeline"])
 	else:
-		# 已经是最后一章：全剧通关。
-		# 等一帧，确保 Dialogic 自己触发的 autosave（同样监听 timeline_ended）
-		# 已经执行完毕，再删除存档槽，避免被其"复活"。
+		# 已经是最后一章：全剧通关，删除存档槽。
 		current_chapter_index = -1
-		await get_tree().process_frame
 		if Dialogic.Save.has_slot(DIALOGIC_SLOT):
 			Dialogic.Save.delete_slot(DIALOGIC_SLOT)
 		get_tree().change_scene_to_file("res://scenes/title_screen.tscn")
@@ -221,7 +237,7 @@ func _on_dialogic_timeline_ended() -> void:
 ## 内部数据 3) 手动移除图层节点（照抄 end_timeline() 里对应的那段逻辑）。
 func return_to_title() -> void:
 	if current_chapter_index >= 0:
-		Dialogic.Save.save(DIALOGIC_SLOT, false)
+		_save_progress()
 
 	current_chapter_index = -1
 
@@ -230,6 +246,8 @@ func return_to_title() -> void:
 		Dialogic.timeline_ended.disconnect(_on_dialogic_timeline_ended)
 	if Dialogic.timeline_started.is_connected(_on_dialogic_timeline_started):
 		Dialogic.timeline_started.disconnect(_on_dialogic_timeline_started)
+	if Dialogic.event_handled.is_connected(_on_dialogic_event_handled):
+		Dialogic.event_handled.disconnect(_on_dialogic_event_handled)
 
 	# 1) 完整清空所有 subsystem 内部数据（portraits/backgrounds/audio/...），
 	# 确保下次读档面对的是干净状态，不会有残留角色节点引用导致崩溃。
