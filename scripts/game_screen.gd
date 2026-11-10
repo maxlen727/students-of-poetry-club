@@ -19,7 +19,6 @@ extends CanvasLayer
 
 
 func _ready() -> void:
-	print("[GameScreen] _ready() 已执行，UI 层已加载。")
 	_set_exit_confirm_visible(false)
 	_refresh_auto_play_button()
 

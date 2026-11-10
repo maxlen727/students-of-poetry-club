@@ -75,7 +75,7 @@ bai (deadpan): （书后面露出一双眼睛，先看了看面包，又看了�
 
 linchuan: 拿着吧，我多的。
 
-bai: ......你每天带的都多?
+bai: ......你每天带的都多？
 
 linchuan: 我妈给我顺手塞的。
 
@@ -93,9 +93,9 @@ linchuan: 就三块钱的面包而已
 
 bai: 嗯。
 
-linchuan: (就一个"嗯"。但她说"好吃"的时候声音比平时软了一点。可能是饿了吧。)
+linchuan: （就一个"嗯"。但她说"好吃"的时候声音比平时软了一点。可能是饿了吧。）
 [background arg="#000000ff" fade="0.5" wait="true"]
-system: 第四天——
+system: 第四天 · 活动室
 
 [background arg="res://assets/backgrounds/blue_sky.png" fade="0.8" wait="true"]
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
@@ -182,7 +182,7 @@ linchuan: 你连夹菜都要编理由？
 bai: ......
 
 linchuan: （嘴上什么都不承认，筷子倒是很诚实。）
-system: 饭后——
+system: 饭后 · 活动室
 update bai (neutral) [fade="Fade Cross"]
 audio music "res://assets/music/houkagonoyuzora.mp3" [fade="5.0" loop="true"]
 
@@ -293,7 +293,7 @@ linchuan: （笑出声）
 bai: （看了我一眼，没说话，低头翻了一页）
 leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 [background arg="#000000ff" fade="0.5" wait="true"]
-system: 几天后——
+system: 几天后 · 活动室
 audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 [background arg="res://assets/backgrounds/blue_sky.png" fade="0.8" wait="true"]
 
@@ -675,7 +675,7 @@ linchuan: （停住）
 
 她说"没有"的时候很自然，一点不尴尬。
 
-linchuan: (......她大概是不想提成绩的事。)
+linchuan: （......她大概是不想提成绩的事。）
 
 linchuan: （叹气）行吧。"莫愁前路无知己"。我记住了。虽然这并不能让我数学多考一分。
 
@@ -790,22 +790,25 @@ linchuan: （说不上来。就觉得这句话好像不只是说诗的。）
 leave bai [animation="Fade Out" wait="true"]
 audio music "res://assets/music/kasumisou.mp3" [fade="3.0" loop="true"]
 [background arg="#000000ff" fade="0.5" wait="true"]
-system: 某天中午 · 老楼一楼
-[background arg="res://assets/backgrounds/cafeteria.png" fade="0.8" wait="true"]
-
-老楼一楼有个旧食堂。新食堂盖好之后这里只剩一个面档还开着，中午稀稀拉拉坐不满三桌。
+system: 某天中午 · 活动室
+[background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
 
 我是今天才想起来的——我从没在新食堂见过白。她中午到底在哪吃？
 
 上四楼一看，她果然在活动室，一个人对着窗户坐着。桌上什么吃的都没有。
+join bai (neutral) center [animation="Fade In" wait="true"]
 
 linchuan: 走，下楼。请你吃面。
 
 bai: ......不用。
 
-linchuan: 就在一楼，又不出这栋楼。
+linchuan: 老楼一楼不是有个旧食堂吗。就在一楼，又不出这栋楼。
 
 她看了我一会儿，合上书，站了起来。
+leave bai [animation="Fade Out" wait="true"]
+[background arg="res://assets/backgrounds/cafeteria.png" fade="0.8" wait="true"]
+
+新食堂盖好之后，老楼的旧食堂只剩一个面档还开着，中午稀稀拉拉坐不满三桌。
 
 我点了两碗面，挑了最靠窗的角落。打面的阿姨多看了我一眼。
 
@@ -862,7 +865,7 @@ bai: 我知道。
 算了。都行。
 [background arg="#000000ff" fade="0.5" wait="true"]
 audio music "res://assets/music/natsunokiri.mp3" [fade="3.0" loop="true"]
-system: 活动室——
+system: 期末前 · 活动室
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
 join bai center
 
@@ -932,7 +935,7 @@ linchuan: （开学就又能见到了。）
 
 [background arg="#000000ff" fade="0.5" wait="true"]
 audio music "res://assets/music/tsukiakarinotodai.mp3" [fade="3.0" loop="true"]
-system: 临川卧室，夜晚，暑假
+system: 暑假 · 临川卧室
 [background arg="res://assets/backgrounds/bedroom_evening.png" fade="0.8" wait="true"]
 
 linchuan: ......
@@ -993,7 +996,7 @@ system: 九月初 · 学校走廊
 
 开学了。高二的新教室在三楼，离老教学楼更远了一点。
 
-linchuan: (以后去活动室得多走五分钟。)
+linchuan: （以后去活动室得多走五分钟。）
 
 第一天放学，我没去活动室。因为要搬教室、领新书，忙到很晚。
 
@@ -1001,7 +1004,7 @@ linchuan: (以后去活动室得多走五分钟。)
 
 第三天——社团登记日。我在名单上找到了"诗文社"，签了自己的名字。
 
-linchuan: (白的名字呢？)
+linchuan: （白的名字呢？）
 
 我扫了一眼社团成员名单。上面只有我的名字。
 
@@ -1011,7 +1014,7 @@ linchuan: （正常。她大概不知道今天登记。等社团活动开始了�
 
 我合上名单，走了。
 [background arg="#000000ff" fade="0.8" wait="true"]
-system: 开学第一周 · 诗文社活动
+system: 开学第一周 · 活动室
 [background arg="res://assets/backgrounds/club_dusty.png" fade="0.8" wait="true"]
 audio "res://assets/sfx/door.mp3"
 
@@ -1040,7 +1043,7 @@ join book center
 
 linchuan: ......
 
-（伸手摸了一下书皮。指尖有一丝凉意。）
+我伸手摸了一下书皮。指尖有一丝凉意。
 
 linchuan: （每次碰到这本书都是这个温度。）
 
@@ -1118,7 +1121,7 @@ bai: ......哦。
 linchuan: （回来就好。）
 [background arg="#000000ff" fade="0.8" wait="true"]
 audio music "res://assets/music/sangatsunosundasora.mp3" [fade="3.0" loop="true"]
-system: 开学第三周
+system: 开学第三周 · 活动室
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
 
 白回来之后，日子好像又回到了上学期的节奏。她念诗，我听，偶尔斗嘴。
@@ -1181,5 +1184,6 @@ bai: 嗯。
 她说"嗯"的时候，眼神躲了一下。她以前从来不躲。
 
 linchuan: （......是我多想了吗。）
+leave --All-- [animation="Fade Out" wait="true"]
 
 [end_timeline]

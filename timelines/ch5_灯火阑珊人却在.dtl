@@ -48,7 +48,7 @@ system: 次日 · 教室
 用白念过的诗，配上班级群里日常的搞笑图，做了几张表情包。
 
 三张自制表情包——
-join others (坐起看云时) center [animation="Fade In" length="0.8" wait="true"]
+join others (坐看云起时) center [animation="Fade In" length="0.8" wait="true"]
 图一：一只猫瘫在地上，配文"行到水穷处，坐看云起时"
 update others (厨中无宿储)
 图二：一个人对着空冰箱发呆，配文"厨中无宿储，灶下绝新烟"
@@ -135,6 +135,7 @@ bai (neutral): ......要看是在笑什么。
 linchuan: 行。那我先发着。发一周看看。
 
 bai (smile_first_time): 嗯。
+leave bai [animation="Fade Out" length="0.8" wait="true"]
 [background arg="#000000ff" fade="1.0" wait="true"]
 system: 一周后 · 教室
 [background arg="res://assets/backgrounds/classroom.png" fade="0.7" wait="true"]
@@ -220,7 +221,7 @@ linchuan: ......文化祭？
 yuanzhou: 对啊。每个社团都要出个展位。你们诗文社总不能摆几本旧书在那吧。
 
 linchuan: ......
-audio music "res://assets/music/TownTheme.mp3" [fade="3.0" loop="true"]
+audio music "res://assets/music/town_theme.mp3" [fade="3.0" loop="true"]
 
 linchuan: （文化祭。）
 
@@ -395,7 +396,7 @@ linchuan: 这个好。人话说就是——"别怕，走着。"
 
 bai: 嗯。
 
-linchuan: (记下来)
+linchuan: （记下来）
 
 linchuan: 第二种：跟父母吵架。
 
@@ -532,7 +533,7 @@ leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 linchuan: （这应该是她能给出的最重的承诺了。）
 [background arg="#000000ff" fade="1.0" wait="true"]
 audio music "res://assets/music/hiyokonokakekko.mp3" [fade="3.0" loop="true"]
-system: 文化祭当天
+system: 文化祭当天 · 老楼一楼
 [background arg="res://assets/backgrounds/cultural_festival.png" fade="0.7" wait="true"]
 
 文化祭当天。老教学楼一楼被改造成了展位区。隔壁是咖啡社，对面是手工社，走廊里到处是人。
@@ -744,8 +745,8 @@ leave linfeng [animation="Fade Out" wait="true"]
 
 [background arg="res://assets/backgrounds/blue_sky.png" fade="1.2" wait="true"]
 
-system: 下午四点。
-audio music "res://assets/music/Woodland Fantasy.mp3" [fade="3.0" loop="true"]
+system: 下午四点 · 老楼一楼
+audio music "res://assets/music/woodland_fantasy.mp3" [fade="3.0" loop="true"]
 [background arg="res://assets/backgrounds/cultural_festival.png" fade="0.8" wait="true"]
 
 一个女生走到展位前。她没有马上说烦恼，而是站在那里看了一会儿招牌。
@@ -845,9 +846,9 @@ linchuan: ......
 linchuan: （我假装不知道。）
 [background arg="res://assets/backgrounds/blue_sky.png" fade="0.8" wait="true"]
 [background arg="res://assets/backgrounds/sunset_sky.png" fade="1.0" wait="true"]
-system: 下午五点 · 文化祭尾声
+system: 下午五点 · 老楼一楼
 
-[background arg="res://assets/backgrounds/cultural_festival_afternoon.png.png" fade="0.8" wait="true"]
+[background arg="res://assets/backgrounds/cultural_festival_afternoon.png" fade="0.8" wait="true"]
 
 下午五点。文化祭接近尾声。展位前的人少了。
 
@@ -905,7 +906,7 @@ linchuan: （......该收摊了。）
 
 linchuan: （最后还有一件事。）
 [background arg="res://assets/backgrounds/sunset_sky.png" fade="1.0" wait="true"]
-system: 傍晚 · 老教学楼四楼 · 活动室
+system: 傍晚 · 活动室
 
 audio "res://assets/sfx/door.mp3"
 [background arg="res://assets/backgrounds/bai_afternoon_club.png" fade="1.0" wait="true"]
@@ -1097,7 +1098,7 @@ bai (shy): ......好。
 leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 [background arg="res://assets/backgrounds/sunset_sky.png" fade="1.0" wait="true"]
 audio music "res://assets/music/akiironooka.mp3" [fade="3.0" loop="true"]
-system: 文化祭 · 开放麦舞台
+system: 傍晚 · 开放麦舞台
 [background arg="res://assets/backgrounds/openmic.png" fade="0.8" wait="true"]
 
 开放麦。操场上的简易舞台。台下稀稀拉拉坐了些人，有些在聊天，有些在看手机。
@@ -1279,8 +1280,8 @@ bai (real_smile): 不是"再说"。
 linchuan: ......好。明天见。
 leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 [background arg="#000000ff" fade="1.0" wait="true"]
-audio music "res://assets/music/Woodland Fantasy.mp3" [fade="3.0" loop="true"]
-system: 社团活动室 · 午后
+audio music "res://assets/music/woodland_fantasy.mp3" [fade="3.0" loop="true"]
+system: 午后 · 活动室
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
 
 一个月后。
@@ -1493,8 +1494,8 @@ bai: 很吵。但我喜欢。
 
 leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 [background arg="#000000ff" fade="1.0" wait="true"]
-audio music "res://assets/music/TownTheme.mp3" [fade="3.0" loop="true"]
-system: 又过了几天 · 教学楼走廊
+audio music "res://assets/music/town_theme.mp3" [fade="3.0" loop="true"]
+system: 又过了几天 · 老楼走廊
 [background arg="res://assets/backgrounds/courtyard_day.png" fade="0.8" wait="true"]
 
 又过了几天。一件意想不到的事发生了。
@@ -1548,7 +1549,7 @@ linchuan: （打字）下周三的诗务必交给我，念一首新的——
 
 linchuan: （打字）就念"山有木兮木有枝"。
 [background arg="#000000ff" fade="0.8" wait="true"]
-audio music "res://assets/music/Woodland Fantasy.mp3" [fade="3.0" loop="true"]
+audio music "res://assets/music/woodland_fantasy.mp3" [fade="3.0" loop="true"]
 system: 某天午后 · 活动室
 [background arg="res://assets/backgrounds/club.png" fade="0.7" wait="true"]
 
@@ -1678,7 +1679,7 @@ linchuan: （实实在在的。不是凉风。是手指。）
 linchuan: （她能碰到我了。）
 leave --All-- [animation="Fade Out" length="0.8" wait="true"]
 [background arg="res://assets/backgrounds/blue_sky.png" fade="1.0" wait="true"]
-system: 回到活动室 · 午后阳光
+system: 午后 · 活动室
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
 
 回到活动室。白坐在窗边，我坐在对面。

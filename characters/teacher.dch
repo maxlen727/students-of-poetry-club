@@ -19,7 +19,7 @@
 &"portraits": {
 "neutral": {
 "export_overrides": {
-"image": "\"res://assets/portraits/teacher/teacher.png\""
+"image": "\"res://assets/portraits/teacher/neutral.png\""
 },
 "offset": Vector2(0, 140),
 "scale": 1.2,

@@ -39,7 +39,7 @@ text = "自动：关"
 custom_minimum_size = Vector2(90, 40)
 layout_mode = 2
 focus_mode = 0
-text = "菜单 (Esc)"
+text = "菜单（Esc）"
 
 [node name="ExitConfirmPanel" type="Panel" parent="Root"]
 unique_name_in_owner = true

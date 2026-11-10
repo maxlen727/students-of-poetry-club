@@ -27,7 +27,7 @@ audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 
 我们像两个心知肚明但谁都不开口的人，继续过着日常。
 [background arg="#000000ff" fade="0.8" wait="true"]
-system: 某天下午，活动室
+system: 某天下午 · 活动室
 
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
 join bai (reading) center [animation="Fade In Up" wait="true"]
@@ -183,7 +183,7 @@ bai: （低下头，摸了一下书的边角）
 
 linchuan: 白。到底怎么回事。
 
-（白安静了很久。久到我以为她不打算说了。）
+白安静了很久。久到我以为她不打算说了。
 
 bai: 你有没有发现，这学期来活动室的人——
 
@@ -409,7 +409,7 @@ update bai (sad)
 bai: ......临川。
 
 linchuan: 嗯。
-audio music "res://assets/music/Path to Lake Land.ogg" [fade="3.0" loop="true"]
+audio music "res://assets/music/path_to_lake_land.ogg" [fade="3.0" loop="true"]
 
 bai (deadpan): 我想试一件事。
 

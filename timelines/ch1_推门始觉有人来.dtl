@@ -1,4 +1,4 @@
-audio music "res://assets/music/kasumisou.mp3" [fade="3.0" bus="" loop="true"]
+audio music "res://assets/music/kasumisou.mp3" [fade="3.0" loop="true"]
 [background arg="res://assets/backgrounds/school_gate.png" fade="0.8" wait="true"]
 
 临川，我，是一个高一学生。寒假结束，这学期的学校和上学期有些不同——因为政策要求落实"全面发展的素质教育"，学校开始举办放学后的社团活动。
@@ -11,39 +11,39 @@ leave teacher [animation="Fade Out" wait="true"]
 
 看着宣发的海报，我开始思考——
 
-linchuan: (篮球社团？——我跑800米都喘；)
+linchuan: （篮球社团？——我跑800米都喘；）
 
-linchuan: (超自然研究社团？——听名字就很奇怪，说不定里面还会出现魔女一类的怪人……)
+linchuan: （超自然研究社团？——听名字就很奇怪，说不定里面还会出现魔女一类的怪人......）
 
-linchuan: (计算机社团？——自由编程？畅玩Steam？)
+linchuan: （计算机社团？——自由编程？畅玩Steam？）
 
-linchuan: (……听起来像天堂)
+linchuan: （......听起来像天堂）
 set {other_name} = "临川 & ???"
 
 others: 我想选计算机社团！
-set {another_name} = "？？？"
+set {archchan_name} = "？？？"
 
 archchan: 嗯？？？
-set {another_name} = "Arch chan"
+set {archchan_name} = "Arch chan"
 
 linchuan: 嗯？？？
 
 扭头看去，是一位身穿黑色卫衣的"萝莉"。
 join archchan (default) center
 
-linchuan: （看上去年龄好小...这真的是个高中生吗？！）
+linchuan: （看上去年龄好小......这真的是个高中生吗？！）
 
-linchuan: （还有种莫名的眼熟感...她长得好像某个宗教的吉祥物啊……）
+linchuan: （还有种莫名的眼熟感......她长得好像某个宗教的吉祥物啊......）
 
 女生好像看透了我的想法。
 
 archchan (angry): 喂，我已经{arch_age}岁了！另外，只有高手才有资格当计算机的主人噢，小白什么的速速退散！
 
-linchuan: （{arch_age}岁？嘶~这不是高中吗...留级？）
+linchuan: （{arch_age}岁？嘶~这不是高中吗......留级？）
 
-看着女生愤怒的表情，总感觉似乎不该太纠结这个问题……
+看着女生愤怒的表情，总感觉似乎不该太纠结这个问题......
 
-linchuan: 算了算了，还是把这个名额给她吧……
+linchuan: 算了算了，还是把这个名额给她吧......
 leave archchan
 
 在我继续思考报什么社团的过程中，其他同学已经大多报完了。
@@ -54,9 +54,9 @@ teacher: 临川，现在只有诗文社还有剩余名额了，干脆你到诗�
 linchuan: 哎？！——
 leave teacher [animation="Fade Out"]
 
-linchuan: 诗文社吗？从名字感觉完全提不起兴趣啊……
+linchuan: 诗文社吗？从名字感觉完全提不起兴趣啊......
 
-linchuan: 算了，就当是……完成任务吧。
+linchuan: 算了，就当是......完成任务吧。
 
 出于莫名其妙的原因，我进入了诗文社。
 
@@ -65,26 +65,26 @@ linchuan: 算了，就当是……完成任务吧。
 linchuan: 真是无聊啊~以后的社团活动该怎么熬过去呢？
 
 [background arg="res://assets/backgrounds/corridor.png" fade="0.8" wait="true"]
-system: 下午——
+system: 下午 · 老教学楼
 
-linchuan: 唉，多么无聊啊……
-audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" bus="" loop="true"]
+linchuan: 唉，多么无聊啊......
+audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 audio "res://assets/sfx/door.mp3" [volume="-5.0"]
 
 [background arg="res://assets/backgrounds/club_dusty.png" fade="1.0" wait="true"]
 
 诗文社在老教学楼四楼，走廊的尽头。推开门，一股旧书和木头混合的、略带陈腐的气味扑面而来。夕阳透过满是灰尘的窗户，把房间切成明暗两半。
 
-linchuan: 果然这种社团只有我一个人吗……
+linchuan: 果然这种社团只有我一个人吗......
 
-linchuan: 诗文社……诗文果然是要被时代遗忘的东西吧
+linchuan: 诗文社......诗文果然是要被时代遗忘的东西吧
 
 linchuan: 唉......以后的社团活动时间，难道就要在这里发呆了吗？
 
 我百无聊赖地在一张旧书桌前坐下，手指无意识地划过桌面，留下清晰的指痕。书架上的书东倒西歪，积满了灰尘，唯独一本蓝色封皮、没有书名的线装书，干净得与这里格格不入。
 join book center [animation="Fade In"]
 
-linchuan: 嗯？这本书...
+linchuan: 嗯？这本书......
 
 我好奇地抽出这本书，翻开书页——
 
@@ -114,11 +114,11 @@ linchuan: ？！！
 linchuan: 是幻听吗？（拍胸口）......靠，老楼的通风也太好了吧，阴风阵阵的。
 
 audio "res://assets/sfx/school_bell.mp3"
-system: 放学铃的声音从远处传来——
+放学铃的声音从远处传来——
 
 linchuan: 算了，撤。第一天打卡完成，明天再来睡。
 [background arg="#000000ff" fade="1.0" wait="true"]
-system: 第二天下午——
+system: 第二天下午 · 活动室
 
 audio "res://assets/sfx/door.mp3"
 
@@ -261,7 +261,7 @@ bai (neutral): 嗯。也没关系。
 
 linchuan: ......
 
-linchuan: (这人是真的不会聊天，还是就是这种性子？但说不上来......有点让人不好意思。)
+linchuan: （这人是真的不会聊天，还是就是这种性子？但说不上来......有点让人不好意思。）
 
 linchuan: 那......走吧，一起下楼。天黑了老楼没灯。
 

@@ -87,7 +87,7 @@ linchuan: （一半是不想让远舟再追问，一半是——）
 linchuan: （我也想让她多认识几个人。总不能一直只有我。）
 [background arg="#000000ff" fade="0.8" wait="true"]
 audio music "res://assets/music/sangatsunosundasora.mp3" [fade="3.0" loop="true"]
-system: 某天放学 · 诗文社活动室
+system: 某天放学 · 活动室
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
 join bai (reading) center [animation="Fade In" wait="true"]
 
@@ -127,7 +127,7 @@ linchuan: 你刚才摸书边角了。你平时不摸。
 
 bai: ......习惯。
 
-linchuan: (她又在拿"习惯"搪塞我。但这次我没追问。)
+linchuan: （她又在拿"习惯"搪塞我。但这次我没追问。）
 
 linchuan: （那个"好"字不像平时那么平。很小的一点起伏，但我听出来了。）
 
@@ -213,7 +213,7 @@ yuanzhou: 就你一个人啊。哪有什么女生？
 
 linchuan: ......
 
-linchuan: （他说什么?）
+linchuan: （他说什么？）
 
 linchuan: 不可能。她就在那——
 
@@ -453,7 +453,7 @@ linchuan: 操。
 我没有回活动室。
 [background arg="#000000ff" fade="0.8" wait="true"]
 audio music "res://assets/music/seishishitauchu.mp3" [fade="3.0" loop="true"]
-system: 临川卧室，夜晚
+system: 当晚 · 临川卧室
 [background arg="res://assets/backgrounds/bedroom_evening.png" fade="0.8" wait="true"]
 
 那天晚上，我躺在床上，盯着天花板。
@@ -560,7 +560,7 @@ linchuan: ......
 这个事实比什么都让人难受。
 [background arg="#000000ff" fade="0.8" wait="true"]
 audio music "res://assets/music/tsukiakarinotodai.mp3" [fade="3.0" loop="true"]
-system: 第七天 · 临川卧室，夜晚
+system: 第七天夜晚 · 临川卧室
 [background arg="res://assets/backgrounds/bedroom_evening.png" fade="0.8" wait="true"]
 
 第七天。一个礼拜了。
@@ -597,7 +597,7 @@ linchuan: ......
 
 linchuan: 操。
 
-（从床上坐起来）
+我从床上坐了起来。
 
 linchuan: 我是不是个东西？
 [background arg="#000000ff" fade="0.8" wait="true"]

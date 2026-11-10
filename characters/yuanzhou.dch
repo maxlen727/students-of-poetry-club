@@ -19,7 +19,7 @@
 &"portraits": {
 "neutral": {
 "export_overrides": {
-"image": "\"res://assets/portraits/yuanzhou/yuanzhou.png\""
+"image": "\"res://assets/portraits/yuanzhou/neutral.png\""
 },
 "offset": Vector2(0, 300),
 "scale": 1.4,

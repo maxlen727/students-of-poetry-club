@@ -22,7 +22,7 @@ config/icon="uid://c5yyel1gmj2pr"
 [autoload]
 
 Dialogic="*uid://ds2q0uclmolvu"
-GameState="*res://scripts/game_state.gd"
+GameState="*uid://bqeuy1h8tfvtv"
 ArchAge="*uid://ci8qxywevpk6k"
 
 [dialogic]
@@ -94,9 +94,9 @@ audio/channel_defaults={
 }
 }
 variables={
-"another_name": "XXX",
 "arch_age": 24,
-"other_name": "???"
+"archchan_name": "？？？",
+"other_name": "？？？"
 }
 glossary/default_case_sensitive=true
 layout/style_list=["res://styles/my_style.tres", "res://styles/system.tres", "res://styles/book.tres"]
