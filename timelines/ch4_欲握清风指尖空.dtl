@@ -30,32 +30,32 @@ audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 system: 某天下午，活动室
 
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
-join characters/bai (reading) center [animation="Fade In Up" wait="true"]
+join bai (reading) center [animation="Fade In Up" wait="true"]
 
-characters/linchuan: 小白，今天读什么？
+linchuan: 小白，今天读什么？
 
-characters/bai: ......"无可奈何花落去，似曾相识燕归来。"
+bai: ......"无可奈何花落去，似曾相识燕归来。"
 
-characters/linchuan: 这什么意思？
+linchuan: 这什么意思？
 
-characters/bai: 花落了，留不住。但燕子回来了，好像在哪见过。
+bai: 花落了，留不住。但燕子回来了，好像在哪见过。
 
-characters/linchuan: 留不住......
+linchuan: 留不住......
 
-characters/bai: 嗯。
+bai: 嗯。
 
-characters/linchuan: 你为什么念这首？
+linchuan: 你为什么念这首？
 
-characters/bai (thinking): （想了一下）翻到了。
+bai (thinking): （想了一下）翻到了。
 
-characters/linchuan: 就翻到了？
+linchuan: 就翻到了？
 
-characters/bai: 嗯。
+bai: 嗯。
 
 她翻书的时候比以前慢了。以前一两秒就能找到想念的那一页。现在要翻好几下，像是在确认字还在不在。
-leave characters/bai [animation="Fade Out" wait="true"]
+leave bai [animation="Fade Out" wait="true"]
 
-characters/linchuan: ......
+linchuan: ......
 
 我没问。
 [background arg="#000000ff" fade="0.8" wait="true"]
@@ -63,94 +63,94 @@ system: 某天傍晚 · 活动室
 [background arg="res://assets/backgrounds/club_night.png" fade="0.8" wait="true"]
 
 白站在窗边看楼下。我趴在桌上，有一搭没一搭地跟她说话。
-join characters/bai center [animation="Fade In" wait="true"]
+join bai center [animation="Fade In" wait="true"]
 
-characters/linchuan: 小白。
+linchuan: 小白。
 
-characters/bai: 嗯。
+bai: 嗯。
 
-characters/linchuan: 你平时......不活动的时候在干嘛？
+linchuan: 你平时......不活动的时候在干嘛？
 
-characters/bai (deadpan): 在这里。
+bai (deadpan): 在这里。
 
-characters/linchuan: 一直在这里？
+linchuan: 一直在这里？
 
-characters/bai (neutral): 嗯。
+bai (neutral): 嗯。
 
-characters/linchuan: 晚上呢？放学以后？
+linchuan: 晚上呢？放学以后？
 
-characters/bai: 也在。
+bai: 也在。
 
-characters/linchuan: 你不用回家？
+linchuan: 你不用回家？
 
-characters/bai (thinking): ......这里就是家。
+bai (thinking): ......这里就是家。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: 那你寒假暑假——
+linchuan: 那你寒假暑假——
 
-characters/bai (neutral): 也在。只是你不在。
+bai (neutral): 也在。只是你不在。
 
-characters/linchuan: 一个人？
+linchuan: 一个人？
 
-characters/bai: 嗯。
+bai: 嗯。
 
-characters/linchuan: ......不无聊吗？
+linchuan: ......不无聊吗？
 
-characters/bai: 有书。
+bai: 有书。
 
-characters/linchuan: 就看书？
+linchuan: 就看书？
 
-characters/bai (deadpan): 嗯。等开学。
+bai (deadpan): 嗯。等开学。
 
-characters/linchuan: 等我？
+linchuan: 等我？
 
-characters/bai: （没有回答。转回去看窗外。）
+bai: （没有回答。转回去看窗外。）
 
 整个暑假，她一个人在这间屋子里。没有我，没有任何人。就守着这堆旧书，守着那本没人来翻的蓝皮书。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: （那她暑假一个人在干什么？）
+linchuan: （那她暑假一个人在干什么？）
 
-characters/linchuan: （等。）
+linchuan: （等。）
 
-characters/linchuan: （等开学。等我回来。）
+linchuan: （等开学。等我回来。）
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: 小白。
+linchuan: 小白。
 
-characters/bai: 嗯？
+bai: 嗯？
 
-characters/linchuan: 明年暑假我带你出去玩。
+linchuan: 明年暑假我带你出去玩。
 
-characters/bai: ......出去玩？
+bai: ......出去玩？
 
-characters/linchuan: 对。出去。不用待在这间屋子里。
+linchuan: 对。出去。不用待在这间屋子里。
 
-characters/bai (deadpan): 我出不了这栋楼。
+bai (deadpan): 我出不了这栋楼。
 
-characters/linchuan: ......离不开那本书？那把书带上不就行了。
+linchuan: ......离不开那本书？那把书带上不就行了。
 
-characters/bai: 书也出不去。很久以前有个社员想把它带回家抄。刚出楼门，字就淡了一半。他吓得又跑回来了。
+bai: 书也出不去。很久以前有个社员想把它带回家抄。刚出楼门，字就淡了一半。他吓得又跑回来了。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: 那就等哪天能出去了。你想去哪？
+linchuan: 那就等哪天能出去了。你想去哪？
 
-characters/bai (thinking): （想了一会儿）......没想过。
+bai (thinking): （想了一会儿）......没想过。
 
-characters/linchuan: 那就先想。想好了告诉我。
+linchuan: 那就先想。想好了告诉我。
 
-characters/bai: ......好。
+bai: ......好。
 
 她说"好"的时候，声音比平时轻了一点。
 
 她的世界里只有这栋楼。从来没有人问过她想去哪。
 
 ......我想带她去。但我说不出口的是——我不确定到时候她还在不在。
-leave characters/bai [animation="Fade Out" wait="true"]
+leave bai [animation="Fade Out" wait="true"]
 [background arg="#000000ff" fade="0.8" wait="true"]
 audio music "res://assets/music/natsunokiri.mp3" [fade="3.0" loop="true"]
 system: 两周后 · 活动室
@@ -169,71 +169,71 @@ system: 两周后 · 活动室
 
 白坐在窗边。阳光照过来，我能看到她身后的书架——透过她的肩膀。
 
-characters/linchuan: ......小白。
+linchuan: ......小白。
 
-characters/bai: 嗯？
+bai: 嗯？
 
-characters/linchuan: 你今天脸色不太好。
+linchuan: 你今天脸色不太好。
 
-characters/bai: （看了我一眼）......是吗。
+bai: （看了我一眼）......是吗。
 
-characters/linchuan: 是。比昨天淡。
+linchuan: 是。比昨天淡。
 
-characters/bai: （低下头，摸了一下书的边角）
+bai: （低下头，摸了一下书的边角）
 
-characters/linchuan: 白。到底怎么回事。
+linchuan: 白。到底怎么回事。
 
 （白安静了很久。久到我以为她不打算说了。）
 
-characters/bai: 你有没有发现，这学期来活动室的人——
+bai: 你有没有发现，这学期来活动室的人——
 
-characters/linchuan: 活动室？一直就我们两个。
+linchuan: 活动室？一直就我们两个。
 
-characters/bai: 不是活动室。是这栋楼。是学校。
+bai: 不是活动室。是这栋楼。是学校。
 
-characters/linchuan: ......什么意思？
+linchuan: ......什么意思？
 
-characters/bai: 以前这栋楼虽然旧，但放学后总有人路过。有声音。有——
+bai: 以前这栋楼虽然旧，但放学后总有人路过。有声音。有——
 
-characters/linchuan: 有烟火气。
+linchuan: 有烟火气。
 
-characters/bai: （点了一下头）现在少了。
+bai: （点了一下头）现在少了。
 
-characters/linchuan: 少了？
+linchuan: 少了？
 
-characters/bai: 你看楼下。
+bai: 你看楼下。
 
 我走到窗边往下看。操场上有人在打球，但老教学楼周围很安静。以前偶尔会有别的社团的人路过，现在——
 
-characters/linchuan: ......好像确实没什么人了。
+linchuan: ......好像确实没什么人了。
 
-characters/bai: 学校今年把大部分社团搬到新楼了。老楼这边只剩我们。
+bai: 学校今年把大部分社团搬到新楼了。老楼这边只剩我们。
 
-characters/linchuan: ......我之前没注意。
+linchuan: ......我之前没注意。
 
-characters/bai: 你不会注意的。因为你来活动室就是为了待着，不关心外面。
+bai: 你不会注意的。因为你来活动室就是为了待着，不关心外面。
 
-characters/linchuan: 那你呢？
+linchuan: 那你呢？
 
-characters/bai: 我关心。
+bai: 我关心。
 
-characters/linchuan: ......为什么？
+linchuan: ......为什么？
 
-characters/bai: 楼里有人的时候，偶尔会有人推错门。进来翻一翻书架，念两句，走了。
+bai: 楼里有人的时候，偶尔会有人推错门。进来翻一翻书架，念两句，走了。
 
-characters/bai: （停了一下）
+bai: （停了一下）
 
-characters/bai: 现在没有了。
+bai: 现在没有了。
 
-characters/linchuan: 那又——
+linchuan: 那又——
 
-characters/bai: ......算了。不重要。
+bai: ......算了。不重要。
 
-characters/linchuan: （有人翻书，念两句。现在没有了。）
+linchuan: （有人翻书，念两句。现在没有了。）
 
-characters/linchuan: （她是靠这个在的。有人读，她就在。没人读——）
+linchuan: （她是靠这个在的。有人读，她就在。没人读——）
 
-characters/linchuan: ......
+linchuan: ......
 
 我不敢往下想。
 [background arg="#000000ff" fade="0.8" wait="true"]
@@ -246,179 +246,179 @@ system: 次日 · 活动室
 
 但今天我从头翻到了尾。
 
-characters/linchuan: ......
+linchuan: ......
 
 书页泛黄。上面的字——一行一行，竖排，没有标点。页边挤着各种笔迹的批注。
 
-characters/linchuan: 还在。
+linchuan: 还在。
 
 我松了口气。字还在。但翻到最后几页的时候——
 
-characters/linchuan: ......？
+linchuan: ......？
 
 最后几页的字迹比前面淡。最后两页几乎是空白的，只有隐约的墨痕，像写了又被擦掉。
 
-characters/linchuan: ......这几页以前有字吗？
+linchuan: ......这几页以前有字吗？
 
 我看向白。她坐在对面，看着我翻书，表情平静。但她的手放在膝盖上，指尖微微蜷了一下。
-join characters/bai center [animation="Fade In" wait="true"]
+join bai center [animation="Fade In" wait="true"]
 
-characters/linchuan: 白。
+linchuan: 白。
 
-characters/bai: 嗯。
+bai: 嗯。
 
-characters/linchuan: 这本书最后几页——字在变淡。
+linchuan: 这本书最后几页——字在变淡。
 
-characters/bai: 嗯。
+bai: 嗯。
 
-characters/linchuan: 你知道这件事？
+linchuan: 你知道这件事？
 
-characters/bai: 嗯。
+bai: 嗯。
 
-characters/linchuan: 从什么时候开始的？
+linchuan: 从什么时候开始的？
 
-characters/bai (deadpan): ......这学期开学的时候。
+bai (deadpan): ......这学期开学的时候。
 
-characters/linchuan: 开学——就是你说"一直在"但我看不到你的那几天？
+linchuan: 开学——就是你说"一直在"但我看不到你的那几天？
 
-characters/bai: ......嗯。
+bai: ......嗯。
 
-characters/linchuan: 那时候就在变淡了？
+linchuan: 那时候就在变淡了？
 
-characters/bai (neutral): 嗯。
+bai (neutral): 嗯。
 
-characters/linchuan: 为什么不告诉我？
+linchuan: 为什么不告诉我？
 
-characters/bai (deadpan): 因为告诉你也不会改变什么。
+bai (deadpan): 因为告诉你也不会改变什么。
 
-characters/linchuan: 你怎么知道不会改变！
+linchuan: 你怎么知道不会改变！
 
-characters/bai: （看着我，没说话）
+bai: （看着我，没说话）
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: 你告诉我。全部。从头到尾。不许"再说"，不许"没什么"，不许"算了"。
+linchuan: 你告诉我。全部。从头到尾。不许"再说"，不许"没什么"，不许"算了"。
 
-characters/bai: ......
+bai: ......
 
-characters/linchuan: 白。
+linchuan: 白。
 
-characters/bai (shy): （低下头，双手交叠放在书上。我注意到——她的手指比以前更透明了一点。）
+bai (shy): （低下头，双手交叠放在书上。我注意到——她的手指比以前更透明了一点。）
 
-characters/bai (neutral): 你知道我是怎么来的。
+bai (neutral): 你知道我是怎么来的。
 
-characters/linchuan: 你说过。一届一届的人读这本书，心里动的那一下留在里面。
+linchuan: 你说过。一届一届的人读这本书，心里动的那一下留在里面。
 
-characters/bai: 嗯。可诗文社已经很多年没有人了。
+bai: 嗯。可诗文社已经很多年没有人了。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/bai (deadpan): 最后一届社员毕业以后，这间屋子空了很久。起初还有人推错门，翻两页。后来连推错门的都少了。
+bai (deadpan): 最后一届社员毕业以后，这间屋子空了很久。起初还有人推错门，翻两页。后来连推错门的都少了。
 
-characters/linchuan: 现在大家都刷短视频、打游戏。谁还读诗。
+linchuan: 现在大家都刷短视频、打游戏。谁还读诗。
 
-characters/bai (neutral): ......嗯。别处那些，大概也在淡。
+bai (neutral): ......嗯。别处那些，大概也在淡。
 
-characters/linchuan: 可是有我啊。我天天听你念。
+linchuan: 可是有我啊。我天天听你念。
 
-characters/bai: 嗯。所以上学期我很清楚。能吃东西，有影子。
+bai: 嗯。所以上学期我很清楚。能吃东西，有影子。
 
-characters/bai: 但一个暑假，就退回去了。
+bai: 但一个暑假，就退回去了。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/bai: 书里攒了那么多年的东西，一个人填不回来。这学期别的社团又搬去了新楼。放学以后，这栋楼里就只剩你。
+bai: 书里攒了那么多年的东西，一个人填不回来。这学期别的社团又搬去了新楼。放学以后，这栋楼里就只剩你。
 
-characters/linchuan: 所以你变淡——
+linchuan: 所以你变淡——
 
-characters/bai: 是因为养活我的东西在变少。就这么简单。
+bai: 是因为养活我的东西在变少。就这么简单。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: 那最后会怎样？
+linchuan: 那最后会怎样？
 
 白看着我。眼神很平。像在说一件已经想清楚了的事。
 
-characters/bai (deadpan): 消失。
+bai (deadpan): 消失。
 
-characters/linchuan: ——
+linchuan: ——
 
-characters/bai: 字淡到看不见。书变成空白的。我——也就不在了。
+bai: 字淡到看不见。书变成空白的。我——也就不在了。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: 你说得还挺平静的。
+linchuan: 你说得还挺平静的。
 
-characters/bai (thinking): "人有悲欢离合，月有阴晴圆缺。"这是——
+bai (thinking): "人有悲欢离合，月有阴晴圆缺。"这是——
 
-characters/linchuan: 别拿诗搪塞我。
+linchuan: 别拿诗搪塞我。
 
-characters/bai (neutral): ......
+bai (neutral): ......
 
-characters/linchuan: 你刚才说"消失"的时候，手在抖。
+linchuan: 你刚才说"消失"的时候，手在抖。
 
-characters/bai (deadpan): 没有。
+bai (deadpan): 没有。
 
-characters/linchuan: 我看见了。你放在书上的手。
+linchuan: 我看见了。你放在书上的手。
 
-characters/bai (shy2): ......风大。
+bai (shy2): ......风大。
 
-characters/linchuan: 室内没风。这招你上次用过了。
+linchuan: 室内没风。这招你上次用过了。
 
-characters/bai (neutral): ......
+bai (neutral): ......
 
-characters/linchuan: 你怕。
+linchuan: 你怕。
 
-characters/bai: ......
+bai: ......
 
-characters/linchuan: 你嘴上说得这么平，手却在抖。你每次拿书挡脸、说"风大"、把手缩起来的时候，都是在撒谎。你自己知不知道？
+linchuan: 你嘴上说得这么平，手却在抖。你每次拿书挡脸、说"风大"、把手缩起来的时候，都是在撒谎。你自己知不知道？
 
-characters/bai: （安静了很久）
+bai: （安静了很久）
 
-characters/bai (deadpan): ......知道。
+bai (deadpan): ......知道。
 
-characters/linchuan: 那你为什么——
+linchuan: 那你为什么——
 
-characters/bai (neutral): 因为不想让你担心。
+bai (neutral): 因为不想让你担心。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/bai: 你已经有够多的事要操心了。考试、成绩、朋友——
+bai: 你已经有够多的事要操心了。考试、成绩、朋友——
 
-characters/linchuan: 你觉得你排不进去？
+linchuan: 你觉得你排不进去？
 
-characters/bai (deadpan): 不是排不进去。是不应该。
+bai (deadpan): 不是排不进去。是不应该。
 
-characters/linchuan: 为什么不应该？
+linchuan: 为什么不应该？
 
-characters/bai: 因为我可能随时不在。如果你太在意一个随时会消失的东西——
+bai: 因为我可能随时不在。如果你太在意一个随时会消失的东西——
 
-characters/linchuan: 你不是"东西"。
+linchuan: 你不是"东西"。
 
-characters/bai (neutral): ......
+bai (neutral): ......
 
-characters/linchuan: 你是白。你念诗，吃番茄炒蛋，站人家门口听吉他不敢进去，笑了一下非要说是缺镁。你是白。不是"东西"。
+linchuan: 你是白。你念诗，吃番茄炒蛋，站人家门口听吉他不敢进去，笑了一下非要说是缺镁。你是白。不是"东西"。
 
-characters/bai: ......
+bai: ......
 
 她看着我。很久。
-update characters/bai (sad)
+update bai (sad)
 
 她的眼眶——如果说一个正在变淡的人能看出眼眶的话——微微红了。但没有哭。她大概不会哭。或者不能哭。我不知道。
 
-characters/bai: ......临川。
+bai: ......临川。
 
-characters/linchuan: 嗯。
+linchuan: 嗯。
 audio music "res://assets/music/Path to Lake Land.ogg" [fade="3.0" loop="true"]
 
-characters/bai (deadpan): 我想试一件事。
+bai (deadpan): 我想试一件事。
 
-characters/linchuan: 什么？
+linchuan: 什么？
 
-characters/bai: （站起来，走到我面前。离得很近。近到我能看见她睫毛的弧度。）
+bai: （站起来，走到我面前。离得很近。近到我能看见她睫毛的弧度。）
 leave --All-- [animation="Fade Out" wait="true"]
 
-characters/bai: 别动。
+bai: 别动。
 [background arg="res://assets/backgrounds/bai_blur_touch.png" fade="1.0" wait="true"]
 
 她伸出手。慢慢地，朝我的脸伸过来。
@@ -431,31 +431,31 @@ characters/bai: 别动。
 
 没有触感。只有一丝很淡的凉意，像被风吹了一下。
 
-characters/bai: （手停在半空中，没有收回去。也没有继续往前。）
+bai: （手停在半空中，没有收回去。也没有继续往前。）
 
-characters/bai: ......果然。
+bai: ......果然。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/bai: 以前能碰到的。
+bai: 以前能碰到的。
 
-characters/linchuan: 什么时候？
+linchuan: 什么时候？
 
-characters/bai: 第二天。你把书捡起来递给我。我接的时候，碰到了你的手。
+bai: 第二天。你把书捡起来递给我。我接的时候，碰到了你的手。
 
-characters/linchuan: 我记得。凉的。我还以为是空调吹的。
+linchuan: 我记得。凉的。我还以为是空调吹的。
 
-characters/bai: （嘴角动了一下）嗯。那次能碰到。
+bai: （嘴角动了一下）嗯。那次能碰到。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/bai: 现在不行了。
+bai: 现在不行了。
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
 
 她把手收回去。放在身侧。低着头。我看不清她的表情。
-join characters/bai center [animation="Fade In" wait="true"]
+join bai center [animation="Fade In" wait="true"]
 
-characters/linchuan: ......
+linchuan: ......
 
 我伸出手。
 
@@ -463,141 +463,141 @@ characters/linchuan: ......
 
 碰到的一瞬间——有触感。很微弱。像抓住了一缕凉风。手指能合拢，但合不紧。她的手腕在我的掌心里，若有若无。
 
-characters/bai (shy): （抬头看我）
+bai (shy): （抬头看我）
 
-characters/linchuan: ......抓住了。
+linchuan: ......抓住了。
 
-characters/bai (deadpan): ......你抓不住的。
+bai (deadpan): ......你抓不住的。
 
-characters/linchuan: 我现在抓住了。
+linchuan: 我现在抓住了。
 
-characters/bai (neutral): 过一会儿就松了。
+bai (neutral): 过一会儿就松了。
 
-characters/linchuan: 那我就一直抓着。
+linchuan: 那我就一直抓着。
 
-characters/bai: ......
+bai: ......
 
-characters/linchuan: "此事古难全"是吧？去他妈的古难全。
+linchuan: "此事古难全"是吧？去他妈的古难全。
 
 白看着我。很久。然后——
 
 笑了。不是那种嘴角微微动一下的笑。是真的笑了。
 
-characters/bai (smile): 你说话真难听。
+bai (smile): 你说话真难听。
 
-characters/linchuan: 你笑什么？
+linchuan: 你笑什么？
 
-characters/bai (deadpan): 没有。
+bai (deadpan): 没有。
 
-characters/linchuan: 你这次说"没有"我不信。
+linchuan: 你这次说"没有"我不信。
 
-characters/bai: 嗯。这次是真的没有。
+bai: 嗯。这次是真的没有。
 
-characters/linchuan: ......什么意思？
+linchuan: ......什么意思？
 
-characters/bai: 以前说"没有"的时候，有些是真的没有，有些是骗你的。但这次——
+bai: 以前说"没有"的时候，有些是真的没有，有些是骗你的。但这次——
 
-characters/bai (neutral): （声音轻了一点）
+bai (neutral): （声音轻了一点）
 
-characters/bai: 这次是真的。
+bai: 这次是真的。
 
-characters/linchuan: ......
+linchuan: ......
 audio music "res://assets/music/haruemukaukusabanae.mp3" [fade="3.0" loop="true"]
 
-characters/linchuan: （她在说什么？真的没有？还是真的有？）
+linchuan: （她在说什么？真的没有？还是真的有？）
 
-characters/linchuan: （不对。她在说别的。她在说以前那些"没有"里面，有些是真的。有些不是。）
+linchuan: （不对。她在说别的。她在说以前那些"没有"里面，有些是真的。有些不是。）
 
-characters/linchuan: （那些"不是"的——就是她在撒谎的时候。）
+linchuan: （那些"不是"的——就是她在撒谎的时候。）
 
-characters/linchuan: （说"拉链"的时候。说"风大"的时候。说"不紧张"的时候。说"没关系"的时候。）
+linchuan: （说"拉链"的时候。说"风大"的时候。说"不紧张"的时候。说"没关系"的时候。）
 
-characters/linchuan: （全是假的。）
+linchuan: （全是假的。）
 
-characters/linchuan: （她一直在撒谎。为了不让我担心。）
+linchuan: （她一直在撒谎。为了不让我担心。）
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: （松开手。她的手腕从我掌心里滑过，像水从指缝里流走。）
+linchuan: （松开手。她的手腕从我掌心里滑过，像水从指缝里流走。）
 
-characters/linchuan: 白。
+linchuan: 白。
 
-characters/bai: 嗯？
+bai: 嗯？
 
-characters/linchuan: 你跟我说实话。
+linchuan: 你跟我说实话。
 
-characters/bai: ......
+bai: ......
 
-characters/linchuan: 你说出来，你怕消失。
+linchuan: 你说出来，你怕消失。
 
-characters/bai: ......
+bai: ......
 
-characters/linchuan: 你刚才说了，"不想让我担心"。但你手在抖。你在怕。你怕什么？
+linchuan: 你刚才说了，"不想让我担心"。但你手在抖。你在怕。你怕什么？
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="5.0"]
 
-characters/bai: （安静了很久。久到窗外的光变成了橙黄色。）
+bai: （安静了很久。久到窗外的光变成了橙黄色。）
 
-characters/bai (deadpan): ......怕消失。
+bai (deadpan): ......怕消失。
 
-characters/linchuan: 嗯。
+linchuan: 嗯。
 
-characters/bai: 但更怕另一件事。
+bai: 但更怕另一件事。
 
-characters/linchuan: 什么？
+linchuan: 什么？
 
-characters/bai: （声音很轻。轻到像在自言自语。）
+bai: （声音很轻。轻到像在自言自语。）
 
-characters/bai (shy): 怕你看着我消失。
+bai (shy): 怕你看着我消失。
 
-characters/linchuan: ——
+linchuan: ——
 
-characters/bai: 你走了之后——我说的是那天你走了之后——我一个人待在这间屋子里。很安静。比暑假还安静。因为暑假我知道你会回来。但那天——
+bai: 你走了之后——我说的是那天你走了之后——我一个人待在这间屋子里。很安静。比暑假还安静。因为暑假我知道你会回来。但那天——
 
-characters/bai: （停了一下）
+bai: （停了一下）
 
-characters/bai (sad): 我不知道你还会不会回来。
+bai (sad): 我不知道你还会不会回来。
 
-characters/bai: 那七天。我坐在这里。没有念诗。没有翻书。就坐着。
+bai: 那七天。我坐在这里。没有念诗。没有翻书。就坐着。
 
-characters/bai: 想了一件事。
+bai: 想了一件事。
 
-characters/linchuan: 什么？
+linchuan: 什么？
 
-characters/bai: 如果你不回来了——
+bai: 如果你不回来了——
 
-characters/bai (smile_first_time): 那就好了。
+bai (smile_first_time): 那就好了。
 
-characters/linchuan: ......什么？
+linchuan: ......什么？
 
-characters/bai: 你不回来。我就一个人慢慢淡掉。淡到看不见。你也不会难过。因为你会觉得——可能本来就没有这个人。
+bai: 你不回来。我就一个人慢慢淡掉。淡到看不见。你也不会难过。因为你会觉得——可能本来就没有这个人。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/bai: 但你回来了。
+bai: 但你回来了。
 
-characters/linchuan: ......嗯。
+linchuan: ......嗯。
 
-characters/bai (deadpan): 你回来之后我就在想——如果他看着我消失，他会怎么样。
+bai (deadpan): 你回来之后我就在想——如果他看着我消失，他会怎么样。
 
-characters/bai: ......
+bai: ......
 
-characters/bai: 我觉得——
+bai: 我觉得——
 
-characters/bai: （声音更轻了。我几乎要贴过去才能听清。）
+bai: （声音更轻了。我几乎要贴过去才能听清。）
 
-characters/bai (neutral): 我觉得那比我自己消失还难受。
+bai (neutral): 我觉得那比我自己消失还难受。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: 你别说了。
+linchuan: 你别说了。
 
-characters/bai: ......
+bai: ......
 
-characters/linchuan: 你别说了行不行。
+linchuan: 你别说了行不行。
 
-characters/bai: 嗯。
+bai: 嗯。
 [background arg="res://assets/backgrounds/club_night.png" fade="5.0"]
 
 房间里暗了下来。天黑了。窗外什么都看不见了。
@@ -606,97 +606,97 @@ characters/bai: 嗯。
 
 中间隔着一臂的距离。但此刻这个距离像隔了一整个世界。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: （她怕消失。更怕我看着她消失。）
+linchuan: （她怕消失。更怕我看着她消失。）
 
-characters/linchuan: （她宁愿我一个人慢慢忘掉她。）
+linchuan: （她宁愿我一个人慢慢忘掉她。）
 
-characters/linchuan: （她宁愿我从来没有回来过。）
+linchuan: （她宁愿我从来没有回来过。）
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: 不行。
+linchuan: 不行。
 
-characters/linchuan: 不行！
+linchuan: 不行！
 
-characters/linchuan: （站起来）
+linchuan: （站起来）
 
-characters/bai (deadpan): ......？
+bai (deadpan): ......？
 
-characters/linchuan: 我不能让你消失。
+linchuan: 我不能让你消失。
 
-characters/bai: ......
+bai: ......
 
-characters/linchuan: 你说一个人填不回来。对吧？
+linchuan: 你说一个人填不回来。对吧？
 
-characters/bai (neutral): 嗯。
+bai (neutral): 嗯。
 
-characters/linchuan: 那就不止一个人。
+linchuan: 那就不止一个人。
 
-characters/bai: 你——
+bai: 你——
 
-characters/linchuan: 这本书里的诗，我让别人也读。
+linchuan: 这本书里的诗，我让别人也读。
 
-characters/bai: 他们看不见字——
+bai: 他们看不见字——
 
-characters/linchuan: 我看得见。我抄出来，我念给他们听。一个班不够就一个年级，一个年级不够就全校。
+linchuan: 我看得见。我抄出来，我念给他们听。一个班不够就一个年级，一个年级不够就全校。
 
-characters/bai: 你怎么——
+bai: 你怎么——
 
-characters/linchuan: 我不知道。但我会想办法。
+linchuan: 我不知道。但我会想办法。
 
-characters/bai: ......临川。
+bai: ......临川。
 
-characters/linchuan: 嗯。
+linchuan: 嗯。
 
-characters/bai (deadpan): 你不用——
+bai (deadpan): 你不用——
 
-characters/linchuan: 你又要说"不用"了。
+linchuan: 你又要说"不用"了。
 
-characters/bai: ......
+bai: ......
 
-characters/linchuan: 你每次说"不用"的时候，意思都是"我想但不敢"。
+linchuan: 你每次说"不用"的时候，意思都是"我想但不敢"。
 
-characters/bai (neutral): ......你什么时候变这么了解我的。
+bai (neutral): ......你什么时候变这么了解我的。
 
-characters/linchuan: 半年了。我又不是傻。
+linchuan: 半年了。我又不是傻。
 
-characters/bai: ......
+bai: ......
 
-characters/linchuan: 明天开始。
+linchuan: 明天开始。
 
-characters/bai: 什么明天开始？
+bai: 什么明天开始？
 
-characters/linchuan: 明天开始让人读诗。
+linchuan: 明天开始让人读诗。
 
-characters/bai: 怎么读？
+bai: 怎么读？
 
-characters/linchuan: 我想想。
+linchuan: 我想想。
 
-characters/bai: ......你想不清楚的。
+bai: ......你想不清楚的。
 
-characters/linchuan: 那我就想清楚再睡。
+linchuan: 那我就想清楚再睡。
 
-characters/bai: ......
+bai: ......
 
-characters/linchuan: 你先别变淡。等我。
+linchuan: 你先别变淡。等我。
 
-characters/bai: ......
+bai: ......
 
-characters/linchuan: 等我。行不行？
+linchuan: 等我。行不行？
 
-characters/bai: （安静了很久）
+bai: （安静了很久）
 
-characters/bai (shy): 好。
+bai (shy): 好。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: 这回不是"再说"了。
+linchuan: 这回不是"再说"了。
 
-characters/bai (deadpan): 嗯。不是"再说"。
+bai (deadpan): 嗯。不是"再说"。
 
-characters/linchuan: 好。
+linchuan: 好。
 leave --All--
 
 [background arg="#000000ff" fade="2.0" wait="true"]

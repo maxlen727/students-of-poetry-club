@@ -4,70 +4,70 @@ audio music "res://assets/music/kasumisou.mp3" [fade="3.0" bus="" loop="true"]
 临川，我，是一个高一学生。寒假结束，这学期的学校和上学期有些不同——因为政策要求落实"全面发展的素质教育"，学校开始举办放学后的社团活动。
 
 [background arg="res://assets/backgrounds/classroom.png" fade="0.8" wait="true"]
-join characters/teacher center
+join teacher center
 
-characters/teacher: 现在统计一下大家报的社团。
-leave characters/teacher [animation="Fade Out" wait="true"]
+teacher: 现在统计一下大家报的社团。
+leave teacher [animation="Fade Out" wait="true"]
 
 看着宣发的海报，我开始思考——
 
-characters/linchuan: (篮球社团？——我跑800米都喘；)
+linchuan: (篮球社团？——我跑800米都喘；)
 
-characters/linchuan: (超自然研究社团？——听名字就很奇怪，说不定里面还会出现魔女一类的怪人……)
+linchuan: (超自然研究社团？——听名字就很奇怪，说不定里面还会出现魔女一类的怪人……)
 
-characters/linchuan: (计算机社团？——自由编程？畅玩Steam？)
+linchuan: (计算机社团？——自由编程？畅玩Steam？)
 
-characters/linchuan: (……听起来像天堂)
+linchuan: (……听起来像天堂)
 set {other_name} = "临川 & ???"
 
-characters/others: 我想选计算机社团！
+others: 我想选计算机社团！
 set {another_name} = "？？？"
 
-characters/archchan: 嗯？？？
+archchan: 嗯？？？
 set {another_name} = "Arch chan"
 
-characters/linchuan: 嗯？？？
+linchuan: 嗯？？？
 
 扭头看去，是一位身穿黑色卫衣的"萝莉"。
-join characters/archchan (default) center
+join archchan (default) center
 
-characters/linchuan: （看上去年龄好小...这真的是个高中生吗？！）
+linchuan: （看上去年龄好小...这真的是个高中生吗？！）
 
-characters/linchuan: （还有种莫名的眼熟感...她长得好像某个宗教的吉祥物啊……）
+linchuan: （还有种莫名的眼熟感...她长得好像某个宗教的吉祥物啊……）
 
 女生好像看透了我的想法。
 
-characters/archchan (angry): 喂，我已经{arch_age}岁了！另外，只有高手才有资格当计算机的主人噢，小白什么的速速退散！
+archchan (angry): 喂，我已经{arch_age}岁了！另外，只有高手才有资格当计算机的主人噢，小白什么的速速退散！
 
-characters/linchuan: （{arch_age}岁？嘶~这不是高中吗...留级？）
+linchuan: （{arch_age}岁？嘶~这不是高中吗...留级？）
 
 看着女生愤怒的表情，总感觉似乎不该太纠结这个问题……
 
-characters/linchuan: 算了算了，还是把这个名额给她吧……
-leave characters/archchan
+linchuan: 算了算了，还是把这个名额给她吧……
+leave archchan
 
 在我继续思考报什么社团的过程中，其他同学已经大多报完了。
-join characters/teacher center [animation="Fade In" wait="true"]
+join teacher center [animation="Fade In" wait="true"]
 
-characters/teacher: 临川，现在只有诗文社还有剩余名额了，干脆你到诗文社吧。
+teacher: 临川，现在只有诗文社还有剩余名额了，干脆你到诗文社吧。
 
-characters/linchuan: 哎？！——
-leave characters/teacher [animation="Fade Out"]
+linchuan: 哎？！——
+leave teacher [animation="Fade Out"]
 
-characters/linchuan: 诗文社吗？从名字感觉完全提不起兴趣啊……
+linchuan: 诗文社吗？从名字感觉完全提不起兴趣啊……
 
-characters/linchuan: 算了，就当是……完成任务吧。
+linchuan: 算了，就当是……完成任务吧。
 
 出于莫名其妙的原因，我进入了诗文社。
 
 [background arg="res://assets/backgrounds/sunset_sky.png" fade="1.0" transition="Simple Fade" wait="true"]
 
-characters/linchuan: 真是无聊啊~以后的社团活动该怎么熬过去呢？
+linchuan: 真是无聊啊~以后的社团活动该怎么熬过去呢？
 
 [background arg="res://assets/backgrounds/corridor.png" fade="0.8" wait="true"]
 system: 下午——
 
-characters/linchuan: 唉，多么无聊啊……
+linchuan: 唉，多么无聊啊……
 audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" bus="" loop="true"]
 audio "res://assets/sfx/door.mp3" [volume="-5.0"]
 
@@ -75,16 +75,16 @@ audio "res://assets/sfx/door.mp3" [volume="-5.0"]
 
 诗文社在老教学楼四楼，走廊的尽头。推开门，一股旧书和木头混合的、略带陈腐的气味扑面而来。夕阳透过满是灰尘的窗户，把房间切成明暗两半。
 
-characters/linchuan: 果然这种社团只有我一个人吗……
+linchuan: 果然这种社团只有我一个人吗……
 
-characters/linchuan: 诗文社……诗文果然是要被时代遗忘的东西吧
+linchuan: 诗文社……诗文果然是要被时代遗忘的东西吧
 
-characters/linchuan: 唉......以后的社团活动时间，难道就要在这里发呆了吗？
+linchuan: 唉......以后的社团活动时间，难道就要在这里发呆了吗？
 
 我百无聊赖地在一张旧书桌前坐下，手指无意识地划过桌面，留下清晰的指痕。书架上的书东倒西歪，积满了灰尘，唯独一本蓝色封皮、没有书名的线装书，干净得与这里格格不入。
 join book center [animation="Fade In"]
 
-characters/linchuan: 嗯？这本书...
+linchuan: 嗯？这本书...
 
 我好奇地抽出这本书，翻开书页——
 
@@ -95,9 +95,9 @@ book: 君问归期未有期......\
 此间心境，\
 何人能解？
 
-characters/linchuan: 这社团的前辈，还挺多愁善感的嘛。"此间心境"......看来也是个觉得这里无聊的人？
+linchuan: 这社团的前辈，还挺多愁善感的嘛。"此间心境"......看来也是个觉得这里无聊的人？
 
-characters/linchuan: 解是解不了。不过无聊这一点，咱俩算同病相怜。
+linchuan: 解是解不了。不过无聊这一点，咱俩算同病相怜。
 
 对着一本书说话，我大概是真的闲出毛病了。
 leave book
@@ -105,18 +105,18 @@ leave book
 我将书放回原处，决定用睡觉打发时间。就在我意识逐渐模糊时，一阵极细微、极清冷的女声，仿佛贴着我的耳畔响起。
 set {other_name} = "？？？"
 
-characters/others: "......何当共剪西窗烛......却话巴山夜雨时......"
+others: "......何当共剪西窗烛......却话巴山夜雨时......"
 
-characters/linchuan: ？！！
+linchuan: ？！！
 
 我猛地惊醒，环顾四周——房间里依旧空无一人，只有风吹动窗帘的影子。
 
-characters/linchuan: 是幻听吗？（拍胸口）......靠，老楼的通风也太好了吧，阴风阵阵的。
+linchuan: 是幻听吗？（拍胸口）......靠，老楼的通风也太好了吧，阴风阵阵的。
 
 audio "res://assets/sfx/school_bell.mp3"
 system: 放学铃的声音从远处传来——
 
-characters/linchuan: 算了，撤。第一天打卡完成，明天再来睡。
+linchuan: 算了，撤。第一天打卡完成，明天再来睡。
 [background arg="#000000ff" fade="1.0" wait="true"]
 system: 第二天下午——
 
@@ -126,7 +126,7 @@ audio "res://assets/sfx/door.mp3"
 
 第二天，我又来到活动室"打卡"。
 
-characters/linchuan: ——哎？
+linchuan: ——哎？
 
 门一推开，我愣住了。昨天还满地灰尘的房间，靠窗那一半竟然被打扫得干干净净。桌子擦得反光，书架上的书也被重新码整齐了。
 
@@ -135,108 +135,108 @@ characters/linchuan: ——哎？
 
 穿着普通校服，长发在身后披着，簪子随意的别在头侧，流苏在簪尾垂下，正踮脚把一本蓝皮书塞回最高层——是我昨天翻过的那本。阳光打在她侧脸上，表情很专注。
 
-characters/linchuan: （这社团居然还有活人？）
+linchuan: （这社团居然还有活人？）
 
-characters/linchuan: （等等不对，她在擦书架？现在的高中女生还有干这个的？）
+linchuan: （等等不对，她在擦书架？现在的高中女生还有干这个的？）
 
 她似乎察觉到我的目光，手一抖，那本蓝皮书滑了下来，"啪"掉在地上。
 audio "res://assets/sfx/book_drop.mp3" [volume="6.0"]
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
 
-characters/linchuan: 啊——我帮你捡。
+linchuan: 啊——我帮你捡。
 
 我走过去弯腰捡起书。碰到书皮的时候，指尖有一丝很淡的凉意，像摸了块被空调吹过的瓷砖。
 
-characters/linchuan: 给。
-join characters/bai center
+linchuan: 给。
+join bai center
 
 她没接，静静看了我一会儿。不是那种害羞的躲闪，就是很平地、很直地盯着你看，像在确认什么东西。
 
-characters/linchuan: 那个......同学，你也是诗文社的？
+linchuan: 那个......同学，你也是诗文社的？
 
-characters/bai: 嗯。
+bai: 嗯。
 
-characters/linchuan: 我叫临川。你呢？
+linchuan: 我叫临川。你呢？
 
-characters/bai (deadpan): ......白。
+bai (deadpan): ......白。
 
-characters/linchuan: 白？全名呢？
+linchuan: 白？全名呢？
 
-characters/bai (neutral): 就叫白。
+bai (neutral): 就叫白。
 
-characters/linchuan: （行吧，不愿说就不说。说不定是家里有什么事，不想提。）
+linchuan: （行吧，不愿说就不说。说不定是家里有什么事，不想提。）
 
-characters/linchuan: OK，小白。以后咱俩就是一个社的难兄难妹了。这社团就咱俩人，我提议以后活动时间用来补觉，附议请举手。
+linchuan: OK，小白。以后咱俩就是一个社的难兄难妹了。这社团就咱俩人，我提议以后活动时间用来补觉，附议请举手。
 
-characters/bai: 不睡。
+bai: 不睡。
 
-characters/linchuan: 那你干嘛？
+linchuan: 那你干嘛？
 
-characters/bai: 看书。
+bai: 看书。
 
-characters/linchuan: 看诗集？
+linchuan: 看诗集？
 
-characters/bai: 嗯。
+bai: 嗯。
 
-characters/linchuan: ......你是有多喜欢诗啊。
+linchuan: ......你是有多喜欢诗啊。
 
-characters/bai: 不是喜欢。是习惯了。
+bai: 不是喜欢。是习惯了。
 
-characters/linchuan: （习惯了？什么回答。文艺青年嘛，说话总得绕个弯。）
-update characters/bai left [move_time="1.0"]
+linchuan: （习惯了？什么回答。文艺青年嘛，说话总得绕个弯。）
+update bai left [move_time="1.0"]
 
 白这才从我手里接过那本蓝皮书，转身走回靠窗的座位坐下，翻开，低头看了起来。
 
 昨天没细看，那本书其实很旧了，纸页发黄卷边。但她翻页的动作很轻，像怕弄疼它似的。
 
-characters/linchuan: 这书......挺有年代感啊。你的？
+linchuan: 这书......挺有年代感啊。你的？
 
-characters/bai: 不是我的。
+bai: 不是我的。
 
-characters/linchuan: 那是社团的？
+linchuan: 那是社团的？
 
-characters/bai (deadpan): ......一直都在的。
+bai (deadpan): ......一直都在的。
 
-characters/linchuan: （一直都在？大概是哪届前辈留下来的吧。）
-update characters/bai (neutral) [fade="Fade Cross"]
+linchuan: （一直都在？大概是哪届前辈留下来的吧。）
+update bai (neutral) [fade="Fade Cross"]
 
 房间里安静下来。我趴在桌上玩手机，她坐在窗边看书。本来以为这个下午就这么平淡地混过去了。
 
 直到我注意到一件事。
 
-characters/linchuan: 诶，小白。
+linchuan: 诶，小白。
 
-characters/bai: 嗯？
+bai: 嗯？
 
-characters/linchuan: 你从刚才到现在，一页都没翻过。
+linchuan: 你从刚才到现在，一页都没翻过。
 
 我指了指她手里的书。确实，从我坐下到现在至少二十分钟了，她一直停留在同一页。
 
-characters/bai: ......不用翻，都在这里。
+bai: ......不用翻，都在这里。
 
-characters/linchuan: 都在这里？你背下来了啊
+linchuan: 都在这里？你背下来了啊
 
-characters/linchuan: 那你盯着看什么？
+linchuan: 那你盯着看什么？
 
-characters/bai (deadpan): ......在看它还在不在。
+bai (deadpan): ......在看它还在不在。
 
-characters/linchuan: ......？
-update characters/bai (neutral)
+linchuan: ......？
+update bai (neutral)
 
-characters/linchuan: （什么鬼回答。在不在？书不是好好在你手里吗？文艺少女的世界我不懂。）
+linchuan: （什么鬼回答。在不在？书不是好好在你手里吗？文艺少女的世界我不懂。）
 
 我决定不再追问，重新趴下。半梦半醒之间，房间里忽然很安静，风也停了。
 
 然后我听见她在说话。声音很轻，不是对我说的，像是自言自语。
 
-characters/bai: "行到水穷处，坐看云起时......"
+bai: "行到水穷处，坐看云起时......"
 
-characters/linchuan: ......你在背诗？
-leave characters/bai [animation="Fade Out" wait="true"]
+linchuan: ......你在背诗？
+leave bai [animation="Fade Out" wait="true"]
 
 声音停了。我翻了个身，含糊地嘟囔了一句。
 
-characters/linchuan: 声音挺好听的......当催眠曲正合适......
+linchuan: 声音挺好听的......当催眠曲正合适......
 
 我感觉衣袖被什么东西轻轻扯了一下，像被风勾住了。我没在意，换了个姿势继续睡。
 [background arg="res://assets/backgrounds/sunset_sky.png" fade="0.8" wait="true"]
@@ -246,88 +246,88 @@ characters/linchuan: 声音挺好听的......当催眠曲正合适......
 
 等我再醒来的时候，天已经快黑了。白已经收拾好了东西，站在门口看着我。
 
-characters/linchuan: ......几点了？
-join characters/bai (neutral) center [animation="Fade In" length="0.8" wait="true"]
+linchuan: ......几点了？
+join bai (neutral) center [animation="Fade In" length="0.8" wait="true"]
 
-characters/bai: 六点半。
+bai: 六点半。
 
-characters/linchuan: 我去，这么晚了？你怎么不叫我？
+linchuan: 我去，这么晚了？你怎么不叫我？
 
-characters/bai (deadpan): 你睡得很熟。叫醒你不太好。
+bai (deadpan): 你睡得很熟。叫醒你不太好。
 
-characters/linchuan: 那你在这儿干等了一个多小时？
+linchuan: 那你在这儿干等了一个多小时？
 
-characters/bai (neutral): 嗯。也没关系。
+bai (neutral): 嗯。也没关系。
 
-characters/linchuan: ......
+linchuan: ......
 
-characters/linchuan: (这人是真的不会聊天，还是就是这种性子？但说不上来......有点让人不好意思。)
+linchuan: (这人是真的不会聊天，还是就是这种性子？但说不上来......有点让人不好意思。)
 
-characters/linchuan: 那......走吧，一起下楼。天黑了老楼没灯。
+linchuan: 那......走吧，一起下楼。天黑了老楼没灯。
 
-characters/bai: 好。
-leave characters/bai [animation="Fade Out" length="0.8" wait="true"]
+bai: 好。
+leave bai [animation="Fade Out" length="0.8" wait="true"]
 
 [background arg="res://assets/backgrounds/stairs_night_light.png" fade="1.0"]
 
 我们一前一后走在昏暗的楼梯上。她走得很慢，每一步都踩得很轻，像怕踩碎地上的灰尘。
 
-characters/linchuan: 小白，你明天还来吗？
+linchuan: 小白，你明天还来吗？
 
-characters/bai: 嗯。
+bai: 嗯。
 
-characters/linchuan: 行。那明天见。
-join characters/bai center [animation="Fade In" length="0.8" wait="true"]
+linchuan: 行。那明天见。
+join bai center [animation="Fade In" length="0.8" wait="true"]
 
-characters/bai: ......临川。
+bai: ......临川。
 
-characters/linchuan: 嗯？
+linchuan: 嗯？
 
-characters/bai (deadpan): "行到水穷处"——你知道下一句是什么吗？
+bai (deadpan): "行到水穷处"——你知道下一句是什么吗？
 
-characters/linchuan: 啊？你刚才不是说了嘛，"坐看云起时"。
+linchuan: 啊？你刚才不是说了嘛，"坐看云起时"。
 
-characters/bai (smile_first_time): 嗯。你记住了。
+bai (smile_first_time): 嗯。你记住了。
 
-characters/linchuan: ......啊？
+linchuan: ......啊？
 
-characters/linchuan: （她刚才笑了吧？笑什么啊？我记住一句诗有什么好高兴的？）
+linchuan: （她刚才笑了吧？笑什么啊？我记住一句诗有什么好高兴的？）
 
 走到一楼的楼梯口，她停下了。
 
-characters/linchuan: 不走？
+linchuan: 不走？
 
-characters/bai (neutral): 还有东西没收。你先走。
+bai (neutral): 还有东西没收。你先走。
 
-characters/linchuan: 这么黑，你一个人——
+linchuan: 这么黑，你一个人——
 
-characters/bai: 习惯了。
+bai: 习惯了。
 
 她朝我点了一下头，转身往楼上走。脚步声很轻，没几级台阶就听不见了。
-leave characters/bai [animation="Fade Out" wait="true"]
+leave bai [animation="Fade Out" wait="true"]
 
 [background arg="res://assets/backgrounds/school_gate_night.png" fade="0.8" wait="true"]
 
 走到校门口，我回头看了一眼。老楼黑漆漆的，四楼那扇窗也没有亮。
 
-characters/linchuan: ......奇怪的人。
+linchuan: ......奇怪的人。
 
 我掏出手机，顺手搜了一下"行到水穷处"。
 
 手机屏幕上跳出搜索结果——王维《终南别业》。
 
-characters/linchuan: 王维啊......
+linchuan: 王维啊......
 
 我锁了屏，往家走。
 
-characters/linchuan: （说起来，她到底几年级几班的？我都没来得及问。）
+linchuan: （说起来，她到底几年级几班的？我都没来得及问。）
 
-characters/linchuan: （......算了，明天再说吧。）
+linchuan: （......算了，明天再说吧。）
 
 [background arg="res://assets/backgrounds/bedroom_night.png" fade="0.8" wait="true"]
 
 回到家，躺在床上。本以为今天就是个普通的开学周，脑子里却老是闪过那个画面——她站在书架边，阳光打在脸上，认认真真地把书摆正。
 
-characters/linchuan: ......怎么回事，我又没撞到头。
+linchuan: ......怎么回事，我又没撞到头。
 
 [end_timeline]

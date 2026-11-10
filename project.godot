@@ -29,16 +29,16 @@ ArchAge="*uid://ci8qxywevpk6k"
 
 directories/dch_directory={
 "another": "res://characters/another.dch",
+"archchan": "res://characters/archchan.dch",
+"bai": "res://characters/bai.dch",
 "book": "res://characters/book.dch",
-"characters/archchan": "res://characters/archchan.dch",
-"characters/bai": "res://characters/bai.dch",
-"characters/chenan": "res://characters/chenan.dch",
-"characters/linchuan": "res://characters/linchuan.dch",
-"characters/linfeng": "res://characters/linfeng.dch",
-"characters/others": "res://characters/others.dch",
-"characters/teacher": "res://characters/teacher.dch",
-"characters/yuanzhou": "res://characters/yuanzhou.dch",
-"system": "res://characters/system.dch"
+"chenan": "res://characters/chenan.dch",
+"linchuan": "res://characters/linchuan.dch",
+"linfeng": "res://characters/linfeng.dch",
+"others": "res://characters/others.dch",
+"system": "res://characters/system.dch",
+"teacher": "res://characters/teacher.dch",
+"yuanzhou": "res://characters/yuanzhou.dch"
 }
 directories/dtl_directory={
 "ch1_推门始觉有人来": "res://timelines/ch1_推门始觉有人来.dtl",
