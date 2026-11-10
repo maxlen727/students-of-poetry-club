@@ -4,7 +4,7 @@ audio "res://assets/sfx/door.mp3"
 
 characters/linchuan: 我来了——
 
-推开门，白已经坐在窗边了。和昨天一样的位置，一样的姿势，低头看那本旧笔记本。
+推开门，白已经坐在窗边了。和昨天一样的位置，一样的姿势，低头看那本蓝皮书。
 
 characters/linchuan: ......你还真每天都来啊。
 join characters/bai center
@@ -15,7 +15,7 @@ characters/linchuan: 你不用上补习班？不用写作业？
 
 characters/bai (thinking): 不用。
 
-characters/linchuan (thinking): （不是吧，这人是学霸还是不用学习的那种？不对，也可能成绩很差所以破罐破摔......算了不关我事。）
+characters/linchuan: （不是吧，这人是学霸还是不用学习的那种？不对，也可能成绩很差所以破罐破摔......反正不关我事。）
 update characters/bai (neutral)
 
 我在她对面的座位坐下。两个人沉默了大概三十秒。
@@ -32,7 +32,7 @@ characters/linchuan: 跟我一样？几班？
 
 characters/bai (deadpan): ......三班。
 
-characters/linchuan: 三班？那栋楼在我隔壁啊，我怎么没见过你？
+characters/linchuan: 三班？就在我们班隔壁啊，我怎么没见过你？
 
 characters/bai (deadpan): ......我很少出门。
 
@@ -44,11 +44,9 @@ characters/linchuan: ......你这人也太独了吧。
 
 characters/linchuan: （该不会是被排挤了吧？看她这性格，不主动跟人说话，也不笑，确实容易没存在感。）
 
-characters/linchuan: （......说起来，我初中那会儿也差不多。转学到新学校谁也不认识，天天中午一个人去天台吃便当。那段时间是真的不好受。）
+characters/linchuan: （......说起来，我初中那会儿也差不多。转学到新学校谁也不认识，天天中午一个人吃饭。那段时间是真的不好受。）
 
-characters/linchuan: （算了。）
-
-说到吃便当，我倒是还有一件在意的事——
+说到吃饭，我倒是还有一件在意的事——
 
 characters/linchuan: 小白，你中午没吃饭？
 
@@ -216,7 +214,7 @@ characters/linchuan: 读诗对你很重要？
 
 characters/bai (neutral): 嗯。
 
-她说"嗯"的时候跟平时不太一样。不是随口应付的那种，是认真到有点发沉的那种。
+这个"嗯"比平时沉。
 
 characters/linchuan: 行。但我先说好，听不懂我会直接说无聊。
 
@@ -224,7 +222,7 @@ characters/bai: 可以。但你要先听完再下结论。不能听到一半就�
 
 characters/linchuan: 成交。
 
-白翻开笔记本，想了一下，翻到一页。
+白翻开那本蓝皮书，想了一下，翻到一页。
 audio music "res://assets/music/kasumisou.mp3" [fade="3.0" loop="true"]
 
 characters/bai (reading): "行到水穷处，坐看云起时。"
@@ -330,7 +328,7 @@ characters/linchuan: 走得很远，路都不见了。有点像我跟这社团�
 
 characters/linchuan: （不对，一周而已，又不是什么大事。）
 
-白合上笔记本，走到窗边。楼下篮球社在打比赛，欢呼声隐隐传上来。
+白合上书，走到窗边。楼下篮球社在打比赛，欢呼声隐隐传上来。
 leave characters/bai
 
 characters/linchuan: 看什么呢？
@@ -366,15 +364,15 @@ characters/bai: 因为不需要大声。这里只有你。
 
 characters/linchuan: ......
 
-她说"只有你"的时候语气特别平，就像在说今天星期三。但不知道为什么我愣了一下。
+她说"只有你"的时候语气特别平。但不知道为什么我愣了一下。
 
 characters/bai: "人间烟火气，最抚凡人心。"
 
 characters/linchuan: 这又是哪首诗？
 
-characters/bai: 不是诗。网上看到的一句话。
+characters/bai: 不是诗。书里的。有人写在页边上的一句话。
 
-characters/linchuan: 那你为什么用念诗的语气说？
+characters/linchuan: 批注啊。那你为什么用念诗的语气说？
 
 characters/bai: ......想让你听。
 
@@ -394,7 +392,7 @@ characters/linchuan: ......
 
 characters/linchuan: （她是在说诗，还是别的什么？）
 
-characters/linchuan: （算了。她肯定在说诗。她就是这种人，认认真真说一件正经事。）
+characters/linchuan: （她肯定在说诗。她就是这种人，认认真真说一件正经事。）
 
 characters/linchuan: 行吧。以后继续听着。反正闲着也是闲着。
 
@@ -467,11 +465,11 @@ characters/linchuan: 就是抬头嘛。别把简单的事说复杂了。
 characters/bai (reading): （看了我一眼，没说话，翻了一页）
 leave characters/bai [animation="Fade Out" wait="true"]
 [background arg="#000000ff" fade="0.5" wait="true"]
-system: 某天下午 · 活动室
+system: 四月 · 活动室
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
 [background arg="res://assets/backgrounds/bai_and_bookshelf.png" fade="0.8" wait="true"]
 
-今天白没有翻笔记本。她站在书架前，一本一本地看书脊上的字。
+今天白没有翻那本蓝皮书。她站在书架前，一本一本地看书脊上的字。
 
 characters/linchuan: 你在找什么？
 
@@ -485,7 +483,7 @@ characters/linchuan: 找什么类型的？
 
 characters/bai: ......写秋天的。
 
-characters/linchuan: 现在才五月，秋天还早。
+characters/linchuan: 现在才四月，秋天还早。
 
 characters/bai: 诗不挑季节。
 
@@ -525,15 +523,15 @@ characters/bai (smile_first_time): "我言秋日胜春朝。"
 
 她没回答我的问题。但她念第二遍的时候，语气跟第一遍不一样。第一遍是在介绍，第二遍是在认同。
 
-characters/linchuan: 她喜欢安静的地方。她来这里大概也是这个原因。
+她喜欢安静的地方。她来这里大概也是这个原因。
 leave characters/bai [animation="Fade Out" wait="true"]
 [background arg="#000000ff" fade="0.5" wait="true"]
 system: 某天放学 · 走廊
 [background arg="res://assets/backgrounds/corridor_day.png" fade="0.8" wait="true"]
 
-今天活动室被锁了，钥匙在教导处没借到。我百无聊赖地在走廊上晃，走到三楼的时候看到了白。
+今天活动室被锁了，钥匙在教导处没借到。我百无聊赖地在老楼里晃，下到三楼的时候看到了白。
 
-她站在音乐教室门口，靠着墙，侧着头。音乐教室门没关严，里面有吉他社在排练，声音从门缝里漏出来。
+她站在一间旧音乐教室门口，靠着墙，侧着头。门没关严，里面有吉他社在排练，声音从门缝里漏出来。
 
 characters/linchuan: 小白？
 join characters/bai (neutral) center [animation="Fade In Up" length="0.8" wait="true"]
@@ -621,10 +619,10 @@ characters/bai: （走了两步才回答）......再说。
 
 characters/linchuan: （"再说"就是没拒绝。）
 [background arg="#000000ff" fade="0.5" wait="true"]
-system: 两周后 · 活动室
+system: 五月 · 活动室
 [background arg="res://assets/backgrounds/club.png" fade="0.8" wait="true"]
 
-两周不知不觉就过去了。活动室里的日常变成了一种固定的节奏——她念诗，我听，偶尔斗嘴，偶尔安静。
+两个多月不知不觉就过去了。活动室里的日常变成了一种固定的节奏——她念诗，我听，偶尔斗嘴，偶尔安静。
 
 我以为这种日子会一直这样下去。平平淡淡的，说不上好，也说不上坏。
 audio music "res://assets/music/sangatsunosundasora.mp3" [fade="3.0" loop="true"]
@@ -644,7 +642,7 @@ characters/bai: ......
 
 characters/linchuan: 行，我承认我就是个废物。学什么都没用。背诗有什么用？数学又不考诗。物理又不考诗。我这辈子就是进厂打螺丝的命——
 
-characters/bai (reading): （安静地看了我一会儿，然后低头翻笔记本）
+characters/bai (reading): （安静地看了我一会儿，然后低头翻书）
 
 characters/linchuan: 你翻那个干嘛？现在念诗能把我三十八分变成及格吗？
 
@@ -675,9 +673,9 @@ characters/linchuan: 你看，你没考过你当然——
 
 characters/linchuan: （停住）
 
-她说"没有"。说得很自然。不是"我没考过"那种尴尬，是"没有"两个字，干干净净的。好像考试这件事跟她天然就没关系似的。
+她说"没有"的时候很自然，一点不尴尬。
 
-characters/linchuan: (......算了。她大概是不想提成绩的事。)
+characters/linchuan: (......她大概是不想提成绩的事。)
 
 characters/linchuan: （叹气）行吧。"莫愁前路无知己"。我记住了。虽然这并不能让我数学多考一分。
 
@@ -721,9 +719,9 @@ characters/linchuan: ......我什么时候搜的？
 
 characters/linchuan: （锁屏）
 
-characters/linchuan: 算了。可能就是听多了，跟广场舞神歌一样，听多了自然就记住了。不代表什么。
+characters/linchuan: 可能就是听多了，跟广场舞神歌一样，听多了自然就记住了。不代表什么。
 [background arg="#000000ff" fade="0.5" wait="true"]
-system: 第三周 · 活动室
+system: 六月 · 活动室
 [background arg="res://assets/backgrounds/club_afternoon.png" fade="0.8" wait="true"]
 
 characters/linchuan: 小白，问你个事。
@@ -733,7 +731,7 @@ characters/bai: 嗯？
 
 characters/linchuan: 你觉得诗到底有什么用？
 
-characters/bai (thinking): （放下笔记本，认真地看着我）你想听长的还是短的？
+characters/bai (thinking): （放下书，认真地看着我）你想听长的还是短的？
 
 characters/linchuan: ......短的。
 
@@ -764,7 +762,7 @@ characters/bai: 诗没有用。但它让你知道你不是一个人。这就够�
 
 characters/linchuan: ......
 
-她说这段话的时候很平静。没有煽情，没有故作高深。就像在说"水烧开了要关火"一样自然。
+她说这段话的时候很平静，就像在说"水烧开了要关火"。
 
 但不知道为什么，我愣了好久。
 
@@ -782,7 +780,7 @@ characters/bai: 我没有在等你夸。
 
 characters/linchuan: 你这人——
 
-characters/bai (reading): （已经低头翻笔记本了）
+characters/bai (reading): （已经低头翻书了）
 
 characters/linchuan: （诗没有用。但它让你知道你不是一个人。）
 
@@ -792,36 +790,44 @@ characters/linchuan: （说不上来。就觉得这句话好像不只是说诗�
 leave characters/bai [animation="Fade Out" wait="true"]
 audio music "res://assets/music/kasumisou.mp3" [fade="3.0" loop="true"]
 [background arg="#000000ff" fade="0.5" wait="true"]
-system: 某天 · 学校食堂
+system: 某天中午 · 老楼一楼
 [background arg="res://assets/backgrounds/cafeteria.png" fade="0.8" wait="true"]
 
-中午。我端着餐盘找座位。食堂里人很多，吵吵嚷嚷的。
+老楼一楼有个旧食堂。新食堂盖好之后这里只剩一个面档还开着，中午稀稀拉拉坐不满三桌。
 
-远远地看到白端着一碗面条，独自坐在角落的位置。她吃得慢，低着头，周围都是成群结队的人。
+我是今天才想起来的——我从没在新食堂见过白。她中午到底在哪吃？
+
+上四楼一看，她果然在活动室，一个人对着窗户坐着。桌上什么吃的都没有。
+
+characters/linchuan: 走，下楼。请你吃面。
+
+characters/bai: ......不用。
+
+characters/linchuan: 就在一楼，又不出这栋楼。
+
+她看了我一会儿，合上书，站了起来。
+
+我点了两碗面，挑了最靠窗的角落。打面的阿姨多看了我一眼。
+
+characters/linchuan: （看什么，没见过请同学吃饭的啊。）
 [background arg="res://assets/backgrounds/bai_eat_noodles.png" fade="0.9" wait="true"]
 
-characters/linchuan: ......
+白捧着碗，吃得很慢，低着头。
 
-我走过去，在她对面坐下。
-
-characters/bai: （抬头）......你怎么在这。
-
-characters/linchuan: 食堂是公共区域。我坐哪不行。
-
-characters/bai: 你平时不在食堂吃。
+characters/bai: ......你平时不在这边吃。
 
 characters/linchuan: 今天想换换口味。
 
 characters/bai: 哦。
 
-她低下头继续吃面。我也开始吃饭。对面的人来人往，吵闹声不断。
+她低下头继续吃面。我也开始吃。窗外的树影晃来晃去，隔着两张桌子有人在小声聊天。
 audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 
-characters/linchuan: 你以后不用一个人在活动室啃面包了。中午来食堂，我帮你占座。
+characters/linchuan: 你以后中午不用一个人在楼上干坐着了。想吃就叫我，我请。
 
 characters/bai: ......不用。
 
-characters/linchuan: 你一个人吃面不无聊吗？
+characters/linchuan: 你一个人待着不无聊吗？
 
 characters/bai: 不无聊。
 
@@ -865,7 +871,8 @@ characters/linchuan: 小白，今天最后一天活动了。下周要准备期�
 characters/bai: 嗯。
 
 characters/linchuan: 暑假前还有什么诗要念的吗？最后一首。
-characters/bai (thinking): （想了一下，翻开笔记本）
+
+characters/bai (thinking): （想了一下，翻开书）
 
 characters/bai (reading): "海内存知己，天涯若比邻。"
 
@@ -879,7 +886,7 @@ characters/bai (neutral): 不是。是念给自己的。
 
 characters/linchuan: 啊？
 
-characters/bai: （合上笔记本，站起来）走吧。该锁门了。
+characters/bai: （合上书，站起来）走吧。该锁门了。
 
 characters/linchuan: ......
 
@@ -909,7 +916,7 @@ characters/bai: 嗯。
 leave characters/bai [animation="Fade Out" length="0.8" wait="true"]
 [background arg="res://assets/backgrounds/corridor.png" fade="0.5" wait="true"]
 
-她说"再说"的时候，语气跟之前不太一样。之前是"不想回答"。这次像是......"不确定能不能回答"。
+这次的"再说"，听着不太像敷衍。
 
 但我想不了那么多了。
 
@@ -919,11 +926,7 @@ characters/bai (neutral): 嗯。开学见。
 
 她走在前面，我走在后面。走廊上的夕阳把两个人的影子拉得很长。
 
-我看着她的影子，突然有一种说不出来的感觉。
-
-不是难过，不是担心。就是觉得——这个影子好像随时会消失。
-
-characters/linchuan: （......我在瞎想什么。）
+到了楼梯口，她照例停下，说还有东西没收。我照例一个人下了楼。
 
 characters/linchuan: （开学就又能见到了。）
 
@@ -949,7 +952,11 @@ characters/linchuan: （但今年总觉得少了点什么。）
 characters/linchuan: （少什么呢？）
 [background arg="res://assets/backgrounds/bai_and_cloud.png" fade="1.2" wait="true"]
 
-characters/linchuan: （打开手机相册，翻到最后一张——是活动室窗户的随手拍。那天阳光正好，拍的时候其实是在拍窗外的云，但画面角落里拍到了白的侧脸。）
+我打开手机相册，翻到最后一张——是活动室窗户的随手拍，只有窗框和云。
+
+那天阳光正好，白就坐在窗边。我怕她不高兴，特意没把她拍进去。
+
+现在有点后悔。不过闭上眼，那个画面倒是清清楚楚的。
 
 characters/linchuan: ......
 
@@ -978,17 +985,15 @@ characters/linchuan: （当时觉得天天活动室见面，要什么联系方�
 
 characters/linchuan: （现在——）
 
-characters/linchuan: ......算了。
-
 characters/linchuan: 开学就见到了。急什么。
 [background arg="#000000ff" fade="0.8" wait="true"]
 audio music "res://assets/music/houkagonoyuzora.mp3" [fade="3.0" loop="true"]
 system: 九月初 · 学校走廊
 [background arg="res://assets/backgrounds/corridor_day.png" fade="0.8" wait="true"]
 
-开学了。新教室在三楼，离老教学楼更远了一点。
+开学了。高二的新教室在三楼，离老教学楼更远了一点。
 
-characters/linchuan: (终于不用天天爬那个破楼梯了。)
+characters/linchuan: (以后去活动室得多走五分钟。)
 
 第一天放学，我没去活动室。因为要搬教室、领新书，忙到很晚。
 
@@ -1039,7 +1044,6 @@ characters/linchuan: ......
 
 characters/linchuan: （每次碰到这本书都是这个温度。）
 
-characters/linchuan: （算了。明天再来。）
 leave book
 [background arg="#000000ff" fade="0.8" wait="true"]
 system: 开学第二周 · 活动室
@@ -1047,7 +1051,11 @@ system: 开学第二周 · 活动室
 
 第二天，白没来。第三天，也没来。
 
-第四天，我干脆在活动室坐了一整个放学后的时间。看书、玩手机、发呆，把能干的事都干了一遍。
+第四天，我干脆在活动室坐了一整个放学后的时间。玩手机、发呆，把能干的事都干了一遍。
+
+最后实在没事干，我把那本蓝皮书抽了出来。翻到她念过的那几页，照着念了一遍。"行到水穷处"。"采菊东篱下"。"我言秋日胜春朝"。
+
+没人纠正我的断句。怪不习惯的。
 
 门推开了好几次。每次我都抬头——每次都是风。
 
@@ -1073,7 +1081,7 @@ characters/linchuan: ——
 白就在窗边。
 [background arg="res://assets/backgrounds/bai_and_bookshelf_day.png" fade="0.8" wait="true"]
 
-她穿着跟以前一样的衣服，长发在身后披着，簪子随意的别在头侧，流苏在簪尾垂下，面前的桌子上放着那本旧笔记本。阳光打在她侧脸上，跟放假前一模一样。
+她穿着跟以前一样的衣服，长发在身后披着，簪子随意的别在头侧，流苏在簪尾垂下，面前的桌子上放着那本蓝皮书。阳光打在她侧脸上，跟放假前一模一样。
 
 characters/linchuan: ......
 
@@ -1093,7 +1101,7 @@ characters/bai: （没回答，低头整理书架）
 
 characters/linchuan: （什么"你来了我就在了"？说得好像我不来她就不在一样。）
 
-characters/linchuan: （算了。可能她前几天有事，今天开始正常了。回来就好。）
+characters/linchuan: （可能她前几天有事吧。）
 
 characters/linchuan: 行，你回来了就行。饿不饿？今天没带便当，明天给你补上。
 
@@ -1119,7 +1127,7 @@ system: 开学第三周
 
 characters/linchuan: （她好像比以前......淡了一点？）
 
-不是性格上的淡。是——
+说的不是性格。
 
 怎么说呢。上学期她坐在窗边的时候，阳光打在她身上，会有影子。现在好像有时候有，有时候没有。
 
@@ -1152,7 +1160,7 @@ characters/bai (neutral): 没关系。
 
 characters/linchuan: 你怎么什么都"没关系"——
 
-characters/linchuan: 算了。她都不急我急什么。
+characters/linchuan: （算了。她都不急我急什么。）
 
 characters/linchuan: 行。那你什么时候去补登？
 
@@ -1164,19 +1172,13 @@ characters/bai (deadpan): ......好。
 
 characters/linchuan: 那你到底什么时候去？
 
-characters/bai (neutral): ......临川。
+characters/bai (neutral): ......过几天。
 
-characters/linchuan: 嗯？
+characters/linchuan: 行，过几天。我记着了啊。
 
-characters/bai: 你有没有想过，有些东西不在名单上，不代表它不存在。
+characters/bai: 嗯。
 
-characters/linchuan: ......什么意思？
-
-characters/bai (deadpan): 没有意思。随便说的。
-
-characters/linchuan: （她又在说那种绕来绕去的话了。我跟不上她的逻辑。）
-
-characters/linchuan: （但这次她说"随便说的"的时候，眼神躲了一下。她以前从来不会躲眼神。）
+她说"嗯"的时候，眼神躲了一下。她以前从来不躲。
 
 characters/linchuan: （......是我多想了吗。）
 

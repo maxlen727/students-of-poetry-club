@@ -62,13 +62,13 @@ characters/linchuan: ......
 
 characters/linchuan: （但是——）
 
-characters/linchuan: （名单上没有她的名字。我从来没见过她在别的教室上课。我没见她跟任何人说过话。我没见过她吃食堂的面条——除了那次我陪她。）
+characters/linchuan: （我对她其实一无所知。她说她是三班的，可我一次都没去三班找过她。没有手机号，没有微信，不知道她家住哪。连她全名叫什么都不知道。）
 
-characters/linchuan: （这些事我以前都没注意。因为跟她待在一起的时候太自然了，自然到我从来没想过要验证什么。）
+characters/linchuan: （这些事我以前都没在意。跟她待在一起的时候太自然了，自然到我从来没想过要多问一句。）
 
 characters/linchuan: （现在远舟一问——）
 
-characters/linchuan: （我发现自己什么都答不上来。）
+characters/linchuan: （我发现自己什么都答不上来。这算哪门子朋友。）
 join characters/yuanzhou center [animation="Fade In" wait="true"]
 
 characters/yuanzhou: 喂？发什么呆呢？
@@ -84,7 +84,7 @@ characters/linchuan: （我答应了。）
 
 characters/linchuan: （一半是不想让远舟再追问，一半是——）
 
-characters/linchuan: （我也想让别人看到她。）
+characters/linchuan: （我也想让她多认识几个人。总不能一直只有我。）
 [background arg="#000000ff" fade="0.8" wait="true"]
 audio music "res://assets/music/sangatsunosundasora.mp3" [fade="3.0" loop="true"]
 system: 某天放学 · 诗文社活动室
@@ -117,19 +117,19 @@ characters/bai: ......他什么时候来？
 
 characters/linchuan: 明天放学？
 
-characters/bai: （低下头，手指摸了一下笔记本的边角）......好。
+characters/bai: （低下头，手指摸了一下书的边角）......好。
 
 characters/linchuan: 你别紧张。他就是个嘴碎的人，没什么恶意。
 
 characters/bai (deadpan): 我不紧张。
 
-characters/linchuan: 你刚才摸笔记本边角了。你平时不摸。
+characters/linchuan: 你刚才摸书边角了。你平时不摸。
 
 characters/bai: ......习惯。
 
 characters/linchuan: (她又在拿"习惯"搪塞我。但这次我没追问。)
 
-characters/linchuan: （她说"好"的时候，语气不像平时那么平。有一点不算大的起伏。很小，但我听出来了。）
+characters/linchuan: （那个"好"字不像平时那么平。很小的一点起伏，但我听出来了。）
 
 characters/linchuan: （......紧张就紧张呗。见个朋友而已，没什么大不了的。）
 
@@ -165,9 +165,9 @@ audio "res://assets/sfx/footsteps.mp3"
 
 不知道为什么，走到活动室门口的时候，我有点紧张。
 
-不是怕他们见到白。是怕——
+白那么怕生。一下子来三个人，还有远舟那张嘴——
 
-怕什么？说不清。
+她要是不自在了，以后会不会不理我？
 [background arg="res://assets/backgrounds/corridor.png" fade="0.8" wait="true"]
 
 characters/linchuan: 到了。就这间。
@@ -194,7 +194,7 @@ audio "res://assets/sfx/door.mp3"
 白坐在窗边。
 join characters/bai leftmost [animation="Fade In" length="1.0"]
 
-她穿着校服，头发在后面披着，笔记本在左手中。阳光打在她侧脸上。
+她穿着校服，头发在后面披着，那本蓝皮书摊在面前的桌上。阳光打在她侧脸上。
 
 她看着门口。不是看所有人。是看我。
 
@@ -219,22 +219,22 @@ characters/linchuan: 不可能。她就在那——
 
 我转头看向窗边。
 
-白坐在那里。她看着我。眼神跟平时不一样——不是那种淡淡的对视。是那种......很深、很安静、带着某种说不出来的东西的注视。
+白坐在那里。她看着我。眼神很深，很安静，和平时不一样。
 
 characters/linchuan: 她就在那。窗边。白。
 join characters/linfeng left [animation="Fade In"]
 
-characters/linfeng: 窗边？窗边就一把椅子和一张桌子。还有——哎这有本笔记本。谁的？
+characters/linfeng: 窗边？窗边就一把椅子和一张桌子。还有——哎这有本旧书。谁的？
 
 characters/linchuan: ......
 
-林风走到窗边，拿起桌上的笔记本翻了两下。
+林风走到窗边，拿起桌上那本蓝皮书翻了两下。
 
-characters/linfeng: 空的。什么都没写。
+characters/linfeng: 空的。什么都没写。这是个本子吧？
 
 characters/linchuan: 不可能。上面写满了诗。每天都念的——
 
-我冲过去抢过笔记本。翻开。
+我冲过去把书抢过来。翻开。
 book: .
 
 空白的。每一页都是空白的。
@@ -308,37 +308,45 @@ characters/linchuan: 从一开始就看不见。
 
 characters/bai: 嗯。
 
-characters/linchuan: 那本笔记本——
+characters/linchuan: 那本书——
 
-characters/bai: 对你们来说，是空白的。
+characters/bai: 对他们来说，是空白的。
 
-characters/linchuan: 那上面写的诗呢？你每天念的——
+characters/linchuan: 可刚才我翻开也是空白的！
 
-characters/bai: 只有你能听到。
+characters/bai: 刚才是我慌了。再看一次。
 
-characters/linchuan: ......
-
-characters/linchuan: 为什么。
-
-characters/bai (deadpan): （安静了一下）我不知道为什么。只知道——从一开始，就只有你能看见我。
+我低头。书还攥在我手里。竖排的小字一行一行，又在那儿了。只是墨色比我记得的浅。
 
 characters/linchuan: ......
 
-characters/linchuan: 从一开始？
+characters/linchuan: 为什么是我。
 
-characters/bai: 嗯。
+characters/bai (deadpan): 因为你读过它。
 
-characters/linchuan: 那第一天呢？我推门进来，看到你在书架边上——
+characters/linchuan: 读过？
 
-characters/bai (neutral): 你看到我了。
+characters/bai: 第一天。你翻开它，读了页边那句话。然后你回了一句。
 
-characters/linchuan: 那天你念诗我听到的时候——
+characters/linchuan: 我回了什么——
 
-characters/bai: 你听到了。
+characters/bai (neutral): "解是解不了。不过无聊这一点，咱俩算同病相怜。"
 
-characters/linchuan: ......每一个字我都听到了。
+characters/linchuan: ......
 
-characters/bai: 嗯。
+那是我对着一本书的自言自语。说完我自己都忘了。
+
+characters/bai: 很久没有人跟我说话了。
+
+characters/linchuan: ......
+
+characters/linchuan: 所以第二天，我推门进来，看到你在书架边上——
+
+characters/bai: 你看到我了。
+
+characters/linchuan: 你念的那些诗——
+
+characters/bai: 你听到了。每一个字。
 
 characters/linchuan: ......
 
@@ -366,17 +374,21 @@ characters/linchuan: ......
 
 characters/linchuan: 那你是什么？
 
-characters/bai (neutral): （低下头，手指摸了一下笔记本的边角——那个她紧张时才有的小动作）......我说了，你大概会觉得我疯了。
+characters/bai (neutral): （低下头，手指在桌沿上摸了一下——那个她紧张时才有的小动作）......我说了，你大概会觉得我疯了。
 
 characters/linchuan: 白。你说。
 
-characters/bai: 我是那本书里的东西。
+characters/bai: 我是你手里那本书里的东西。
 
-characters/linchuan: 那本蓝皮书？
+characters/linchuan: ......这本？
 
-characters/bai: 嗯。人们读诗的时候产生的......一种东西。积累了很久很久。变成了我。
+characters/bai: 嗯。诗文社一届一届的人，在上面抄诗，写批注。读到哪一句，心里动了一下——那一下，会留在书里。
+
+characters/bai: 留得多了，久了，就成了我。
 
 characters/linchuan: ......
+
+characters/bai: 这样的东西，世上应该还有很多。有人长久读诗的地方，大概都有。我没见过别的。我只是这一本书的。
 
 characters/bai (neutral): 我没有家人。没有过去。没有——
 
@@ -448,11 +460,17 @@ system: 临川卧室，夜晚
 
 characters/linchuan: 不是人。
 
-characters/linchuan: 她是诗的灵。从书里来的。没有人能看见她。只有我。
+characters/linchuan: 她是诗的灵。从书里来的。别人都看不见她。只有我。
 
-characters/linchuan: 为什么是我？
+characters/linchuan: 就因为我对着一本书多嘴了一句。
 
-characters/linchuan: 她说她不知道。
+characters/linchuan: ......
+
+characters/linchuan: （会不会是我疯了？从头到尾都是我自己想出来的？）
+
+characters/linchuan: （可那些诗我以前一首都不会。"落叶满空山"是谁写的我到现在都不知道。我编不出来。）
+
+characters/linchuan: （便当盒每次拿回家都是空的。我妈还夸我饭量见长。）
 
 characters/linchuan: ......
 
@@ -619,7 +637,7 @@ audio "res://assets/sfx/door.mp3"
 
 白坐在窗边。
 
-她没有看书。笔记本合着，放在桌上。她的手放在笔记本上面，没有动。
+她没有看书。书合着，放在桌上。她的手放在书上面，没有动。
 join characters/bai center [animation="Fade In" wait="true"]
 
 她看着我。
@@ -698,8 +716,6 @@ characters/bai (neutral): 嗯。
 
 跟第一天一样。
 
-她就是这样。从来不多问。从来不追问。从来不说"你必须怎样"。
-
 她只说"嗯"。
 
 然后等你回来。
@@ -714,7 +730,7 @@ characters/bai: 嗯？
 
 characters/linchuan: 今天读什么？
 
-characters/bai (deadpan): （愣了一下。很小的一个停顿。然后她低头翻开笔记本。）
+characters/bai (deadpan): （愣了一下。很小的一个停顿。然后她低头翻开书。）
 
 characters/bai (reading): （翻了翻，停在一页）
 
@@ -739,13 +755,13 @@ characters/linchuan: 对。又做多了。
 characters/bai: 哦。
 leave --All--
 
-她翻笔记本的时候手没有抖。但她停顿了一下。
+她翻书的时候手没有抖。但她停顿了一下。
 
 很小的一个停顿。如果我不认识她，根本不会注意到。
 
 但我认识她。
 
-那一下停顿的意思是——她以为我不会回来了。
+她以为我不会回来了。
 
 characters/linchuan: ......
 
