@@ -1042,6 +1042,7 @@ func play_from_here(index:=-1) -> void:
 			index = selected_items[0].get_index()
 	timeline_editor.play_timeline(index)
 
+
 func _on_right_sidebar_resized() -> void:
 	var _scale := DialogicUtil.get_editor_scale()
 
@@ -1152,14 +1153,19 @@ func _input(event:InputEvent) -> void:
 			_add_event_button_pressed(DialogicLabelEvent.new(), true)
 			get_viewport().set_input_as_handled()
 
-		"Ctrl+F6" when OS.get_name() != "macOS":  # Play from here
+		"Ctrl+Shift+F6" when OS.get_name() != "macOS":  # Play from here
 			play_from_here()
+			get_viewport().set_input_as_handled()
+
 		"Ctrl+Shift+B" when OS.get_name() == "macOS":  # Play from here
 			play_from_here()
+			get_viewport().set_input_as_handled()
 
 	## Some shortcuts should be disabled when writing text.
 	var focus_owner: Control = get_viewport().gui_get_focus_owner()
 	if focus_owner is TextEdit or focus_owner is LineEdit or (focus_owner is Button and focus_owner.get_parent_control().name == "Spin"):
+		return
+	if focus_owner != null and not is_ancestor_of(focus_owner):
 		return
 
 	match event.as_text():

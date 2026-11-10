@@ -11,6 +11,8 @@ extends Node
 ##    所有 Dialogic 变量"等精确断点，开启了 autosave 后会在剧情推进时自动写入，
 ##    读档时能把玩家精确带回离开时的那一句话。
 ## 两者配合，就实现了"自动保存进度、下次打开自动继续"的需求，且不需要手写存档槽 UI。
+## （project.godot 里 autosave_mode=2，即每推进一句文本存一次；
+##   直接关窗口时 _notification 里再补存一次。）
 
 const SAVE_DIR := "user://saves/"
 const SAVE_FILE := "user://saves/save_slot_1.json"
@@ -101,11 +103,16 @@ func continue_game() -> void:
 		current_chapter_index = save_data.get("last_played_chapter", 0)
 		pending_load_from_save = true
 		_goto_game_scene()
+	elif is_game_completed():
+		# 通关时存档槽已被删除；不从第一章开始的话会直接跳到第五章。
+		start_chapter(0)
 	else:
 		start_chapter(save_data.get("unlocked_chapter", 0))
 
 
 func _goto_game_scene() -> void:
+	if not Dialogic.timeline_started.is_connected(_on_dialogic_timeline_started):
+		Dialogic.timeline_started.connect(_on_dialogic_timeline_started)
 	if not Dialogic.timeline_ended.is_connected(_on_dialogic_timeline_ended):
 		Dialogic.timeline_ended.connect(_on_dialogic_timeline_ended)
 	get_tree().change_scene_to_file(GAME_SCENE)
@@ -115,9 +122,41 @@ func _goto_game_scene() -> void:
 func begin_or_resume_current_chapter() -> void:
 	if pending_load_from_save:
 		pending_load_from_save = false
+		# 读档是异步的，时间线要过几帧才真正开始；
+		# 章节下标由 _on_dialogic_timeline_started 按实际时间线校正。
 		Dialogic.Save.load(DIALOGIC_SLOT)
 	else:
 		Dialogic.start(CHAPTERS[current_chapter_index]["timeline"])
+
+
+func _chapter_index_of_current_timeline() -> int:
+	if Dialogic.current_timeline == null:
+		return -1
+	var path: String = Dialogic.current_timeline.resource_path
+	for i in range(CHAPTERS.size()):
+		if CHAPTERS[i]["timeline"] == path:
+			return i
+	return -1
+
+
+## 以实际开始播放的时间线为准校正当前章节，而不是信 save_data 里的
+## last_played_chapter。两者可能不一致（例如上一章刚结束、下一章还没来得及
+## 存档就关了游戏），不一致时章节结束会把错误的章节标记为通关。
+## Dialogic 收尾用的 [clear] 时间线也会触发这个信号，查不到章节时忽略。
+func _on_dialogic_timeline_started() -> void:
+	var index := _chapter_index_of_current_timeline()
+	if index < 0 or index == current_chapter_index:
+		return
+	current_chapter_index = index
+	save_data["last_played_chapter"] = index
+	save_game()
+
+
+## 直接关窗口时也存一次精确断点（自动存档只在推进文本时写入）。
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_WM_CLOSE_REQUEST:
+		if current_chapter_index >= 0 and Dialogic.current_timeline != null:
+			Dialogic.Save.save(DIALOGIC_SLOT, false)
 
 
 func _on_dialogic_timeline_ended() -> void:
@@ -189,10 +228,16 @@ func return_to_title() -> void:
 	# 断开 timeline_ended 监听，避免任何后续调用路径意外触发章节完成逻辑。
 	if Dialogic.timeline_ended.is_connected(_on_dialogic_timeline_ended):
 		Dialogic.timeline_ended.disconnect(_on_dialogic_timeline_ended)
+	if Dialogic.timeline_started.is_connected(_on_dialogic_timeline_started):
+		Dialogic.timeline_started.disconnect(_on_dialogic_timeline_started)
 
 	# 1) 完整清空所有 subsystem 内部数据（portraits/backgrounds/audio/...），
 	# 确保下次读档面对的是干净状态，不会有残留角色节点引用导致崩溃。
 	await Dialogic.clear(DialogicGameHandler.ClearFlags.FULL_CLEAR)
+
+	# 确认框打开时 game_screen 会把 Dialogic 暂停，而 clear() 不会重置 paused。
+	# 不在这里解除的话，下次"继续游戏"读档后剧情会卡住不动。
+	Dialogic.paused = false
 
 	# 2) 手动移除剧情图层节点（背景/立绘/文字框等），因为 clear() 本身
 	# 不负责这件事。逻辑照抄自 Dialogic 内部 end_timeline() 的对应实现。
