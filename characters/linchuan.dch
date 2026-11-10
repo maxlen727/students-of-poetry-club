@@ -7,23 +7,15 @@
 "prefix": "",
 "sound_mood_default": "",
 "sound_moods": {},
-"style": "my_style",
+"style": "",
 "suffix": ""
 },
-&"default_portrait": "neutral",
+&"default_portrait": "",
 &"description": "",
 &"display_name": "临川",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
-&"portraits": {
-"neutral": {
-"export_overrides": {
-"image": "res://assets/portraits/linchuan/neutral.png"
-},
-"offset": Vector2(0, 0),
-"scene": ""
-}
-},
+&"portraits": {},
 &"scale": 1.0
 }

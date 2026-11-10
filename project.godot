@@ -22,23 +22,23 @@ config/icon="uid://c5yyel1gmj2pr"
 [autoload]
 
 Dialogic="*uid://ds2q0uclmolvu"
-GameState="*res://scripts/game_state.gd"
+GameState="*uid://bqeuy1h8tfvtv"
 ArchAge="*uid://ci8qxywevpk6k"
 
 [dialogic]
 
 directories/dch_directory={
 "another": "res://characters/another.dch",
+"archchan": "res://characters/archchan.dch",
+"bai": "res://characters/bai.dch",
 "book": "res://characters/book.dch",
-"characters/archchan": "res://characters/archchan.dch",
-"characters/bai": "res://characters/bai.dch",
-"characters/chenan": "res://characters/chenan.dch",
-"characters/linchuan": "res://characters/linchuan.dch",
-"characters/linfeng": "res://characters/linfeng.dch",
-"characters/others": "res://characters/others.dch",
-"characters/teacher": "res://characters/teacher.dch",
-"characters/yuanzhou": "res://characters/yuanzhou.dch",
-"system": "res://characters/system.dch"
+"chenan": "res://characters/chenan.dch",
+"linchuan": "res://characters/linchuan.dch",
+"linfeng": "res://characters/linfeng.dch",
+"others": "res://characters/others.dch",
+"system": "res://characters/system.dch",
+"teacher": "res://characters/teacher.dch",
+"yuanzhou": "res://characters/yuanzhou.dch"
 }
 directories/dtl_directory={
 "ch1_推门始觉有人来": "res://timelines/ch1_推门始觉有人来.dtl",
@@ -94,9 +94,9 @@ audio/channel_defaults={
 }
 }
 variables={
-"another_name": "XXX",
 "arch_age": 24,
-"other_name": "???"
+"archchan_name": "？？？",
+"other_name": "？？？"
 }
 glossary/default_case_sensitive=true
 layout/style_list=["res://styles/my_style.tres", "res://styles/system.tres", "res://styles/book.tres"]
@@ -105,8 +105,8 @@ history/simple_history_enabled=false
 history/simple_history_save=false
 history/full_history_enabled=false
 history/full_history_save=false
-save/autosave=true
-save/autosave_mode=0
+save/autosave=false
+save/autosave_mode=2
 save/default_slot="main_slot"
 
 [display]

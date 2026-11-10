@@ -19,7 +19,7 @@
 &"portraits": {
 "default": {
 "export_overrides": {
-"image": "\"res://assets/portraits/book/book.png\""
+"image": "\"res://assets/portraits/book/default.png\""
 },
 "mirror": false,
 "offset": Vector2(0, -200),

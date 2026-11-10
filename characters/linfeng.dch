@@ -19,7 +19,7 @@
 &"portraits": {
 "neutral": {
 "export_overrides": {
-"image": "\"res://assets/portraits/linfeng/linfeng.png\""
+"image": "\"res://assets/portraits/linfeng/neutral.png\""
 },
 "offset": Vector2(0, 300),
 "scale": 1.4,

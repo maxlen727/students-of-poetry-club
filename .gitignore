@@ -1,7 +1,7 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# Godot 3 遗留的导入缓存目录（Godot 4 不再使用）
 .import/
-*.import
 export.cfg
-export_presets.cfg

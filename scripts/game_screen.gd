@@ -19,8 +19,7 @@ extends CanvasLayer
 
 
 func _ready() -> void:
-	print("[GameScreen] _ready() 已执行，UI 层已加载。")
-	exit_confirm_panel.hide()
+	_set_exit_confirm_visible(false)
 	_refresh_auto_play_button()
 
 	# 注意：不要写成 Dialogic.Inputs.auto_advance.toggled.connect(...) 这种
@@ -48,10 +47,14 @@ func _input(event: InputEvent) -> void:
 
 
 func _toggle_exit_confirm() -> void:
-	if exit_confirm_panel.visible:
-		exit_confirm_panel.hide()
-	else:
-		exit_confirm_panel.show()
+	_set_exit_confirm_visible(not exit_confirm_panel.visible)
+
+
+## 打开确认框时暂停 Dialogic：否则空格/回车（走 _unhandled_input）和自动播放
+## 都会在确认框底下继续推进剧情，点"是"时存下的就不是打开菜单那一刻的进度了。
+func _set_exit_confirm_visible(is_visible: bool) -> void:
+	exit_confirm_panel.visible = is_visible
+	Dialogic.paused = is_visible
 
 
 func _on_auto_play_button_pressed() -> void:
@@ -74,4 +77,4 @@ func _on_exit_confirm_yes_pressed() -> void:
 
 
 func _on_exit_confirm_no_pressed() -> void:
-	exit_confirm_panel.hide()
+	_set_exit_confirm_visible(false)
